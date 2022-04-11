@@ -1,6 +1,4 @@
 /* GAME MODES */
-/datum/announcement/centcomm/malf
-	subtitle = "Сетевой Мониторинг"
 
 /* Blob */
 /datum/announcement/centcomm/blob/outbreak5
@@ -47,6 +45,9 @@
 			"Похоже, они покидают систему [system_name_ru()] без оглядки."
 
 /* Malfunction */
+/datum/announcement/centcomm/malf
+	subtitle = "Сетевой Мониторинг"
+
 /datum/announcement/centcomm/malf/declared
 	name = "Malf: Declared Victory"
 	title = null

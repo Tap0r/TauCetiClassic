@@ -205,8 +205,19 @@ robot_fabricator
 	need_only_once = TRUE
 
 /datum/AI_Module/large/drone_hack/BuyedNewHandle()
-	for(var/obj/machinery/drone_fabricator/fabricator in machines)
+	for(var/obj/machinery/drone_fabricator/fabricator in robot_list)
 		fabricator.malfuction = TRUE
+
+/datum/AI_Module/large/nanite
+	module_name = "nanite"
+	description = "Hacks drone fabricators, now all produced units have a program of subjugation to you."
+	need_only_once = TRUE
+
+/datum/AI_Module/large/nanite/BuyedNewHandle()
+	for(var/mob/living/silicon/robot/R in robot_list)
+		if (R.connected_ai)
+			var/obj/item/weapon/reagent_containers/syringe/nanites/s = new(R.module)
+			R.module.add_item(s)
 
 /datum/AI_Module/large/hack_announce
 	module_name = "Hack announcement system"
@@ -276,6 +287,22 @@ robot_fabricator
 	set name = "Custom announcement"
 	var/datum/AI_Module/large/hack_announce/malf = current_modules["Hack announcement system"]
 	malf.use(src)
+
+/datum/AI_Module/small/hack_gravity
+	module_name = "Hack gravitation system"
+	description = ""
+	need_only_once = TRUE
+	verb_caller = /mob/living/silicon/ai/proc/hack_gravity
+
+/mob/living/silicon/ai/proc/hack_gravity()
+	set category = "Malfunction"
+	set name = "Disable Gravity"
+	var/datum/AI_Module/small/hack_gravity/grmod = current_modules["Hack gravitation system"]
+	if(grmod.uses)
+		grmod.uses--
+		new /datum/event/gravity(new /datum/event_meta(EVENT_LEVEL_MODERATE, "Gravity Failure"))
+	else
+		to_chat(src, "<span class='red'>Out of uses.</span>")
 
 /datum/AI_Module/small/disable_dr
 	module_name = "DR disable"
@@ -356,7 +383,7 @@ robot_fabricator
 
 /datum/AI_Module/small/voice_changer
 	module_name = "Voice changer"
-	description = "AoE!!!!!!!!!!"
+	description = ""
 	need_only_once = TRUE
 	verb_caller = list(
 		/mob/living/silicon/ai/proc/voice_changer_toggle,

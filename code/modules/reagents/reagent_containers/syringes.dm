@@ -403,6 +403,16 @@
 	mode = SYRINGE_INJECT
 	update_icon()
 
+/obj/item/weapon/reagent_containers/syringe/nanites
+	name = "Syringe (nanites)"
+	desc = "Contains nanites. Beep."
+
+/obj/item/weapon/reagent_containers/syringe/nanites/atom_init()
+	. = ..()
+	reagents.add_reagent("nanites", 10)
+	mode = SYRINGE_INJECT
+	update_icon()
+
 /obj/item/weapon/reagent_containers/ld50_syringe/choral
 
 /obj/item/weapon/reagent_containers/ld50_syringe/choral/atom_init()
