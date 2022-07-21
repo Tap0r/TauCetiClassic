@@ -7122,7 +7122,6 @@
 /obj/item/weapon/paper,
 /obj/item/weapon/paper,
 /obj/item/weapon/paper,
-/obj/item/weapon/pen/fluff/fountainpen,
 /turf/simulated/shuttle/floor/vox{
 	icon_state = "floorplace"
 	},
@@ -8270,6 +8269,7 @@
 	icon_state = "screen_amin_velocity_90";
 	pixel_x = -32
 	},
+/obj/structure/closet/emcloset,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
@@ -19901,9 +19901,6 @@
 	name = "Serif"
 	},
 /obj/item/clothing/shoes/western,
-/obj/item/clothing/under/fluff/cowboy,
-/obj/item/clothing/under/fluff/cowboy/grey,
-/obj/item/clothing/under/fluff/cowboy/brown,
 /obj/item/clothing/accessory/holster/armpit,
 /obj/item/device/harmonica,
 /obj/item/toy/gun/peacemaker,
@@ -73054,7 +73051,7 @@ aqa
 bSb
 aqa
 arZ
-giW
+atX
 aoo
 aoo
 aaM
