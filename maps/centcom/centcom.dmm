@@ -78,14 +78,15 @@
 	},
 /area/velocity)
 "aak" = (
-/obj/structure/table/woodentable,
-/obj/item/weapon/storage/box/donkpockets{
-	pixel_x = 3;
-	pixel_y = 3
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/unsimulated/floor{
-	dir = 8;
-	icon_state = "wood"
+	dir = 1;
+	icon_state = "neutral"
 	},
 /area/velocity)
 "aal" = (
@@ -183,13 +184,17 @@
 /turf/unsimulated/wall,
 /area/custom/syndicate_mothership)
 "aax" = (
-/obj/machinery/photocopier,
-/obj/machinery/newscaster{
-	pixel_y = 28
+/obj/structure/table/woodentable,
+/obj/item/weapon/storage/box/donkpockets{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/machinery/light/small{
+	dir = 4
 	},
 /turf/unsimulated/floor{
-	dir = 4;
-	icon_state = "red"
+	dir = 8;
+	icon_state = "wood"
 	},
 /area/velocity)
 "aay" = (
@@ -5729,6 +5734,9 @@
 	},
 /area/velocity)
 "aoJ" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/unsimulated/floor{
 	icon_state = "floor5"
 	},
@@ -6264,6 +6272,7 @@
 /obj/item/weapon/reagent_containers/spray/cleaner,
 /obj/item/clothing/head/surgery,
 /obj/item/weapon/storage/belt/medical/surg/full,
+/obj/machinery/light,
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
@@ -6482,6 +6491,9 @@
 /area/velocity)
 "aqy" = (
 /obj/machinery/gibber,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/unsimulated/floor{
 	icon_state = "engine"
 	},
@@ -6620,6 +6632,9 @@
 /area/velocity)
 "aqQ" = (
 /obj/item/weapon/flora/pottedplant/ficus,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "wood"
@@ -7094,6 +7109,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
+/obj/machinery/light,
 /turf/unsimulated/floor{
 	icon_state = "brown"
 	},
@@ -7290,12 +7306,20 @@
 	},
 /area/velocity)
 "asr" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/grass,
+/obj/machinery/light,
+/turf/unsimulated/floor{
+	icon_state = "neutral"
+	},
 /area/velocity)
 "ass" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/grass,
+/obj/structure/cryofeed/right,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	dir = 4;
+	icon_state = "warnplate"
+	},
 /area/velocity)
 "ast" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7335,8 +7359,7 @@
 	},
 /area/shuttle/supply/velocity)
 "asy" = (
-/obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/grass,
+/turf/environment/space,
 /area/velocity)
 "asz" = (
 /obj/structure/closet/emcloset,
@@ -7465,10 +7488,12 @@
 	},
 /area/velocity)
 "asQ" = (
-/obj/machinery/vending/cigarette,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/unsimulated/floor{
-	dir = 8;
-	icon_state = "wood"
+	dir = 4;
+	icon_state = "darkred"
 	},
 /area/velocity)
 "asR" = (
@@ -7796,11 +7821,13 @@
 	},
 /area/shuttle/vox/arkship)
 "atH" = (
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/simulated/floor/grass,
+/turf/unsimulated/floor{
+	dir = 4;
+	icon_state = "neutral"
+	},
 /area/velocity)
 "atI" = (
 /obj/structure/table/glass,
@@ -7889,13 +7916,13 @@
 	},
 /area/space)
 "atT" = (
-/obj/structure/flora/ausbushes/ppflowers,
-/mob/living/carbon/monkey{
-	desc = "";
-	icon_state = "robust1";
-	name = "Officer Robust"
+/obj/machinery/washing_machine,
+/obj/machinery/light/small{
+	dir = 1
 	},
-/turf/simulated/floor/grass,
+/turf/unsimulated/floor{
+	icon_state = "barber"
+	},
 /area/velocity)
 "atU" = (
 /obj/machinery/door/poddoor{
@@ -8923,6 +8950,16 @@
 	icon_state = "floorplating"
 	},
 /area/shuttle/vox/arkship_hold)
+"awl" = (
+/obj/structure/table/glass,
+/obj/item/weapon/haircomb,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon_state = "purplechecker"
+	},
+/area/velocity)
 "awm" = (
 /obj/machinery/status_display{
 	layer = 4
@@ -9293,6 +9330,16 @@
 	icon_state = "brown"
 	},
 /area/velocity)
+"awZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/stool/bed/chair/comfy/brown,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/velocity)
 "axa" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Cargo";
@@ -9420,6 +9467,26 @@
 	icon_state = "vault"
 	},
 /area/velocity)
+"axk" = (
+/obj/structure/sign/velocity_overlay{
+	desc = "Parking mark";
+	dir = 4;
+	icon_state = "line02";
+	name = "\improper parking mark"
+	},
+/obj/structure/sign/velocity_overlay{
+	desc = "Parking mark";
+	icon_state = "line02";
+	name = "\improper parking mark"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/unsimulated/floor/velocity{
+	dir = 4;
+	icon_state = "rubber_floor1"
+	},
+/area/velocity)
 "axl" = (
 /obj/structure/object_wall/vox/internal{
 	icon_state = "3,2"
@@ -9492,6 +9559,23 @@
 	},
 /turf/environment/space,
 /area/shuttle/supply/velocity)
+"axv" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'HIGH VOLTAGE'";
+	icon_state = "shock";
+	name = "HIGH VOLTAGE";
+	pixel_x = -32
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/unsimulated/floor/velocity,
+/area/velocity)
 "axw" = (
 /obj/structure/object_wall/vox/internal{
 	icon_state = "13,2"
@@ -9732,6 +9816,36 @@
 	icon_state = "floor"
 	},
 /area/centcom/prison)
+"axV" = (
+/obj/structure/sign/velocity_overlay{
+	desc = "Parking mark";
+	dir = 8;
+	icon_state = "line02";
+	name = "\improper parking mark"
+	},
+/obj/structure/sign/velocity_overlay{
+	desc = "Parking mark";
+	dir = 1;
+	icon_state = "line02";
+	name = "\improper parking mark"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/unsimulated/floor/velocity{
+	dir = 4;
+	icon_state = "rubber_floor1"
+	},
+/area/velocity)
+"axW" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	dir = 4;
+	icon_state = "warning"
+	},
+/area/velocity)
 "axX" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 8
@@ -9789,6 +9903,29 @@
 	},
 /turf/unsimulated/wall,
 /area/velocity)
+"aye" = (
+/obj/structure/closet/secure_closet/velocity_security/full,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/velocity)
+"ayf" = (
+/obj/machinery/photocopier,
+/obj/machinery/newscaster{
+	pixel_y = 28
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	dir = 4;
+	icon_state = "red"
+	},
+/area/velocity)
 "ayg" = (
 /obj/effect/landmark/start{
 	name = "Velocity Officer"
@@ -9824,11 +9961,32 @@
 	},
 /turf/simulated/shuttle/floor/vox,
 /area/shuttle/vox/arkship_hold)
+"ayk" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/velocity)
 "ayl" = (
 /obj/machinery/vending/cigarette,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
+/area/velocity)
+"aym" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/grass,
+/area/velocity)
+"ayn" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
 /area/velocity)
 "ayo" = (
 /obj/machinery/door/airlock/centcom{
@@ -9857,6 +10015,31 @@
 	icon_state = "floor"
 	},
 /area/centcom/prison)
+"ayq" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/mob/living/carbon/monkey{
+	desc = "";
+	icon_state = "robust1";
+	name = "Officer Robust"
+	},
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/velocity)
+"ayr" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/effect/overlay/palmtree_r,
+/turf/simulated/floor/grass,
+/area/velocity)
+"ays" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/grass,
+/area/velocity)
+"ayt" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/velocity)
 "ayu" = (
 /obj/structure/object_wall/vox{
 	density = 0;
@@ -9865,6 +10048,11 @@
 	},
 /turf/environment/space,
 /area/shuttle/vox/arkship)
+"ayv" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/grass,
+/area/velocity)
 "ayw" = (
 /obj/structure/rack,
 /obj/item/device/camera,
@@ -9880,6 +10068,22 @@
 /turf/unsimulated/floor{
 	dir = 8;
 	icon_state = "darkred"
+	},
+/area/velocity)
+"ayx" = (
+/obj/machinery/light/small,
+/obj/structure/dryer{
+	dir = 8;
+	pixel_x = 6
+	},
+/turf/unsimulated/floor{
+	icon_state = "freezerfloor"
+	},
+/area/velocity)
+"ayy" = (
+/obj/machinery/light/small,
+/turf/unsimulated/floor{
+	icon_state = "freezerfloor"
 	},
 /area/velocity)
 "ayA" = (
@@ -10833,11 +11037,9 @@
 	},
 /area/velocity)
 "aAH" = (
-/obj/machinery/door/airlock/centcom{
-	req_access = list(101)
+/obj/machinery/light/small{
+	dir = 1
 	},
-/obj/machinery/door/firedoor,
-/obj/structure/disposalpipe/segment,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
@@ -21009,11 +21211,12 @@
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
 "bTb" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/machinery/vending/cigarette,
+/obj/machinery/light/small,
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "wood"
 	},
-/turf/simulated/floor/grass,
 /area/velocity)
 "bUb" = (
 /obj/structure/closet/wardrobe/mixed,
@@ -21349,9 +21552,6 @@
 	},
 /area/velocity)
 "cHb" = (
-/obj/machinery/light{
-	dir = 8
-	},
 /obj/structure/table/woodentable,
 /obj/item/device/taperecorder,
 /turf/unsimulated/floor{
@@ -21661,22 +21861,12 @@
 	},
 /area/velocity)
 "dsb" = (
-/obj/machinery/disposal,
 /obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/door_control{
-	id = "velocity_room02";
-	name = "Blast Door Control";
-	pixel_x = 28;
-	req_access = list(101)
-	},
-/obj/structure/disposalpipe/trunk{
-	dir = 1
+	dir = 8
 	},
 /turf/unsimulated/floor{
 	dir = 8;
-	icon_state = "wood"
+	icon_state = "neutral"
 	},
 /area/velocity)
 "dtb" = (
@@ -22342,9 +22532,14 @@
 	},
 /area/centcom/evac)
 "eOb" = (
-/obj/structure/closet/crate/medical,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "incerator_velocity2";
+	layer = 2
+	},
+/obj/machinery/light/small,
 /turf/unsimulated/floor{
-	icon_state = "brown"
+	icon_state = "floor5"
 	},
 /area/velocity)
 "ePb" = (
@@ -22361,10 +22556,11 @@
 	},
 /area/centcom/prison)
 "eQb" = (
-/obj/random/vending/snack,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/unsimulated/floor{
-	dir = 8;
-	icon_state = "wood"
+	icon_state = "engine"
 	},
 /area/velocity)
 "eRb" = (
@@ -22759,12 +22955,13 @@
 /turf/unsimulated/wall,
 /area/velocity)
 "fGb" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/item/weapon/flora/random,
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/unsimulated/floor{
-	dir = 1;
-	icon_state = "neutral"
+	dir = 8;
+	icon_state = "wood"
 	},
 /area/velocity)
 "fHb" = (
@@ -23224,10 +23421,9 @@
 	},
 /area/centcom/specops)
 "gCb" = (
-/obj/machinery/cryopod/right,
+/obj/machinery/light/small,
 /turf/unsimulated/floor{
-	dir = 10;
-	icon_state = "neutral"
+	icon_state = "floor"
 	},
 /area/velocity)
 "gDb" = (
@@ -23336,10 +23532,13 @@
 	},
 /area/velocity)
 "gOb" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/stool/bed/chair/comfy/brown,
+/obj/random/vending/snack,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/unsimulated/floor{
-	icon_state = "floor"
+	dir = 8;
+	icon_state = "wood"
 	},
 /area/velocity)
 "gPb" = (
@@ -23893,18 +24092,23 @@
 	},
 /area/velocity)
 "hVb" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/machinery/disposal,
+/obj/machinery/door_control{
+	id = "velocity_room02";
+	name = "Blast Door Control";
+	pixel_x = 28;
+	req_access = list(101)
 	},
-/obj/structure/sign/warning/securearea{
-	desc = "A warning sign which reads 'HIGH VOLTAGE'";
-	icon_state = "shock";
-	name = "HIGH VOLTAGE";
-	pixel_x = -32
+/obj/structure/disposalpipe/trunk{
+	dir = 1
 	},
-/turf/unsimulated/floor/velocity,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "wood"
+	},
 /area/velocity)
 "hWb" = (
 /turf/unsimulated/floor{
@@ -27711,10 +27915,10 @@
 	},
 /area/velocity)
 "xLi" = (
-/obj/structure/table/glass,
-/obj/item/weapon/haircomb,
+/obj/structure/closet/crate/medical,
+/obj/machinery/light,
 /turf/unsimulated/floor{
-	icon_state = "purplechecker"
+	icon_state = "brown"
 	},
 /area/velocity)
 "xYF" = (
@@ -71783,7 +71987,7 @@ dQb
 cib
 cyb
 arZ
-eOb
+xLi
 aoo
 axr
 axp
@@ -73085,7 +73289,7 @@ aoo
 ayl
 arZ
 hQb
-gzb
+axV
 hob
 aAc
 gzb
@@ -73335,7 +73539,7 @@ aoo
 aoo
 aoo
 aoo
-aoo
+asy
 aaM
 aoo
 aBt
@@ -73588,14 +73792,14 @@ aaM
 aoo
 enb
 enb
-enb
-enb
+ass
 enb
 enb
 aoo
+asy
 aaM
 aoo
-gOb
+awZ
 arZ
 ouG
 eNb
@@ -73627,7 +73831,7 @@ auC
 aqo
 aqo
 bVb
-aqo
+ayy
 aoo
 aaM
 aaM
@@ -73848,7 +74052,7 @@ asO
 asO
 asO
 asO
-gCb
+aoo
 aoo
 ffb
 aoo
@@ -73882,7 +74086,7 @@ atL
 asv
 aoo
 atf
-aqo
+ayx
 aoo
 aut
 aoo
@@ -74613,7 +74817,7 @@ czb
 cqb
 arz
 aoo
-fGb
+aak
 arZ
 arZ
 arZ
@@ -75124,7 +75328,7 @@ aoo
 aoo
 dab
 cHb
-eQb
+gOb
 asN
 aoo
 aoo
@@ -75133,7 +75337,7 @@ auu
 arZ
 fSb
 arZ
-giW
+asr
 aoo
 gJb
 gwb
@@ -75395,13 +75599,13 @@ aoo
 auq
 gFb
 gFb
-avi
+axk
 auq
 gFb
 gFb
 avi
 axf
-auV
+axW
 avU
 auV
 aaA
@@ -75644,9 +75848,9 @@ eab
 aqM
 eob
 aoo
-aoo
+aaP
 evb
-aoo
+aaP
 aoo
 aoo
 aoo
@@ -75899,19 +76103,19 @@ eRb
 eXb
 ebb
 asD
-asQ
+bTb
 aoo
 aal
 fXb
 atK
 aoo
 gEb
-xLi
+awl
 gMb
 gPb
 aoo
 gjb
-hVb
+axv
 awn
 aoo
 axg
@@ -75934,8 +76138,8 @@ arZ
 arZ
 axS
 asc
-ass
-asy
+ayn
+ays
 aoo
 enb
 ats
@@ -76190,9 +76394,9 @@ dTb
 arZ
 arZ
 axS
-bTb
-atT
-asr
+ayk
+ayq
+ayt
 aoo
 asO
 atv
@@ -76406,7 +76610,7 @@ atq
 atq
 apY
 aoo
-dXb
+fGb
 ark
 eLb
 eLb
@@ -76415,7 +76619,7 @@ ecb
 aqM
 fPb
 aoo
-eqb
+atT
 fXb
 eyb
 aoo
@@ -76447,9 +76651,9 @@ dTb
 arZ
 arZ
 axS
-atH
-asr
-ass
+aym
+ayr
+ayv
 aoo
 auM
 atx
@@ -76666,10 +76870,10 @@ aoo
 cOb
 arj
 cJb
-dsb
+hVb
 cUb
 edb
-aak
+aax
 epb
 aoo
 aan
@@ -76692,11 +76896,11 @@ aKO
 aoo
 aaG
 ayh
-ayh
+aye
 ayh
 aam
 aoo
-aax
+ayf
 anq
 apF
 aoo
@@ -76929,9 +77133,9 @@ luD
 aoo
 aoo
 aoo
-aoo
+aaP
 evb
-aoo
+aaP
 aoo
 feb
 aue
@@ -76942,7 +77146,7 @@ aoo
 gvb
 aoo
 aoo
-aaP
+aoo
 aaP
 aCw
 aaP
@@ -77173,10 +77377,10 @@ aoJ
 anp
 anu
 aoo
+hfb
 xzP
 xzP
-xzP
-xzP
+dsb
 xzP
 xzP
 cLb
@@ -77197,13 +77401,13 @@ xzP
 xzP
 xzP
 xzP
-hfb
-aoo
-hfb
+xzP
+xzP
+dsb
 xzP
 cLb
 xzP
-xzP
+hfb
 aoo
 aaK
 dnb
@@ -77455,7 +77659,7 @@ avD
 avD
 avD
 avD
-aAH
+avD
 avD
 avD
 dlb
@@ -77699,7 +77903,7 @@ hwF
 hwF
 fIb
 hwF
-hwF
+atH
 hwF
 hwF
 xAA
@@ -77708,16 +77912,16 @@ xAA
 hwF
 hwF
 hwF
+atH
 hwF
 hwF
 hwF
 hwF
-aoo
 hwF
 hwF
 hwF
 hwF
-xAA
+hwF
 aoo
 aag
 dob
@@ -78457,7 +78661,7 @@ aoo
 aoo
 ceb
 ceb
-ceb
+eOb
 aoo
 apE
 aqx
@@ -78725,7 +78929,7 @@ eMb
 eMb
 eMb
 eMb
-eMb
+asQ
 eMb
 eMb
 eMb
@@ -79231,7 +79435,7 @@ qnM
 qnM
 aoo
 aqx
-aqx
+eQb
 aqx
 aoo
 dgb
@@ -79492,15 +79696,15 @@ aoo
 aoo
 aoo
 eHb
-arZ
+gCb
 aoo
-arZ
+aAH
 eHb
 aoo
 eHb
-arZ
+gCb
 aoo
-arZ
+aAH
 eHb
 aoo
 aoo
