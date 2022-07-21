@@ -5612,18 +5612,18 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/table/glass,
-/obj/item/ashtray/bronze,
+/obj/structure/sign/velocity_overlay/reklama/pda_x{
+	pixel_y = 32
+	},
+/obj/structure/stool/bed/chair/metal/white,
 /turf/unsimulated/floor{
 	dir = 1;
 	icon_state = "warning"
 	},
 /area/velocity)
 "aox" = (
-/obj/random/vending/snack,
-/obj/machinery/atm{
-	pixel_y = 32
-	},
+/obj/structure/table/glass,
+/obj/item/ashtray/bronze,
 /turf/unsimulated/floor{
 	dir = 1;
 	icon_state = "warning"
@@ -5873,7 +5873,7 @@
 	},
 /area/velocity)
 "apa" = (
-/obj/structure/stool/bed/chair/metal/white,
+/obj/random/vending/snack,
 /turf/unsimulated/floor{
 	dir = 1;
 	icon_state = "warning"
@@ -6118,7 +6118,7 @@
 	desc = "A remote control switch for port-side shutters.";
 	id = "velocity_01";
 	name = "Security Shutters";
-	pixel_y = -32;
+	pixel_y = -28;
 	req_access = list(101)
 	},
 /obj/machinery/disposal,
@@ -6232,11 +6232,8 @@
 	},
 /area/velocity)
 "apU" = (
-/obj/structure/sign/velocity_overlay/reklama/pda_x{
+/obj/machinery/atm{
 	pixel_y = 32
-	},
-/obj/structure/stool/bed/chair/metal/white{
-	dir = 4
 	},
 /turf/unsimulated/floor{
 	dir = 1;
@@ -6924,13 +6921,11 @@
 	},
 /area/velocity)
 "arx" = (
-/obj/item/weapon/flora/random,
 /obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
+	dir = 4
 	},
+/obj/item/weapon/flora/random,
 /turf/unsimulated/floor{
-	dir = 6;
 	icon_state = "neutral"
 	},
 /area/velocity)
@@ -7917,13 +7912,14 @@
 	},
 /area/velocity)
 "atV" = (
-/obj/machinery/information_display{
-	icon_state = "screen_amin_velocity_90";
-	pixel_x = -32
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
 	},
-/obj/structure/table,
+/obj/structure/closet/emcloset,
 /turf/unsimulated/floor{
-	icon_state = "floor"
+	dir = 6;
+	icon_state = "neutral"
 	},
 /area/velocity)
 "atW" = (
@@ -8243,15 +8239,12 @@
 	},
 /area/velocity)
 "auJ" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/table/glass{
-	pixel_y = 2
+/obj/machinery/information_display{
+	icon_state = "screen_amin_velocity_90";
+	pixel_x = -32
 	},
 /turf/unsimulated/floor{
-	dir = 8;
-	icon_state = "warnwhite"
+	icon_state = "floor"
 	},
 /area/velocity)
 "auK" = (
@@ -8271,11 +8264,11 @@
 	},
 /area/shuttle/vox/arkship_hold)
 "auM" = (
-/obj/structure/table/glass{
-	pixel_y = 2
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/unsimulated/floor{
-	dir = 4;
+	dir = 8;
 	icon_state = "warnwhite"
 	},
 /area/velocity)
@@ -10123,6 +10116,17 @@
 /obj/structure/table/woodentable,
 /obj/item/weapon/paper_bin{
 	pixel_y = 4
+	},
+/obj/item/weapon/pen/blue{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/weapon/pen/red{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/item/weapon/pen{
+	pixel_y = 6
 	},
 /turf/unsimulated/floor{
 	dir = 8;
@@ -75158,7 +75162,7 @@ fRb
 arZ
 arZ
 arZ
-arr
+arx
 aaP
 atM
 atM
@@ -75415,7 +75419,7 @@ aqP
 aql
 aql
 aql
-arx
+atV
 aaP
 eqb
 aal
@@ -75681,7 +75685,7 @@ auT
 avT
 aoo
 aoo
-aaM
+aoo
 aaM
 aaM
 aaM
@@ -75937,8 +75941,8 @@ enb
 ats
 giW
 enb
+enb
 aoo
-aaM
 aaM
 aaM
 aaM
@@ -76194,8 +76198,8 @@ asO
 atv
 asC
 asO
-aoo
-aoo
+asO
+aaP
 aaM
 aaM
 aaM
@@ -76447,12 +76451,12 @@ atH
 asr
 ass
 aoo
-auJ
+auM
 atx
 atx
 atx
 atx
-aoo
+aaP
 aaM
 aaM
 aaM
@@ -76704,12 +76708,12 @@ aoo
 aoo
 aoo
 aoo
-auM
 atw
 atw
 atw
 atw
-aoo
+atw
+aaP
 aaM
 aaM
 aaM
@@ -76952,13 +76956,13 @@ aoo
 acd
 ant
 acd
-acd
+aoo
 apv
 aqq
 aqq
 arl
-dgb
-atV
+aoo
+auJ
 asz
 aoo
 aoo
@@ -76966,7 +76970,7 @@ auZ
 auZ
 auZ
 auZ
-aoo
+aaP
 aaM
 aaM
 aaM
