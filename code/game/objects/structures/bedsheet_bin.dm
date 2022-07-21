@@ -33,11 +33,10 @@ LINEN BINS
 		if(!ishuman(user))
 			to_chat(user, "<span class='notice'>You try, but you can't.</span>")
 			return
-		user.visible_message("<span class='notice'>[user] starts tearing \the [src] into rags.</span>", "<span class='notice'>You start tearing \the [src] into rags.</span>")
+		user.visible_message("<span class='notice'>[user] starts cutting \the [src] into cloth.</span>", "<span class='notice'>You start cutting \the [src] into cloth.</span>")
 		if(do_after(user, 40, target = src))
-			user.visible_message("<span class='notice'>[user] tears \the [src] into rags using [I].</span>", "<span class='notice'>You finish tearing \the [src] into rags.</span>")
-			var/obj/item/stack/medical/bruise_pack/rags/R = new(get_turf(src))
-			R.amount = 3
+			user.visible_message("<span class='notice'>[user] cuts \the [src] into cloth using [I].</span>", "<span class='notice'>You finish cutting \the [src] into cloth.</span>")
+			new /obj/item/stack/sheet/cloth(get_turf(src), 3)
 			qdel(src)
 		return
 	return ..()
@@ -181,11 +180,11 @@ LINEN BINS
 
 
 
-/obj/structure/bedsheetbin/attack_paw(mob/user)
+/obj/structure/bedsheetbin/attack_paw(mob/living/user)
 	return attack_hand(user)
 
 
-/obj/structure/bedsheetbin/attack_hand(mob/user)
+/obj/structure/bedsheetbin/attack_hand(mob/living/user)
 	if(amount >= 1)
 		amount--
 
@@ -197,36 +196,12 @@ LINEN BINS
 		else
 			B = new /obj/item/weapon/bedsheet(loc)
 
-		B.loc = user.loc
-		user.put_in_hands(B)
+		user.try_take(B, loc)
 		to_chat(user, "<span class='notice'>You take [B] out of [src].</span>")
 
 		if(hidden)
-			hidden.loc = user.loc
+			hidden.forceMove(loc)
 			to_chat(user, "<span class='notice'>[hidden] falls out of [B]!</span>")
-			hidden = null
-
-
-	add_fingerprint(user)
-
-/obj/structure/bedsheetbin/attack_tk(mob/user)
-	if(amount >= 1)
-		amount--
-
-		var/obj/item/weapon/bedsheet/B
-		if(sheets.len > 0)
-			B = sheets[sheets.len]
-			sheets.Remove(B)
-
-		else
-			B = new /obj/item/weapon/bedsheet(loc)
-
-		B.loc = loc
-		to_chat(user, "<span class='notice'>You telekinetically remove [B] from [src].</span>")
-		update_icon()
-
-		if(hidden)
-			hidden.loc = loc
 			hidden = null
 
 

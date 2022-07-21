@@ -25,32 +25,6 @@
 
 	var/flashbang_protection = FALSE
 
-/*
-	This is for the Vox among you.
-	Finds whether a sprite for this piece of clothing for a Vox exists, and if it does
-	allows Vox to wear this.
-*/
-var/global/list/specie_sprite_sheet_cache = list()
-
-/obj/item/clothing/proc/get_sprite_sheet_icon_list(specie, overwrite_slot = null)
-	// Return list of icon states of current spirte_sheet_slot or null
-	var/slot = sprite_sheet_slot
-	if(overwrite_slot)
-		slot = overwrite_slot
-
-	var/sprite_sheet_cache_key = "[specie]|[slot]"
-	if(global.specie_sprite_sheet_cache[sprite_sheet_cache_key])
-		return global.specie_sprite_sheet_cache[sprite_sheet_cache_key]
-
-	var/datum/species/S = global.all_species[specie]
-
-	var/i_path = S.sprite_sheets[slot]
-	if(!i_path)
-		return null
-
-	global.specie_sprite_sheet_cache[sprite_sheet_cache_key] = icon_states(i_path)
-	return global.specie_sprite_sheet_cache[sprite_sheet_cache_key]
-
 //BS12: Species-restricted clothing check.
 /obj/item/clothing/mob_can_equip(M, slot)
 
@@ -123,41 +97,6 @@ var/global/list/specie_sprite_sheet_cache = list()
 		icon = sprite_sheets_obj[target_species]
 	else
 		icon = initial(icon)
-
-/obj/item/clothing/MouseDrop(obj/over_object)
-	. = ..()
-	if (ishuman(usr) || ismonkey(usr))
-		var/mob/M = usr
-		//makes sure that the clothing is equipped so that we can't drag it into our hand from miles away.
-		if (loc != usr)
-			return
-		if (!over_object)
-			return
-		if (usr.incapacitated())
-			return
-		add_fingerprint(usr)
-		if(!equip_time)
-			switch(over_object.name)
-				if("r_hand")
-					if(M.unEquip(src))
-						M.put_in_r_hand(src)
-				if("l_hand")
-					if(M.unEquip(src))
-						M.put_in_l_hand(src)
-		else
-			switch(over_object.name)
-				if("r_hand")
-					if(slot_equipped == SLOT_L_HAND) //item swap
-						if(M.unEquip(src))
-							M.put_in_r_hand(src)
-					else
-						usr.delay_clothing_unequip(src)
-				if("l_hand")
-					if(slot_equipped == SLOT_R_HAND) //item swap
-						if(M.unEquip(src))
-							M.put_in_l_hand(src)
-					else
-						usr.delay_clothing_unequip(src)
 
 /obj/item/clothing/emp_act(severity)
 	..()
@@ -424,39 +363,13 @@ BLIND     // can't see anything
 	siemens_coefficient = 0.9
 	body_parts_covered = LEGS
 	slot_flags = SLOT_FLAGS_FEET
-	var/clipped_status = NO_CLIPPING
 
 	permeability_coefficient = 0.50
 	slowdown = SHOES_SLOWDOWN
-	species_restricted = list("exclude" , UNATHI , TAJARAN, VOX, VOX_ARMALIS)
 
 	sprite_sheet_slot = SPRITE_SHEET_FEET
 
 	dyed_type = DYED_SHOES
-
-//Cutting shoes
-/obj/item/clothing/shoes/attackby(obj/item/I, mob/user, params)
-	if(iswirecutter(I))
-		switch(clipped_status)
-			if(CLIPPABLE)
-				playsound(src, 'sound/items/Wirecutter.ogg', VOL_EFFECTS_MASTER)
-				user.visible_message("<span class='red'>[user] cuts the toe caps off of [src].</span>","<span class='red'>You cut the toe caps off of [src].</span>")
-
-				name = "mangled [name]"
-				desc = "[desc]<br>They have the toe caps cut off of them."
-				if("exclude" in species_restricted)
-					species_restricted -= UNATHI
-					species_restricted -= TAJARAN
-					species_restricted -= VOX
-				src.icon_state += "_cut"
-				user.update_inv_shoes()
-				clipped_status = CLIPPED
-			if(NO_CLIPPING)
-				to_chat(user, "<span class='notice'>You have no idea of how to clip [src]!</span>")
-			if(CLIPPED)
-				to_chat(user, "<span class='notice'>[src] have already been clipped!</span>")
-	else
-		return ..()
 
 /obj/item/clothing/shoes/play_unique_footstep_sound()
 	..()
@@ -597,8 +510,7 @@ BLIND     // can't see anything
 
 /obj/item/clothing/under/attackby(obj/item/I, mob/user, params)
 	if(I.sharp && !ishuman(loc)) //you can cut only clothes lying on the floor
-		for (var/i in 1 to 3)
-			new /obj/item/stack/medical/bruise_pack/rags(get_turf(src), null, null, crit_fail)
+		new /obj/item/stack/sheet/cloth(get_turf(src), 3, null, crit_fail)
 		qdel(src)
 		return
 
@@ -691,7 +603,7 @@ BLIND     // can't see anything
 
 	if(copytext(item_state,-2) != "_d")
 		basecolor = item_state
-	if((basecolor + "_d_s") in icon_states('icons/mob/uniform.dmi'))
+	if((basecolor + "_d") in icon_states('icons/mob/uniform.dmi'))
 		item_state = item_state == "[basecolor]" ? "[basecolor]_d" : "[basecolor]"
 		usr.update_inv_w_uniform()
 	else
