@@ -1,13 +1,12 @@
 {
     "map_name": "Dead by Daylight Polar",
-    "map_path": "falcon",
-    "map_file": "falcon.dmm",
-    "station_name": "NSS Falcon",
+    "map_path": "dead by daylight",
+    "map_file": "dbd_polar.dmm",
+    "station_name": "Polar",
     "system_name" : "Tau Ceti",
-    "station_image": "falcon",
-    "traits": [{"Mining": true, "Linkage": "Cross"}],
-    "space_ruin_levels": 2,
-    "space_empty_levels": 1,
-    "load_junkyard": 1,
+    "station_image": "polar",
+    "space_ruin_levels": 0,
+    "space_empty_levels": 0,
+    "load_junkyard": 0,
     "minetype": null
 }
