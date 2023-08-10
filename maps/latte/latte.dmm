@@ -1,8 +1,93 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ab" = (
-/turf/simulated/floor/wood,
-/area/space)
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
 "ac" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/folder/blue{
+	pixel_y = 2
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/bridge)
+"ad" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/weapon/pen{
+	pixel_y = 6
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/bridge)
+"ae" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"af" = (
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"ag" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbluecorners"
+	},
+/area/station/bridge)
+"ah" = (
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"ai" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/bridge)
+"aj" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbluecorners"
+	},
+/area/station/bridge)
+"ak" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/bridge)
+"al" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"am" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"an" = (
+/obj/structure/table/glass,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/bridge)
+"ao" = (
 /obj/structure/window/thin/reinforced{
 	dir = 1
 	},
@@ -16,35 +101,86 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"ad" = (
-/obj/structure/closet/secure_closet/blueshield,
-/obj/item/weapon/storage/firstaid/adv,
-/obj/item/weapon/storage/firstaid/small_firstaid_kit/civilian/strike,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+/area/station/bridge)
+"ap" = (
+/obj/structure/window/fulltile{
+	grilled = 1;
+	icon_state = "gr_window"
 	},
-/area/space)
-"ae" = (
+/turf/simulated/floor/plating,
+/area/station/bridge)
+"aq" = (
+/obj/machinery/computer/monitor,
 /obj/structure/window/thin/reinforced{
-	dir = 8
+	dir = 1
 	},
-/obj/structure/window/thin/reinforced,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"ar" = (
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
 /obj/structure/flora/ausbushes/fullgrass{
 	layer = 2.7
 	},
-/obj/structure/flora/ausbushes/brflowers{
+/obj/structure/flora/ausbushes/ywflowers{
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"af" = (
+/area/station/bridge)
+"as" = (
+/obj/item/weapon/flora/pottedplant/orientaltree,
 /turf/simulated/floor{
-	icon_state = "darkstairs_middle"
+	dir = 5;
+	icon_state = "vault"
 	},
-/area/space)
-"ag" = (
+/area/station/bridge)
+"at" = (
+/obj/machinery/light/smart{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkstairs2_wide"
+	},
+/area/station/bridge)
+"au" = (
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/table/glass,
+/obj/item/weapon/storage/secure/briefcase{
+	pixel_y = 8
+	},
+/obj/item/device/tagger/shop{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"av" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"aw" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkstairs2_wide"
+	},
+/area/station/bridge)
+"ax" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
 	},
@@ -56,8 +192,435 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
+/area/station/bridge)
+"ay" = (
+/obj/structure/table,
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"az" = (
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"aA" = (
+/turf/simulated/wall/r_wall,
+/area/station/bridge)
+"aB" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/turf/simulated/floor/plating,
+/area/station/bridge)
+"aC" = (
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aD" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/weapon/pen{
+	pixel_y = 6
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aE" = (
+/obj/structure/table/reinforced,
+/obj/machinery/faxmachine{
+	department = "Bridge"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aF" = (
+/obj/structure/filingcabinet/chestdrawer/black,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aG" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aH" = (
+/obj/structure/bookcase/manuals/security,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aI" = (
+/obj/machinery/account_database,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aJ" = (
+/obj/machinery/light/smart{
+	dir = 1
+	},
+/obj/machinery/power/apc/largecell{
+	dir = 1;
+	name = "largecell apc top";
+	pixel_y = 28
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aK" = (
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"aL" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkbluecorners"
+	},
+/area/station/bridge)
+"aM" = (
+/obj/machinery/light/smart{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aN" = (
+/obj/machinery/computer/security/mining,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aO" = (
+/obj/machinery/computer/mine_sci_shuttle,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aP" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/bridge)
+"aQ" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"aR" = (
+/obj/item/weapon/flora/pottedplant/orientaltree,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aS" = (
+/obj/structure/stool/bed/chair/comfy/black,
+/turf/simulated/floor/carpet/black,
+/area/station/bridge)
+"aT" = (
+/obj/structure/stool/bed/chair/comfy/brown,
+/turf/simulated/floor/carpet/black,
+/area/station/bridge)
+"aU" = (
+/obj/item/weapon/flora/pottedplant/orientaltree,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aV" = (
+/obj/random/vending/cola,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"aW" = (
+/obj/random/vending/snack,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/bridge)
+"aX" = (
+/obj/structure/table/glass,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"aY" = (
+/obj/machinery/light/smart{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"aZ" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"ba" = (
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"bb" = (
+/obj/machinery/computer/crew,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkgreen"
+	},
+/area/station/bridge)
+"bc" = (
+/obj/machinery/light/smart{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"bd" = (
+/obj/machinery/teleport/hub,
+/obj/machinery/light/smart{
+	dir = 1
+	},
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"be" = (
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"bf" = (
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/security/blueshield)
+"bg" = (
+/obj/machinery/door/airlock/command{
+	name = "Blueshield Office";
+	req_access = list(42)
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/security/blueshield)
+"bh" = (
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/bridge)
+"bi" = (
+/obj/item/device/radio/beacon,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"bj" = (
+/obj/machinery/computer/security{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkred"
+	},
+/area/station/bridge)
+"bk" = (
+/obj/machinery/door/airlock/command{
+	name = "Teleport Access";
+	req_access = list(17)
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/bridge/teleporter)
+"bl" = (
+/obj/effect/decal/turf_decal{
+	dir = 1;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/bridge/teleporter)
+"bm" = (
+/obj/machinery/message_server,
+/obj/effect/decal/turf_decal{
+	dir = 1;
+	icon_state = "warn_corner"
+	},
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"bn" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"bo" = (
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "blue"
+	},
 /area/space)
-"ah" = (
+"bp" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/space)
+"bq" = (
+/obj/item/weapon/flora/pottedplant/orientaltree,
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"br" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/skills,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkgreen"
+	},
+/area/station/bridge)
+"bs" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"bt" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/bridge/teleporter)
+"bu" = (
+/obj/item/device/radio/beacon{
+	pixel_x = -16;
+	pixel_y = -16
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/teleporter)
+"bv" = (
+/obj/structure/stool/bed/chair/office/dark,
+/obj/effect/landmark/start/blueshield_officer,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/security/blueshield)
+"bw" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/space)
+"bx" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/space)
+"by" = (
+/obj/structure/table/glass,
+/obj/item/weapon/reagent_containers/spray/cleaner{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/item/weapon/folder/white{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/turf/simulated/floor{
+	icon_state = "darkgreen"
+	},
+/area/station/bridge)
+"bz" = (
+/turf/simulated/wall/r_wall,
+/area/station/bridge/captain_quarters)
+"bA" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"bB" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"bC" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/storage/fancy/donut_box,
+/turf/simulated/floor/carpet/black,
+/area/station/bridge)
+"bD" = (
+/obj/structure/table/woodentable,
+/obj/item/device/taperecorder{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/bridge)
+"bE" = (
 /obj/structure/table/woodentable,
 /obj/item/device/assembly/timer{
 	pixel_x = 7;
@@ -69,135 +632,141 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/carpet/black,
-/area/space)
-"ai" = (
-/obj/structure/stool/bed/chair/metal/black{
-	dir = 4
-	},
+/area/station/bridge)
+"bF" = (
 /turf/simulated/floor{
-	dir = 1;
+	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
-"aj" = (
-/obj/structure/stool/bed/chair/metal/black{
-	dir = 8
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"ak" = (
+/area/station/bridge)
+"bG" = (
 /obj/machinery/light/smart{
-	dir = 8
+	dir = 1
 	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkblue"
-	},
-/area/space)
-"al" = (
-/obj/machinery/vending/cigarette,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"am" = (
-/obj/item/weapon/flora/pottedplant/orientaltree,
 /turf/simulated/floor{
 	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
-"an" = (
-/obj/structure/window/fulltile/reinforced{
-	grilled = 1;
-	icon_state = "gr_window_reinforced"
-	},
-/obj/machinery/door/poddoor/shutters{
-	id = "Captain_private"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/space)
-"ao" = (
-/obj/machinery/disposal,
-/turf/simulated/floor{
-	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
-"ap" = (
-/obj/structure/stool/bed/chair/comfy/teal,
-/turf/simulated/floor/carpet/blue2,
-/area/space)
-"aq" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 8
-	},
+/area/station/bridge)
+"bH" = (
 /turf/simulated/floor{
 	icon_state = "darkbluecorners"
 	},
-/area/space)
-"ar" = (
-/obj/machinery/door/airlock/command{
-	name = "Teleport Access";
-	req_access = list(17)
+/area/station/bridge)
+"bI" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Bridge";
+	req_one_access = list(19,38)
 	},
 /turf/simulated/floor{
 	icon_state = "darkbluefull"
 	},
-/area/space)
-"as" = (
-/obj/machinery/door/airlock{
-	name = "Private Restroom"
-	},
+/area/station/bridge)
+"bJ" = (
 /turf/simulated/floor{
-	icon_state = "freezerfloor2"
+	dir = 10;
+	icon_state = "darkblue"
 	},
-/area/space)
-"at" = (
-/obj/machinery/light/smart{
+/area/station/bridge)
+"bK" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkstairs2_wide"
+	dir = 4;
+	icon_state = "darkbluecorners"
 	},
-/area/space)
-"au" = (
-/obj/machinery/message_server,
-/obj/effect/decal/turf_decal{
-	dir = 1;
-	icon_state = "warn_corner"
+/area/station/bridge)
+"bL" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
-/turf/simulated/floor/bluegrid,
-/area/space)
-"av" = (
+/area/station/bridge)
+"bM" = (
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"bN" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"bO" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Blueshield Office";
-	req_access = list(42)
+	name = "Bridge";
+	req_one_access = list(19,38)
 	},
 /turf/simulated/floor/plating,
-/area/space)
-"aw" = (
-/obj/structure/stool/bed/chair/metal/black{
+/area/station/bridge)
+"bP" = (
+/turf/simulated/wall,
+/area/station/bridge)
+"bQ" = (
+/obj/machinery/computer/station_alert,
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"bR" = (
+/obj/structure/table/glass,
+/obj/item/device/aicard{
+	pixel_y = 4
+	},
+/obj/item/device/multitool,
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"bS" = (
+/turf/simulated/wall/r_wall,
+/area/station/security/blueshield)
+"bT" = (
+/obj/structure/window/thin/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor{
-	icon_state = "dark"
+/obj/structure/window/thin/reinforced,
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
 	},
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/bridge)
+"bU" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkstairs_wide"
+	},
+/area/station/bridge)
+"bV" = (
+/turf/simulated/wall,
 /area/space)
-"ax" = (
-/obj/structure/stool/bed/chair/metal/black{
+"bW" = (
+/obj/structure/window/thin/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor{
-	icon_state = "dark"
+/obj/structure/table/glass,
+/obj/item/weapon/phone{
+	pixel_x = -3;
+	pixel_y = 3
 	},
-/area/space)
-"ay" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"bX" = (
 /obj/machinery/light/smart{
 	dir = 4
 	},
@@ -205,299 +774,133 @@
 	dir = 1;
 	icon_state = "darkstairs_wide"
 	},
-/area/space)
-"az" = (
-/obj/item/device/radio/beacon{
-	pixel_x = -16;
-	pixel_y = -16
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"aA" = (
-/obj/structure/table/reinforced,
-/obj/machinery/faxmachine{
-	department = "Bridge"
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aB" = (
-/obj/structure/bookcase/manuals/security,
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aC" = (
-/obj/machinery/photocopier,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aD" = (
-/obj/machinery/vending/coffee,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
-"aE" = (
-/obj/machinery/account_database,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aF" = (
-/obj/machinery/light/smart{
-	dir = 1
-	},
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aG" = (
-/obj/structure/stool/bed/chair/comfy/teal{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/blue2,
-/area/space)
-"aH" = (
-/obj/machinery/computer/communications{
-	dir = 4
-	},
-/obj/structure/window/thin/reinforced{
-	dir = 8
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"aI" = (
-/obj/structure/stool/bed/chair/comfy/brown{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"aJ" = (
-/obj/machinery/light/smart{
-	dir = 1
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aK" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"aL" = (
-/obj/machinery/computer/security/mining,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aM" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"aN" = (
-/obj/machinery/light/smart{
-	dir = 1
-	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aO" = (
-/obj/machinery/door/window{
-	base_state = "right";
-	dir = 8;
-	icon_state = "right";
-	name = "Captain's Desk Door";
-	req_access = list(20)
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"aP" = (
-/turf/simulated/floor/carpet/black,
-/area/space)
-"aQ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkbluecorners"
-	},
-/area/space)
-"aR" = (
-/turf/simulated/floor/carpet/blue,
-/area/space)
-"aS" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
-	},
+/area/station/bridge)
+"bY" = (
+/turf/simulated/wall/r_wall,
+/area/station/bridge/teleporter)
+"bZ" = (
 /turf/simulated/floor{
 	dir = 4;
-	icon_state = "darkbluecorners"
+	icon_state = "bluecorner"
 	},
 /area/space)
-"aT" = (
-/obj/structure/closet/emcloset,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
-"aU" = (
-/obj/machinery/hologram/holopad,
-/turf/simulated/floor{
-	icon_state = "darkblue"
-	},
-/area/space)
-"aV" = (
+"ca" = (
 /obj/structure/table/glass,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
-"aW" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Bridge";
-	req_one_access = list(19,38)
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"aX" = (
-/obj/random/vending/cola,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"aY" = (
-/obj/item/weapon/flora/pottedplant/orientaltree,
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkblue"
-	},
-/area/space)
-"aZ" = (
-/obj/structure/stool/bed/chair/office/dark{
-	dir = 4
-	},
-/turf/simulated/floor/wood,
-/area/space)
-"ba" = (
-/obj/structure/stool/bed/chair/office/dark{
-	dir = 4
-	},
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
-	},
-/area/space)
-"bb" = (
-/obj/machinery/vending/coffee,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"bc" = (
-/obj/machinery/computer/message_monitor{
-	dir = 8
-	},
-/turf/simulated/floor/bluegrid,
-/area/space)
-"bd" = (
-/obj/machinery/light/smart,
-/turf/simulated/floor{
-	icon_state = "darkblue"
-	},
-/area/space)
-"be" = (
-/obj/structure/table/glass,
-/obj/item/weapon/storage/box/ids{
-	pixel_x = 9;
-	pixel_y = 6
-	},
-/obj/item/weapon/storage/box/PDAs{
-	pixel_x = -7;
+/obj/machinery/recharger{
 	pixel_y = 4
 	},
+/obj/item/weapon/handcuffs,
+/turf/simulated/floor{
+	icon_state = "darkred"
+	},
+/area/station/bridge)
+"cb" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/bridge/teleporter)
+"cc" = (
+/obj/item/weapon/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/weapon/folder/blue{
+	pixel_y = 4
+	},
+/obj/item/weapon/pen{
+	pixel_y = 4
+	},
+/obj/structure/table,
 /turf/simulated/floor{
 	icon_state = "darkblue"
 	},
-/area/space)
-"bf" = (
-/obj/structure/table,
-/obj/machinery/door_control{
-	id = "bsentry";
-	name = "Entry Shutter Control"
+/area/station/security/blueshield)
+"cd" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "bluecorner"
 	},
+/area/space)
+"ce" = (
+/obj/structure/closet/blueshield,
 /turf/simulated/floor{
 	dir = 8;
+	icon_state = "vault"
+	},
+/area/station/security/blueshield)
+"cf" = (
+/obj/item/weapon/flora/random,
+/turf/simulated/floor{
+	dir = 5;
 	icon_state = "darkblue"
 	},
-/area/space)
-"bg" = (
-/obj/structure/window/thin/reinforced{
+/area/station/hallway/primary/central)
+"cg" = (
+/obj/item/weapon/flora/pottedplant/orientaltree,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"ch" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"ci" = (
+/obj/machinery/computer/aifixer{
 	dir = 4
 	},
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/brflowers{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/fernybush,
-/turf/simulated/floor/grass,
-/area/space)
-"bh" = (
-/obj/structure/stool/bed/chair/office/dark,
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"cj" = (
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "darkblue"
 	},
-/area/space)
-"bi" = (
-/obj/structure/toilet{
-	dir = 4
-	},
-/obj/structure/dryer{
-	pixel_y = 24
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
+/area/station/bridge/teleporter)
+"ck" = (
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"cl" = (
+/obj/structure/closet/secure_closet/blueshield,
+/obj/item/weapon/storage/firstaid/adv,
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/civilian/strike,
 /turf/simulated/floor{
-	icon_state = "freezerfloor2"
+	dir = 8;
+	icon_state = "vault"
 	},
-/area/space)
-"bj" = (
-/obj/structure/mirror{
-	pixel_y = 32
+/area/station/security/blueshield)
+"cm" = (
+/turf/simulated/floor{
+	icon_state = "darkstairs_middle"
 	},
-/obj/structure/sink{
-	pixel_y = 24
+/area/station/hallway/primary/central)
+"cn" = (
+/turf/simulated/wall/r_wall,
+/area/station/hallway/primary/central)
+"co" = (
+/obj/machinery/power/apc/largecell{
+	dir = 1;
+	name = "largecell apc top";
+	pixel_y = 28
 	},
 /turf/simulated/floor{
-	icon_state = "freezerfloor2"
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"cp" = (
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "blue"
 	},
 /area/space)
-"bk" = (
+"cq" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "bluecorner"
+	},
+/area/space)
+"cr" = (
 /obj/machinery/door/window/eastright{
 	base_state = "left";
 	dir = 8;
@@ -516,51 +919,48 @@
 /turf/simulated/floor{
 	icon_state = "freezerfloor2"
 	},
-/area/space)
-"bl" = (
-/obj/random/vending/snack,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+/area/station/bridge/captain_quarters)
+"cs" = (
+/obj/structure/table,
+/obj/item/weapon/hand_tele{
+	pixel_y = 6
 	},
-/area/space)
-"bm" = (
-/obj/machinery/disposal,
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"ct" = (
+/obj/machinery/recharge_station,
+/obj/effect/landmark/start/cyborg,
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"cu" = (
 /turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"bn" = (
-/obj/random/vending/cola,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
-"bo" = (
-/turf/simulated/floor{
-	dir = 9;
+	dir = 6;
 	icon_state = "blue"
 	},
 /area/space)
-"bp" = (
+"cv" = (
+/obj/machinery/photocopier,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/space)
-"bq" = (
-/obj/structure/filingcabinet,
+/area/station/bridge/hop_office)
+"cw" = (
+/obj/machinery/door/firedoor,
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
+	dir = 9;
+	icon_state = "blue"
+	},
+/area/station/hallway/primary/central)
+"cx" = (
+/turf/simulated/floor{
+	icon_state = "blue"
 	},
 /area/space)
-"br" = (
-/obj/machinery/optable/skill_scanner,
-/turf/simulated/floor/whitegreed,
-/area/space)
-"bs" = (
+"cy" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
 	},
@@ -571,8 +971,211 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"bt" = (
+/area/station/hallway/primary/central)
+"cz" = (
+/obj/structure/table/woodentable,
+/obj/machinery/door_control{
+	id = "Captain_private";
+	name = "Shutters Control";
+	req_access = list(20)
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"cA" = (
+/obj/structure/table,
+/obj/item/toy/cards,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"cB" = (
+/obj/machinery/light/smart{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"cC" = (
+/obj/machinery/computer/secure_data,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkred"
+	},
+/area/station/bridge)
+"cD" = (
+/obj/machinery/teleport/station,
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"cE" = (
+/obj/machinery/computer/teleporter,
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"cF" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/security/blueshield)
+"cG" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/security/blueshield)
+"cH" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkbluecorners"
+	},
+/area/station/bridge)
+"cI" = (
+/obj/machinery/computer/med_data{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkgreen"
+	},
+/area/station/bridge)
+"cJ" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
+	},
+/area/station/bridge)
+"cK" = (
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/bridge)
+"cL" = (
+/obj/effect/decal/turf_decal{
+	dir = 4;
+	icon_state = "warn_corner"
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/bridge/teleporter)
+"cM" = (
+/obj/effect/decal/turf_decal{
+	dir = 1;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/bridge/teleporter)
+"cN" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Blueshield Office";
+	req_access = list(42)
+	},
+/turf/simulated/floor/plating,
+/area/station/security/blueshield)
+"cO" = (
+/turf/simulated/floor{
+	icon_state = "darkbluecorners"
+	},
+/area/station/security/blueshield)
+"cP" = (
+/obj/machinery/light/smart,
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"cQ" = (
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"cR" = (
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"cS" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge)
+"cT" = (
+/obj/machinery/computer/prisoner{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/station/bridge)
+"cU" = (
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/teleporter)
+"cV" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/bridge/teleporter)
+"cW" = (
+/obj/structure/filingcabinet,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"cX" = (
+/turf/simulated/wall,
+/area/station/security/blueshield)
+"cY" = (
+/obj/machinery/door/airlock/vault{
+	name = "Blueshield Storage";
+	req_access = list(42)
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/security/blueshield)
+"cZ" = (
+/obj/structure/table/glass,
+/obj/item/weapon/storage/firstaid/regular{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/bridge)
+"da" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
 	},
@@ -582,55 +1185,60 @@
 	},
 /obj/structure/flora/junglebush,
 /turf/simulated/floor/grass,
-/area/space)
-"bu" = (
-/obj/machinery/blackbox_recorder,
-/turf/simulated/floor/bluegrid,
-/area/space)
-"bv" = (
-/obj/item/device/radio/beacon,
+/area/station/hallway/primary/central)
+"db" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/simulated/floor,
+/area/station/bridge/hop_office)
+"dc" = (
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "neutralfull"
 	},
 /area/space)
-"bw" = (
+"dd" = (
+/obj/machinery/door/airlock/command{
+	name = "Head of Personnel";
+	req_access = list(57)
+	},
+/turf/simulated/floor{
+	icon_state = "bluefull"
+	},
+/area/station/bridge/hop_office)
+"de" = (
+/obj/effect/decal/turf_decal/alpha/black{
+	dir = 8;
+	icon_state = "arrow"
+	},
+/obj/effect/decal/turf_decal/alpha/yellow{
+	dir = 8;
+	icon_state = "loadingarea"
+	},
+/turf/simulated/floor,
+/area/station/hallway/primary/central)
+"df" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/space)
-"bx" = (
+/area/station/hallway/primary/central)
+"dg" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "blue"
 	},
-/area/space)
-"by" = (
-/obj/structure/window/thin/reinforced{
-	dir = 8
-	},
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/ppflowers{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/genericbush,
-/turf/simulated/floor/grass,
-/area/space)
-"bz" = (
+/area/station/hallway/primary/central)
+"dh" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/storage/fancy/donut_box,
 /turf/simulated/floor/carpet/blue2,
-/area/space)
-"bA" = (
-/obj/structure/table/woodentable,
-/obj/item/weapon/flora/deskferntrim{
-	pixel_y = 5
+/area/station/bridge/captain_quarters)
+"di" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor{
+	icon_state = "wooden"
 	},
-/turf/simulated/floor/carpet/blue2,
-/area/space)
-"bB" = (
+/area/station/bridge/captain_quarters)
+"dj" = (
 /obj/structure/table/woodentable,
 /obj/structure/window/thin/reinforced{
 	dir = 8
@@ -642,68 +1250,82 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/carpet/black,
-/area/space)
-"bC" = (
-/obj/structure/table/woodentable,
-/obj/item/weapon/paper_bin{
-	pixel_y = 4
+/area/station/bridge/captain_quarters)
+"dk" = (
+/obj/structure/displaycase/captain,
+/turf/simulated/floor{
+	icon_state = "wooden"
 	},
-/obj/item/weapon/pen/red{
-	pixel_x = -5;
-	pixel_y = 6
-	},
-/obj/item/weapon/pen/blue{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/weapon/pen{
-	pixel_y = 6
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"bD" = (
-/obj/structure/table/woodentable,
-/obj/machinery/computer/skills,
-/obj/item/device/megaphone,
-/obj/machinery/light/smart{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"bE" = (
-/obj/structure/window/thin/reinforced{
-	dir = 4
-	},
-/obj/structure/window/thin/reinforced{
-	dir = 1
-	},
-/obj/structure/flora/ausbushes/fullgrass{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/ywflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"bF" = (
+/area/station/bridge/captain_quarters)
+"dl" = (
 /obj/structure/stool/bed,
 /obj/item/weapon/bedsheet/captain,
 /obj/item/toy/plushie/space_whale,
 /turf/simulated/floor/carpet/blue,
-/area/space)
-"bG" = (
+/area/station/bridge/captain_quarters)
+"dm" = (
+/obj/structure/stool/bed/chair/metal/black,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/hallway/primary/central)
+"dn" = (
+/obj/item/weapon/flora/random,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/security/iaa_office)
+"do" = (
+/obj/structure/table/reinforced,
+/obj/machinery/faxmachine{
+	department = "Internal Affairs"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/security/iaa_office)
+"dp" = (
+/turf/simulated/wall/r_wall,
+/area/station/security/iaa_office)
+"dq" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Head of Personnel";
+	req_access = list(57)
+	},
+/turf/simulated/floor/plating,
+/area/station/bridge/hop_office)
+"dr" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/station/bridge/hop_office)
+"ds" = (
+/obj/structure/stool/bed/chair/metal/blue,
+/turf/simulated/floor,
+/area/station/bridge/hop_office)
+"dt" = (
 /obj/structure/window/thin/reinforced{
-	dir = 4
+	dir = 8
 	},
 /obj/structure/flora/ausbushes/sparsegrass{
 	layer = 2.7
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 1
 	},
 /obj/structure/flora/ausbushes/ywflowers{
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"bH" = (
+/area/station/hallway/primary/central)
+"du" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
 	},
@@ -712,187 +1334,66 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"bI" = (
-/obj/machinery/computer/card{
-	dir = 8
+/area/station/hallway/primary/central)
+"dv" = (
+/obj/structure/stool/bed/chair/comfy/teal{
+	dir = 1
 	},
-/obj/item/weapon/card/id/captains_spare,
+/turf/simulated/floor/carpet/blue2,
+/area/station/bridge/captain_quarters)
+"dw" = (
+/obj/structure/stool/bed/chair/comfy/brown{
+	dir = 1
+	},
 /turf/simulated/floor/carpet/black,
-/area/space)
-"bJ" = (
-/obj/structure/table,
-/obj/item/toy/cards,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"bK" = (
-/obj/structure/window/thin/reinforced{
-	dir = 4
-	},
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/brflowers{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/stalkybush,
-/turf/simulated/floor/grass,
-/area/space)
-"bL" = (
-/obj/machinery/light/smart{
-	dir = 4
-	},
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
-	},
-/area/space)
-"bM" = (
-/obj/machinery/teleport/station,
-/turf/simulated/floor/bluegrid,
-/area/space)
-"bN" = (
-/obj/machinery/teleport/hub,
-/obj/machinery/light/smart{
-	dir = 1
-	},
-/turf/simulated/floor/bluegrid,
-/area/space)
-"bO" = (
-/obj/machinery/computer/teleporter,
-/turf/simulated/floor/bluegrid,
-/area/space)
-"bP" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 4
-	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkbluecorners"
-	},
-/area/space)
-"bQ" = (
-/obj/machinery/idpainter,
-/turf/simulated/floor/wood,
-/area/space)
-"bR" = (
-/obj/structure/stool/bed/chair/office/dark{
-	dir = 1
-	},
-/turf/simulated/floor/wood,
-/area/space)
-"bS" = (
-/obj/effect/decal/turf_decal{
-	dir = 4;
-	icon_state = "warn_corner"
-	},
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkblue"
-	},
-/area/space)
-"bT" = (
-/obj/effect/decal/turf_decal{
-	dir = 1;
-	icon_state = "warn"
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"bU" = (
-/obj/effect/decal/turf_decal{
-	dir = 1;
-	icon_state = "warn"
-	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
-"bV" = (
-/turf/simulated/wall,
-/area/space)
-"bW" = (
-/obj/item/weapon/flora/pottedplant/orientaltree,
-/turf/simulated/floor{
-	dir = 6;
-	icon_state = "darkblue"
-	},
-/area/space)
-"bX" = (
-/obj/machinery/pdapainter,
-/turf/simulated/floor/wood,
-/area/space)
-"bY" = (
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
-"bZ" = (
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "bluecorner"
-	},
-/area/space)
-"ca" = (
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
-	},
-/obj/structure/window/thin/reinforced{
+/area/station/bridge/captain_quarters)
+"dx" = (
+/obj/machinery/light/small{
 	dir = 8
 	},
-/obj/structure/flora/ausbushes/ywflowers{
-	layer = 2.7
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/simulated/floor{
+	icon_state = "wooden"
 	},
-/obj/structure/flora/junglebush/c,
-/turf/simulated/floor/grass,
-/area/space)
-"cb" = (
-/obj/structure/table,
-/obj/item/weapon/storage/box/cdeathalarm_kit{
-	pixel_y = 4
+/area/station/bridge/captain_quarters)
+"dy" = (
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/hallway/primary/central)
+"dz" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 8
 	},
 /turf/simulated/floor{
-	dir = 10;
-	icon_state = "darkblue"
+	icon_state = "dark"
 	},
-/area/space)
-"cc" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/window/thin/reinforced{
-	dir = 4
+/area/station/security/iaa_office)
+"dA" = (
+/obj/structure/table/glass,
+/obj/item/weapon/storage/box/ids{
+	pixel_x = 9;
+	pixel_y = 6
 	},
-/obj/structure/flora/ausbushes/brflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"cd" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "bluecorner"
-	},
-/area/space)
-"ce" = (
-/obj/item/weapon/paper_bin{
+/obj/item/weapon/storage/box/PDAs{
+	pixel_x = -7;
 	pixel_y = 4
 	},
-/obj/item/weapon/folder/blue{
-	pixel_y = 4
-	},
-/obj/item/weapon/pen{
-	pixel_y = 4
-	},
-/obj/structure/table,
 /turf/simulated/floor{
 	icon_state = "darkblue"
 	},
-/area/space)
-"cf" = (
+/area/station/bridge)
+"dB" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/teleporter)
+"dC" = (
+/obj/machinery/blackbox_recorder,
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"dD" = (
 /obj/structure/table,
 /obj/item/weapon/lighter/zippo{
 	pixel_x = -6;
@@ -910,161 +1411,51 @@
 	dir = 6;
 	icon_state = "darkblue"
 	},
-/area/space)
-"cg" = (
-/obj/structure/window/thin/reinforced,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/ywflowers{
-	layer = 2.7
+/area/station/security/blueshield)
+"dE" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
 	},
-/obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/grass,
-/area/space)
-"ch" = (
-/obj/structure/window/thin/reinforced,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/ywflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"ci" = (
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/ppflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"cj" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/ppflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"ck" = (
-/obj/structure/window/thin/reinforced,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/brflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"cl" = (
-/obj/structure/window/thin/reinforced,
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/ywflowers{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/sunnybush,
-/turf/simulated/floor/grass,
-/area/space)
-"cm" = (
+/area/station/security/blueshield)
+"dF" = (
 /obj/item/weapon/flora/random,
 /turf/simulated/floor{
 	dir = 9;
 	icon_state = "darkblue"
 	},
-/area/space)
-"cn" = (
-/obj/item/weapon/flora/random,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
-"co" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "CMF altering";
-	req_access = list(60)
-	},
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"cp" = (
-/turf/simulated/floor{
-	dir = 10;
-	icon_state = "blue"
-	},
-/area/space)
-"cq" = (
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "bluecorner"
-	},
-/area/space)
-"cr" = (
-/obj/structure/window/thin/reinforced,
+/area/station/hallway/primary/central)
+"dG" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/sparsegrass{
 	layer = 2.7
 	},
-/obj/structure/flora/ausbushes/brflowers{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/pointybush,
-/turf/simulated/floor/grass,
-/area/space)
-"cs" = (
-/obj/structure/window/thin/reinforced,
-/obj/structure/window/thin/reinforced{
-	dir = 4
-	},
-/obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ywflowers{
 	layer = 2.7
 	},
-/obj/structure/flora/junglebush/b,
 /turf/simulated/floor/grass,
-/area/space)
-"ct" = (
-/turf/simulated/floor{
-	icon_state = "bluecorner"
-	},
-/area/space)
-"cu" = (
-/turf/simulated/floor{
-	dir = 6;
-	icon_state = "blue"
-	},
-/area/space)
-"cv" = (
-/obj/item/weapon/flora/pottedplant/orientaltree,
+/area/station/hallway/primary/central)
+"dH" = (
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"cw" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkbluecorners"
-	},
-/area/space)
-"cx" = (
-/turf/simulated/floor{
-	icon_state = "blue"
-	},
-/area/space)
-"cy" = (
-/obj/machinery/vending/coffee,
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"cz" = (
-/obj/machinery/computer/aifixer{
+/area/station/bridge/captain_quarters)
+"dI" = (
+/obj/structure/window/thin/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/bluegrid,
-/area/space)
-"cA" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/fernybush,
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"dJ" = (
 /obj/structure/stool/bed/chair/office/dark{
 	dir = 8
 	},
@@ -1072,34 +1463,37 @@
 	dir = 10;
 	icon_state = "darkblue"
 	},
-/area/space)
-"cB" = (
-/turf/simulated/floor/bluegrid,
-/area/space)
-"cC" = (
+/area/station/bridge/teleporter)
+"dK" = (
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/station/bridge/teleporter)
+"dL" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Teleport Access";
 	req_access = list(17)
 	},
 /turf/simulated/floor/plating,
-/area/space)
-"cD" = (
+/area/station/bridge/teleporter)
+"dM" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor{
 	icon_state = "darkstairs_wide"
 	},
-/area/space)
-"cE" = (
+/area/station/hallway/primary/central)
+"dN" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor{
 	icon_state = "darkstairs2_wide"
 	},
-/area/space)
-"cF" = (
+/area/station/hallway/primary/central)
+"dO" = (
 /obj/random/vending/cola,
 /obj/machinery/light/small{
 	dir = 8
@@ -1107,141 +1501,353 @@
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"cG" = (
+/area/station/bridge/captain_quarters)
+"dP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/machinery/light/smart{
+	dir = 1
+	},
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"cH" = (
-/obj/machinery/disposal,
-/turf/simulated/floor{
-	icon_state = "wooden"
+/area/station/bridge/captain_quarters)
+"dQ" = (
+/turf/simulated/wall,
+/area/station/bridge/captain_quarters)
+"dR" = (
+/obj/structure/mirror{
+	pixel_y = 32
 	},
-/area/space)
-"cI" = (
+/obj/structure/sink{
+	pixel_y = 24
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor2"
+	},
+/area/station/bridge/captain_quarters)
+"dS" = (
 /obj/structure/table,
 /obj/item/weapon/phone{
 	pixel_x = -3;
 	pixel_y = 3
 	},
 /turf/simulated/floor/bluegrid,
-/area/space)
-"cJ" = (
-/obj/structure/table,
-/obj/item/weapon/hand_tele{
-	pixel_y = 6
-	},
-/turf/simulated/floor/bluegrid,
-/area/space)
-"cK" = (
+/area/station/bridge/teleporter)
+"dT" = (
 /obj/structure/table,
 /obj/item/weapon/storage/toolbox/electrical{
 	pixel_y = 4
 	},
 /obj/machinery/light/smart,
 /turf/simulated/floor/bluegrid,
-/area/space)
-"cL" = (
-/obj/machinery/recharge_station,
+/area/station/bridge/teleporter)
+"dU" = (
+/obj/structure/closet/crate{
+	name = "Camera Assembly Crate"
+	},
+/obj/item/weapon/camera_assembly,
+/obj/item/weapon/camera_assembly,
+/obj/item/weapon/camera_assembly,
+/obj/item/weapon/camera_assembly,
+/obj/item/weapon/camera_assembly,
 /turf/simulated/floor/bluegrid,
-/area/space)
-"cM" = (
+/area/station/bridge/teleporter)
+"dV" = (
 /obj/structure/filingcabinet/chestdrawer/black,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/space)
-"cN" = (
-/obj/machinery/photocopier,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "blue"
-	},
-/area/space)
-"cO" = (
+/area/station/bridge/hop_office)
+"dW" = (
 /obj/machinery/disposal,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/space)
-"cP" = (
-/obj/machinery/door/firedoor,
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "blue"
-	},
-/area/space)
-"cQ" = (
+/area/station/bridge/hop_office)
+"dX" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "blue"
 	},
-/area/space)
-"cR" = (
+/area/station/hallway/primary/central)
+"dY" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor{
 	dir = 5;
 	icon_state = "blue"
 	},
-/area/space)
-"cS" = (
-/obj/structure/table/woodentable,
-/obj/machinery/door_control{
-	id = "Captain_private";
-	name = "Shutters Control";
+/area/station/hallway/primary/central)
+"dZ" = (
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "Captain_private"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/station/bridge/captain_quarters)
+"ea" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/security/iaa_office)
+"eb" = (
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/security/iaa_office)
+"ec" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/station/bridge/hop_office)
+"ed" = (
+/turf/simulated/floor{
+	icon_state = "blue"
+	},
+/area/station/bridge/hop_office)
+"ee" = (
+/obj/item/weapon/folder/blue{
+	pixel_y = 4
+	},
+/obj/item/weapon/stamp/hop{
+	pixel_y = 4
+	},
+/obj/structure/table,
+/turf/simulated/floor{
+	icon_state = "blue"
+	},
+/area/station/bridge/hop_office)
+"ef" = (
+/obj/item/weapon/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/weapon/pen/blue{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/weapon/pen/red{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/item/weapon/pen{
+	pixel_y = 6
+	},
+/obj/structure/table,
+/turf/simulated/floor{
+	icon_state = "blue"
+	},
+/area/station/bridge/hop_office)
+"eg" = (
+/obj/machinery/computer/skills,
+/obj/item/device/megaphone{
+	pixel_y = 4
+	},
+/obj/structure/table,
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "blue"
+	},
+/area/station/bridge/hop_office)
+"eh" = (
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/obj/structure/flora/tree/jungle/small{
+	pixel_x = -16
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"ei" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/ppflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"ej" = (
+/obj/machinery/light/smart{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/station/hallway/primary/central)
+"ek" = (
+/obj/machinery/vending/cigarette,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"el" = (
+/obj/machinery/door/window{
+	base_state = "right";
+	dir = 8;
+	icon_state = "right";
+	name = "Captain's Desk Door";
+	req_access = list(20)
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/bridge/captain_quarters)
+"em" = (
+/obj/effect/landmark/start/captain,
+/turf/simulated/floor/carpet/black,
+/area/station/bridge/captain_quarters)
+"en" = (
+/turf/simulated/floor/carpet/black,
+/area/station/bridge/captain_quarters)
+"eo" = (
+/obj/machinery/door/airlock/command{
+	name = "Captain's Quarters";
 	req_access = list(20)
 	},
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"cT" = (
-/obj/structure/stool/bed/chair/metal/blue,
+/area/station/bridge/captain_quarters)
+"ep" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"cU" = (
-/obj/item/weapon/flora/pottedplant/palm,
+/area/station/bridge/captain_quarters)
+"eq" = (
 /turf/simulated/floor{
-	icon_state = "wooden"
+	dir = 5;
+	icon_state = "vault"
 	},
-/area/space)
-"cV" = (
+/area/station/hallway/primary/central)
+"er" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lawyer_blast";
+	name = "Internal Affairs";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/command{
+	name = "Internal Affairs";
+	req_access = list(38)
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/security/iaa_office)
+"es" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/security/iaa_office)
+"et" = (
+/obj/machinery/idpainter,
+/turf/simulated/floor/wood,
+/area/station/bridge/hop_office)
+"eu" = (
+/turf/simulated/floor/wood,
+/area/station/bridge/hop_office)
+"ev" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/station/bridge/hop_office)
+"ew" = (
+/obj/machinery/computer/card,
+/obj/machinery/light/smart{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/station/bridge/hop_office)
+"ex" = (
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/window/thin/reinforced,
+/obj/structure/flora/ausbushes/ppflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"ey" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced,
+/obj/structure/flora/ausbushes/ywflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"ez" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/hallway/primary/central)
+"eA" = (
+/obj/machinery/door/airlock{
+	name = "Private Restroom"
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor2"
+	},
+/area/station/bridge/captain_quarters)
+"eB" = (
 /obj/item/weapon/flora/random,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/space)
-"cW" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/area/station/bridge/hop_office)
+"eC" = (
 /turf/simulated/floor,
-/area/space)
-"cX" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/turf/simulated/floor,
-/area/space)
-"cY" = (
-/obj/machinery/door/airlock/command{
-	name = "Head of Personnel";
-	req_access = list(57)
-	},
+/area/station/bridge/hop_office)
+"eD" = (
 /turf/simulated/floor{
-	icon_state = "bluefull"
+	dir = 4;
+	icon_state = "blue"
 	},
-/area/space)
-"cZ" = (
+/area/station/bridge/hop_office)
+"eE" = (
 /obj/effect/decal/turf_decal/alpha/yellow{
 	icon_state = "bot"
 	},
@@ -1249,123 +1855,123 @@
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/space)
-"da" = (
-/obj/effect/decal/turf_decal/alpha/black{
-	dir = 8;
-	icon_state = "arrow"
-	},
-/obj/effect/decal/turf_decal/alpha/yellow{
-	dir = 8;
-	icon_state = "loadingarea"
-	},
-/turf/simulated/floor,
-/area/space)
-"db" = (
+/area/station/hallway/primary/central)
+"eF" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "Stairs_alone"
 	},
-/area/space)
-"dc" = (
+/area/station/hallway/primary/central)
+"eG" = (
 /turf/simulated/floor{
 	icon_state = "neutralfull"
 	},
-/area/space)
-"dd" = (
-/obj/structure/table/woodentable,
-/obj/machinery/faxmachine{
-	department = "Captain's Office"
-	},
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"de" = (
-/obj/machinery/hologram/holopad,
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"df" = (
-/obj/structure/displaycase/captain,
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dg" = (
-/obj/structure/stool/bed/chair/metal/black,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
-"dh" = (
-/obj/item/weapon/flora/random,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"di" = (
-/obj/structure/table/reinforced,
-/obj/machinery/faxmachine{
-	department = "Internal Affairs"
-	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"dj" = (
-/obj/machinery/photocopier,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"dk" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Head of Personnel";
-	req_access = list(57)
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"dl" = (
-/obj/machinery/hologram/holopad,
-/turf/simulated/floor,
-/area/space)
-"dm" = (
-/obj/structure/stool/bed/chair/metal/blue,
-/turf/simulated/floor,
-/area/space)
-"dn" = (
-/obj/structure/window/fulltile/reinforced{
-	grilled = 1;
-	icon_state = "gr_window_reinforced"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/space)
-"do" = (
+/area/station/hallway/primary/central)
+"eH" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/sparsegrass{
 	layer = 2.7
 	},
+/obj/structure/flora/ausbushes/ppflowers{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/genericbush,
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"eI" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/flora/deskferntrim{
+	pixel_y = 5
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/station/bridge/captain_quarters)
+"eJ" = (
+/turf/simulated/floor{
+	dir = 2;
+	icon_state = "bluecorner"
+	},
+/area/space)
+"eK" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/weapon/pen/red{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/item/weapon/pen/blue{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/weapon/pen{
+	pixel_y = 6
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/bridge/captain_quarters)
+"eL" = (
+/turf/simulated/floor/carpet/blue,
+/area/station/bridge/captain_quarters)
+"eM" = (
 /obj/structure/window/thin/reinforced{
-	dir = 1
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
 	},
 /obj/structure/flora/ausbushes/ywflowers{
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"eN" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/turf/simulated/floor/plating,
+/area/station/security/iaa_office)
+"eO" = (
+/obj/structure/filingcabinet/chestdrawer/black,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/security/iaa_office)
+"eP" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/security/iaa_office)
+"eQ" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/plating,
 /area/space)
-"dp" = (
+"eR" = (
+/obj/structure/lattice,
+/turf/environment/space,
+/area/space)
+"eS" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor,
+/area/station/bridge/hop_office)
+"eT" = (
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/station/bridge/hop_office)
+"eU" = (
 /obj/structure/flora/ausbushes/sparsegrass{
 	layer = 2.7
 	},
@@ -1379,8 +1985,8 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"dq" = (
+/area/station/hallway/primary/central)
+"eV" = (
 /obj/structure/table/woodentable,
 /obj/machinery/recharger{
 	pixel_y = 4
@@ -1388,17 +1994,35 @@
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"dr" = (
-/obj/machinery/light/small{
+/area/station/bridge/captain_quarters)
+"eW" = (
+/obj/machinery/computer/communications{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced{
 	dir = 8
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
-/turf/simulated/floor{
-	icon_state = "wooden"
+/turf/simulated/floor/carpet/black,
+/area/station/bridge/captain_quarters)
+"eX" = (
+/obj/machinery/computer/card{
+	dir = 8
 	},
-/area/space)
-"ds" = (
+/obj/item/weapon/card/id/captains_spare,
+/turf/simulated/floor/carpet/black,
+/area/station/bridge/captain_quarters)
+"eY" = (
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/stalkybush,
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"eZ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor{
@@ -1421,257 +2045,8 @@
 	pixel_y = 7
 	},
 /turf/simulated/floor/plating,
-/area/space)
-"dt" = (
-/obj/structure/stool/bed/chair/office/dark{
-	dir = 8
-	},
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"du" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 4
-	},
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"dv" = (
-/obj/machinery/disposal,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
-	},
-/area/space)
-"dw" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor{
-	dir = 10;
-	icon_state = "blue"
-	},
-/area/space)
-"dx" = (
-/obj/item/weapon/folder/blue{
-	pixel_y = 4
-	},
-/obj/item/weapon/stamp/hop{
-	pixel_y = 4
-	},
-/obj/structure/table,
-/turf/simulated/floor{
-	icon_state = "blue"
-	},
-/area/space)
-"dy" = (
-/obj/item/weapon/paper_bin{
-	pixel_y = 4
-	},
-/obj/item/weapon/pen/blue{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/weapon/pen/red{
-	pixel_x = -5;
-	pixel_y = 6
-	},
-/obj/item/weapon/pen{
-	pixel_y = 6
-	},
-/obj/structure/table,
-/turf/simulated/floor{
-	icon_state = "blue"
-	},
-/area/space)
-"dz" = (
-/obj/machinery/computer/skills,
-/obj/item/device/megaphone{
-	pixel_y = 4
-	},
-/obj/structure/table,
-/turf/simulated/floor{
-	dir = 6;
-	icon_state = "blue"
-	},
-/area/space)
-"dA" = (
-/obj/structure/window/thin/reinforced{
-	dir = 8
-	},
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
-	},
-/obj/structure/flora/ausbushes/brflowers{
-	layer = 2.7
-	},
-/obj/structure/flora/tree/jungle/small{
-	pixel_x = -16
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"dB" = (
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
-	},
-/obj/structure/window/thin/reinforced{
-	dir = 4
-	},
-/obj/structure/flora/ausbushes/ppflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"dC" = (
-/obj/machinery/light/smart{
-	dir = 4
-	},
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "blue"
-	},
-/area/space)
-"dD" = (
-/obj/machinery/computer/med_data{
-	dir = 4
-	},
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkgreen"
-	},
-/area/space)
-"dE" = (
-/obj/machinery/vending/cigarette,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dF" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dG" = (
-/obj/machinery/door/airlock/command{
-	name = "Captain's Quarters";
-	req_access = list(20)
-	},
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dH" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
-	},
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dI" = (
-/obj/structure/stool/bed/chair/comfy/brown{
-	dir = 8
-	},
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dJ" = (
-/obj/machinery/light/smart{
-	dir = 8
-	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "blue"
-	},
-/area/space)
-"dK" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lawyer_blast";
-	name = "Internal Affairs";
-	opacity = 0
-	},
-/obj/machinery/door/airlock/command{
-	name = "Internal Affairs";
-	req_access = list(38)
-	},
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"dL" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
-	},
-/area/space)
-"dM" = (
-/obj/machinery/computer/card,
-/obj/machinery/light/smart{
-	dir = 4
-	},
-/turf/simulated/floor/wood,
-/area/space)
-"dN" = (
-/obj/structure/window/thin/reinforced{
-	dir = 8
-	},
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/window/thin/reinforced,
-/obj/structure/flora/ausbushes/ppflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"dO" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/window/thin/reinforced{
-	dir = 4
-	},
-/obj/structure/window/thin/reinforced,
-/obj/structure/flora/ausbushes/ywflowers{
-	layer = 2.7
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"dP" = (
-/obj/structure/closet/emcloset,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"dQ" = (
-/obj/item/weapon/flora/pottedplant/tropicalfern,
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dR" = (
-/obj/structure/filingcabinet/chestdrawer/black,
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dS" = (
-/obj/machinery/photocopier,
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dT" = (
+/area/station/security/iaa_office)
+"fa" = (
 /obj/structure/closet/secure_closet/captains,
 /obj/structure/window/thin/reinforced{
 	dir = 8
@@ -1679,22 +2054,8 @@
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"dU" = (
-/obj/structure/table/woodentable,
-/obj/item/weapon/pinpointer/advpinpointer,
-/obj/item/weapon/disk/nuclear,
-/obj/item/weapon/hand_tele{
-	pixel_y = -13
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"dV" = (
+/area/station/bridge/captain_quarters)
+"fb" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/storage/photo_album{
 	pixel_y = 7
@@ -1703,8 +2064,8 @@
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"dW" = (
+/area/station/bridge/captain_quarters)
+"fc" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/storage/box/matches,
 /obj/item/clothing/mask/cigarette/cigar{
@@ -1717,35 +2078,15 @@
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"dX" = (
-/obj/structure/table/glass,
-/obj/item/device/aicard{
-	pixel_y = 4
-	},
-/obj/item/device/multitool,
-/turf/simulated/floor{
-	dir = 6;
-	icon_state = "darkblue"
-	},
-/area/space)
-"dY" = (
-/obj/structure/table/glass,
-/obj/item/weapon/storage/box/cups{
-	pixel_y = 4
-	},
-/obj/machinery/light/smart{
-	dir = 4
-	},
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
-	},
-/area/space)
-"dZ" = (
+/area/station/bridge/captain_quarters)
+"fd" = (
+/obj/machinery/pdapainter,
+/turf/simulated/floor/wood,
+/area/station/bridge/hop_office)
+"fe" = (
 /turf/simulated/floor/carpet/blue2,
-/area/space)
-"ea" = (
+/area/station/bridge/hop_office)
+"ff" = (
 /obj/structure/table/reinforced,
 /obj/structure/noticeboard{
 	pixel_y = 28
@@ -1774,8 +2115,8 @@
 /turf/simulated/floor{
 	icon_state = "wooden-2"
 	},
-/area/space)
-"eb" = (
+/area/station/bridge/hop_office)
+"fg" = (
 /obj/effect/decal/turf_decal/alpha/yellow{
 	icon_state = "delivery"
 	},
@@ -1783,8 +2124,8 @@
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/space)
-"ec" = (
+/area/station/hallway/primary/central)
+"fh" = (
 /obj/effect/decal/turf_decal/alpha/black{
 	dir = 4;
 	icon_state = "arrow"
@@ -1794,8 +2135,33 @@
 	icon_state = "loadingarea"
 	},
 /turf/simulated/floor,
-/area/space)
-"ed" = (
+/area/station/hallway/primary/central)
+"fi" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "bluecorner"
+	},
+/area/station/hallway/primary/central)
+"fj" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "blue"
+	},
+/area/station/hallway/primary/central)
+"fk" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/ywflowers{
+	layer = 2.7
+	},
+/obj/structure/flora/junglebush/c,
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"fl" = (
 /obj/structure/rack,
 /obj/item/weapon/tank/jetpack/oxygen,
 /obj/item/clothing/suit/armor/captain,
@@ -1808,8 +2174,8 @@
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"ee" = (
+/area/station/bridge/captain_quarters)
+"fm" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/skill_cartridge/usp10{
 	pixel_y = 4
@@ -1817,8 +2183,37 @@
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"ef" = (
+/area/station/bridge/captain_quarters)
+"fn" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"fo" = (
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "blue"
+	},
+/area/station/hallway/primary/central)
+"fp" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "bluecorner"
+	},
+/area/station/hallway/primary/central)
+"fq" = (
+/obj/structure/table/glass,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/hallway/primary/central)
+"fr" = (
 /obj/structure/table/woodentable,
 /obj/item/device/flashlight/lamp{
 	pixel_x = -4;
@@ -1829,12 +2224,12 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/carpet/black,
-/area/space)
-"eg" = (
+/area/station/security/iaa_office)
+"fs" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/carpet/black,
-/area/space)
-"eh" = (
+/area/station/security/iaa_office)
+"ft" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/flora/deskleaf{
 	pixel_x = 6;
@@ -1844,121 +2239,81 @@
 	pixel_x = -10;
 	pixel_y = 5
 	},
-/turf/environment/space,
-/area/space)
-"ei" = (
+/turf/simulated/floor/carpet/black,
+/area/station/security/iaa_office)
+"fu" = (
 /obj/machinery/hologram/holopad{
 	pixel_y = 16
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
-"ej" = (
+/area/station/security/iaa_office)
+"fv" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/security/iaa_office)
+"fw" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/book/manual/wiki/possible_threats,
 /turf/simulated/floor/wood,
-/area/space)
-"ek" = (
+/area/station/bridge/hop_office)
+"fx" = (
 /obj/structure/stool/bed/chair/comfy/teal{
 	dir = 8
 	},
 /mob/living/carbon/ian,
 /turf/simulated/floor/carpet/blue2,
-/area/space)
-"el" = (
-/obj/structure/window/thin/reinforced,
-/obj/structure/window/thin/reinforced{
-	dir = 8
+/area/station/bridge/hop_office)
+"fy" = (
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	icon_state = "dark"
 	},
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
+/area/station/hallway/primary/central)
+"fz" = (
+/obj/random/vending/cola,
+/obj/machinery/light/small{
+	dir = 4
 	},
-/obj/structure/flora/ausbushes/brflowers{
-	layer = 2.7
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
 	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/grass,
-/area/space)
-"em" = (
+/area/station/hallway/primary/central)
+"fA" = (
 /obj/structure/window/thin/reinforced,
 /obj/structure/window/thin/reinforced{
 	dir = 4
 	},
-/obj/structure/flora/ausbushes/sparsegrass{
-	layer = 2.7
-	},
+/obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ywflowers{
 	layer = 2.7
 	},
-/obj/machinery/door/firedoor,
+/obj/structure/flora/junglebush/b,
 /turf/simulated/floor/grass,
-/area/space)
-"en" = (
-/obj/structure/stool/bed/chair/office/dark{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"eo" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Internal Affairs";
-	req_access = list(38)
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"ep" = (
-/obj/structure/table/woodentable,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/item/toy/figure/ian{
-	pixel_x = 4;
-	pixel_y = 1
-	},
-/turf/simulated/floor/wood,
-/area/space)
-"eq" = (
-/obj/structure/stool/bed/chair/comfy/teal{
-	dir = 8
-	},
-/obj/effect/landmark/start/head_of_personnel,
-/turf/simulated/floor/carpet/blue2,
-/area/space)
-"er" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "CMF altering";
-	req_access = list(57)
-	},
-/turf/simulated/floor{
-	icon_state = "wooden"
-	},
-/area/space)
-"es" = (
-/obj/structure/table/reinforced,
-/obj/machinery/computer/skills_console{
-	pixel_y = 4
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/simulated/floor/whitegreed,
-/area/space)
-"et" = (
-/obj/machinery/door/firedoor,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "bluecorner"
-	},
-/area/space)
-"eu" = (
+/area/station/hallway/primary/central)
+"fB" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "bluecorner"
 	},
-/area/space)
-"ev" = (
+/area/station/hallway/primary/central)
+"fC" = (
+/turf/simulated/floor{
+	icon_state = "bluecorner"
+	},
+/area/station/hallway/primary/central)
+"fD" = (
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "blue"
+	},
+/area/station/hallway/primary/central)
+"fE" = (
 /obj/structure/table/woodentable,
 /obj/item/device/camera{
 	pixel_x = 2
@@ -1967,22 +2322,30 @@
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
-"ew" = (
+/area/station/security/iaa_office)
+"fF" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/security/iaa_office)
+"fG" = (
 /obj/structure/closet/secure_closet/iaa,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
-"ex" = (
+/area/station/security/iaa_office)
+"fH" = (
 /obj/structure/table/woodentable,
 /obj/item/device/taperecorder{
 	pixel_y = 6
 	},
 /turf/simulated/floor/wood,
-/area/space)
-"ey" = (
+/area/station/bridge/hop_office)
+"fI" = (
 /obj/structure/table/woodentable,
 /obj/item/ashtray/plastic{
 	pixel_x = 4;
@@ -1993,22 +2356,40 @@
 	pixel_y = 7
 	},
 /turf/simulated/floor/wood,
-/area/space)
-"ez" = (
+/area/station/bridge/hop_office)
+"fJ" = (
 /obj/structure/closet/secure_closet/hop,
 /turf/simulated/floor/wood,
-/area/space)
-"eA" = (
+/area/station/bridge/hop_office)
+"fK" = (
 /obj/structure/closet/secure_closet/hop2,
 /turf/simulated/floor/wood,
-/area/space)
-"eB" = (
+/area/station/bridge/hop_office)
+"fL" = (
+/obj/machinery/optable/skill_scanner,
+/turf/simulated/floor/whitegreed,
+/area/station/bridge/cmf_room)
+"fM" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/hallway/primary/central)
+"fN" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor{
 	icon_state = "neutralfull"
 	},
-/area/space)
-"eC" = (
+/area/station/hallway/primary/central)
+"fO" = (
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/hallway/primary/central)
+"fP" = (
 /obj/structure/table/woodentable,
 /obj/item/device/camera_film{
 	pixel_x = 5;
@@ -2022,8 +2403,16 @@
 	dir = 10;
 	icon_state = "darkblue"
 	},
-/area/space)
-"eD" = (
+/area/station/security/iaa_office)
+"fQ" = (
+/obj/structure/stool/bed/chair/comfy/brown{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"fR" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/paper_bin{
 	pixel_y = 4
@@ -2042,8 +2431,8 @@
 /turf/simulated/floor{
 	icon_state = "darkblue"
 	},
-/area/space)
-"eE" = (
+/area/station/security/iaa_office)
+"fS" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/paper{
 	pixel_y = 4
@@ -2052,8 +2441,8 @@
 /turf/simulated/floor{
 	icon_state = "darkblue"
 	},
-/area/space)
-"eF" = (
+/area/station/security/iaa_office)
+"fT" = (
 /obj/item/weapon/folder{
 	pixel_x = -4
 	},
@@ -2074,80 +2463,92 @@
 /turf/simulated/floor{
 	icon_state = "darkblue"
 	},
-/area/space)
-"eG" = (
+/area/station/security/iaa_office)
+"fU" = (
 /obj/item/weapon/flora/random,
 /turf/simulated/floor{
 	icon_state = "darkblue"
 	},
-/area/space)
-"eH" = (
+/area/station/security/iaa_office)
+"fV" = (
 /obj/structure/closet/secure_closet/usp_cartridges,
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/whitegreed,
-/area/space)
-"eI" = (
+/area/station/bridge/cmf_room)
+"fW" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/hallway/primary/central)
+"fX" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor{
 	icon_state = "blue"
 	},
-/area/space)
-"eJ" = (
+/area/station/hallway/primary/central)
+"fY" = (
 /turf/simulated/floor{
 	dir = 2;
 	icon_state = "bluecorner"
 	},
-/area/space)
-"eK" = (
+/area/station/hallway/primary/central)
+"fZ" = (
 /obj/machinery/vending/donut,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
-"eL" = (
+/area/station/hallway/primary/central)
+"ga" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "CMF altering";
 	req_access = list(60)
 	},
 /turf/simulated/floor/plating,
-/area/space)
-"eM" = (
-/obj/machinery/light/smart,
+/area/station/bridge/cmf_room)
+"gb" = (
+/obj/machinery/power/apc/largecell{
+	name = "largecell apc down";
+	pixel_y = -28
+	},
 /turf/simulated/floor{
 	icon_state = "blue"
 	},
-/area/space)
-"eN" = (
+/area/station/hallway/primary/central)
+"gc" = (
+/turf/simulated/floor{
+	icon_state = "blue"
+	},
+/area/station/hallway/primary/central)
+"gd" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor{
 	dir = 6;
 	icon_state = "vault"
 	},
-/area/space)
-"eO" = (
+/area/station/hallway/primary/central)
+"ge" = (
 /turf/simulated/floor{
 	icon_state = "vault"
 	},
-/area/space)
-"eP" = (
+/area/station/hallway/primary/central)
+"gf" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor{
 	dir = 10;
 	icon_state = "vault"
 	},
-/area/space)
-"eQ" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Maintenance";
-	req_access = list(12)
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"eR" = (
-/obj/structure/lattice,
-/turf/environment/space,
-/area/space)
-"eS" = (
+/area/station/hallway/primary/central)
+"gg" = (
+/turf/simulated/wall/r_wall,
+/area/station/bridge/nuke_storage)
+"gh" = (
 /obj/machinery/door/airlock/command{
 	name = "Vault";
 	req_access = list(19)
@@ -2155,15 +2556,23 @@
 /turf/simulated/floor{
 	icon_state = "vault"
 	},
-/area/space)
-"eT" = (
+/area/station/bridge/nuke_storage)
+"gi" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/space)
-"eU" = (
+/area/station/hallway/primary/central)
+"gj" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/turf/simulated/floor/plating,
+/area/station/bridge/nuke_storage)
+"gk" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -2171,8 +2580,13 @@
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
-"eV" = (
+/area/station/bridge/nuke_storage)
+"gl" = (
+/turf/simulated/floor{
+	icon_state = "vault"
+	},
+/area/station/bridge/nuke_storage)
+"gm" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -2180,15 +2594,15 @@
 	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
-"eW" = (
+/area/station/bridge/nuke_storage)
+"gn" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "blue"
 	},
-/area/space)
-"eX" = (
+/area/station/hallway/primary/central)
+"go" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "warn_corner"
 	},
@@ -2196,16 +2610,16 @@
 	dir = 8;
 	icon_state = "darkblue"
 	},
-/area/space)
-"eY" = (
+/area/station/bridge/nuke_storage)
+"gp" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "warn"
 	},
 /turf/simulated/floor{
 	icon_state = "vault"
 	},
-/area/space)
-"eZ" = (
+/area/station/bridge/nuke_storage)
+"gq" = (
 /obj/effect/decal/turf_decal{
 	dir = 8;
 	icon_state = "warn_corner"
@@ -2214,8 +2628,74 @@
 	dir = 4;
 	icon_state = "darkblue"
 	},
+/area/station/bridge/nuke_storage)
+"gr" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
 /area/space)
-"fa" = (
+"gs" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "gateway_blast";
+	name = "Gateway Chamber Blast Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"gt" = (
+/obj/effect/decal/turf_decal{
+	dir = 8;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"gu" = (
+/obj/machinery/gateway{
+	dir = 9
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/space)
+"gv" = (
+/obj/machinery/gateway{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/space)
+"gw" = (
+/obj/machinery/gateway{
+	dir = 5
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "vault"
+	},
+/area/space)
+"gx" = (
+/obj/effect/decal/turf_decal{
+	dir = 4;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"gy" = (
 /obj/machinery/door/airlock/vault{
 	locked = 1;
 	name = "Vault";
@@ -2224,15 +2704,77 @@
 /turf/simulated/floor{
 	icon_state = "vault"
 	},
-/area/space)
-"fb" = (
-/obj/structure/closet/emcloset,
+/area/station/bridge/nuke_storage)
+"gz" = (
+/obj/structure/stool/bed/chair/office/light{
+	dir = 4
+	},
 /turf/simulated/floor{
-	dir = 6;
-	icon_state = "darkblue"
+	icon_state = "dark"
 	},
 /area/space)
-"fc" = (
+"gA" = (
+/obj/machinery/gateway{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/space)
+"gB" = (
+/obj/machinery/gateway/center/station,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"gC" = (
+/obj/machinery/gateway{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/space)
+"gD" = (
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "vault"
+	},
+/area/station/bridge/nuke_storage)
+"gE" = (
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "vault"
+	},
+/area/station/bridge/nuke_storage)
+"gF" = (
+/obj/machinery/gateway{
+	dir = 10
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "vault"
+	},
+/area/space)
+"gG" = (
+/obj/machinery/gateway,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/space)
+"gH" = (
+/obj/machinery/gateway{
+	dir = 6
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "vault"
+	},
+/area/space)
+"gI" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
 	},
@@ -2243,8 +2785,16 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"fd" = (
+/area/station/hallway/primary/central)
+"gJ" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/turf/simulated/floor/plating,
+/area/station/hallway/primary/central)
+"gK" = (
 /obj/structure/closet/crate{
 	name = "Gold Crate"
 	},
@@ -2253,8 +2803,8 @@
 	dir = 1;
 	icon_state = "vault"
 	},
-/area/space)
-"fe" = (
+/area/station/bridge/nuke_storage)
+"gL" = (
 /obj/machinery/nuclearbomb{
 	nuketype = "NT";
 	r_code = "LOLNO"
@@ -2263,15 +2813,15 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
-"ff" = (
+/area/station/bridge/nuke_storage)
+"gM" = (
 /obj/machinery/computer/secure_data/detective_computer,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "vault"
 	},
-/area/space)
-"fg" = (
+/area/station/bridge/nuke_storage)
+"gN" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
 	},
@@ -2282,8 +2832,45 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"gO" = (
+/obj/machinery/door/airlock/command{
+	name = "Gateway Access";
+	req_access = list(62)
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
 /area/space)
-"fh" = (
+"gP" = (
+/obj/effect/decal/turf_decal{
+	dir = 5;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/space)
+"gQ" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"gR" = (
+/obj/effect/decal/turf_decal{
+	dir = 9;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/space)
+"gS" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
 	},
@@ -2291,31 +2878,21 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"fi" = (
-/obj/machinery/computer/station_alert,
-/obj/structure/window/thin/reinforced{
-	dir = 1
-	},
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkblue"
-	},
-/area/space)
-"fj" = (
+/area/station/hallway/primary/central)
+"gT" = (
 /obj/structure/closet/secure_closet/freezer/money,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "vault"
 	},
-/area/space)
-"fk" = (
+/area/station/bridge/nuke_storage)
+"gU" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "vault"
 	},
-/area/space)
-"fl" = (
+/area/station/bridge/nuke_storage)
+"gV" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
 	},
@@ -2323,8 +2900,15 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"gW" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
 /area/space)
-"fm" = (
+"gX" = (
 /obj/structure/window/thin/reinforced,
 /obj/structure/window/thin/reinforced{
 	dir = 8
@@ -2333,8 +2917,8 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"fn" = (
+/area/station/hallway/primary/central)
+"gY" = (
 /obj/structure/safe,
 /obj/item/stack/sheet/mineral/gold{
 	pixel_x = -1;
@@ -2353,15 +2937,15 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
-"fo" = (
+/area/station/bridge/nuke_storage)
+"gZ" = (
 /obj/machinery/light/small/emergency,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
-"fp" = (
+/area/station/bridge/nuke_storage)
+"ha" = (
 /obj/item/weapon/coin/silver{
 	pixel_x = 7;
 	pixel_y = 12
@@ -2389,8 +2973,8 @@
 	dir = 8;
 	icon_state = "vault"
 	},
-/area/space)
-"fq" = (
+/area/station/bridge/nuke_storage)
+"hb" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
 	},
@@ -2399,8 +2983,17 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"hc" = (
+/obj/effect/decal/turf_decal/alpha/yellow{
+	dir = 1;
+	icon_state = "loadingarea"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
 /area/space)
-"fr" = (
+"hd" = (
 /obj/machinery/door/airlock/glass{
 	name = "Central Access"
 	},
@@ -2408,31 +3001,52 @@
 	dir = 1;
 	icon_state = "blue"
 	},
+/area/station/hallway/primary/central)
+"he" = (
+/obj/effect/decal/turf_decal/alpha/yellow{
+	icon_state = "delivery"
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "Gateway_shutters";
+	name = "Gateway Shutters"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
 /area/space)
-"fs" = (
+"hf" = (
 /obj/machinery/door/airlock/glass{
 	name = "Central Access"
 	},
 /turf/simulated/floor{
 	icon_state = "neutralfull"
 	},
+/area/station/hallway/primary/central)
+"hg" = (
+/obj/effect/decal/turf_decal/alpha/yellow{
+	icon_state = "loadingarea"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "blue"
+	},
 /area/space)
-"ft" = (
+"hh" = (
 /obj/machinery/door/airlock/glass{
 	name = "Central Access"
 	},
 /turf/simulated/floor{
 	icon_state = "blue"
 	},
-/area/space)
-"fu" = (
+/area/station/hallway/primary/central)
+"hi" = (
 /obj/structure/window/thin/reinforced,
 /obj/structure/flora/ausbushes/sparsegrass{
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"fv" = (
+/area/station/hallway/primary/central)
+"hj" = (
 /obj/structure/window/thin/reinforced,
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -2441,8 +3055,8 @@
 	layer = 2.7
 	},
 /turf/simulated/floor/grass,
-/area/space)
-"fw" = (
+/area/station/hallway/primary/central)
+"hk" = (
 /obj/machinery/door/airlock/glass{
 	name = "Central Access"
 	},
@@ -2450,8 +3064,8 @@
 	dir = 8;
 	icon_state = "blue"
 	},
-/area/space)
-"fx" = (
+/area/station/hallway/primary/central)
+"hl" = (
 /obj/machinery/door/airlock/glass{
 	name = "Central Access"
 	},
@@ -2459,25 +3073,44 @@
 	dir = 4;
 	icon_state = "blue"
 	},
-/area/space)
-"fQ" = (
-/turf/simulated/floor{
-	icon_state = "darkbluecorners"
-	},
-/area/space)
+/area/station/hallway/primary/central)
 "hU" = (
-/obj/machinery/computer/monitor,
-/obj/structure/window/thin/reinforced{
-	dir = 1
-	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
-"iF" = (
+/obj/structure/window/thin/reinforced,
 /obj/structure/window/thin/reinforced{
 	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"iF" = (
+/obj/structure/window/thin/reinforced,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ywflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"jx" = (
+/obj/structure/table/woodentable,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/toy/figure/ian{
+	pixel_x = 4;
+	pixel_y = 1
+	},
+/turf/simulated/floor/wood,
+/area/station/bridge/hop_office)
+"jU" = (
+/obj/structure/window/thin/reinforced,
+/obj/structure/window/thin/reinforced{
+	dir = 4
 	},
 /obj/structure/flora/ausbushes/sparsegrass{
 	layer = 2.7
@@ -2485,122 +3118,51 @@
 /obj/structure/flora/ausbushes/ywflowers{
 	layer = 2.7
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/grass,
-/area/space)
-"jx" = (
-/obj/machinery/computer/crew,
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkgreen"
-	},
-/area/space)
-"jU" = (
-/turf/simulated/floor{
-	dir = 6;
-	icon_state = "darkblue"
-	},
-/area/space)
+/area/station/hallway/primary/central)
 "kX" = (
-/obj/structure/window/thin/reinforced{
-	dir = 4
+/obj/machinery/door/airlock/maintenance{
+	name = "Internal Affairs";
+	req_access = list(38)
 	},
-/obj/structure/table/glass,
-/obj/item/weapon/phone{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
+/turf/simulated/floor/plating,
+/area/station/security/iaa_office)
 "nH" = (
-/obj/structure/stool/bed/chair/comfy/brown,
-/turf/simulated/floor/carpet/black,
-/area/space)
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/bridge/cmf_room)
 "nQ" = (
-/obj/structure/stool/bed/chair/comfy/black,
-/turf/simulated/floor/carpet/black,
-/area/space)
-"oc" = (
-/obj/structure/stool/bed/chair/office/dark{
+/obj/structure/table/reinforced,
+/obj/machinery/computer/skills_console{
+	pixel_y = 4
+	},
+/obj/machinery/light/small{
 	dir = 4
 	},
+/turf/simulated/floor/whitegreed,
+/area/station/bridge/cmf_room)
+"oc" = (
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkredcorners"
+	dir = 1;
+	icon_state = "blue"
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "oY" = (
-/obj/structure/window/thin/reinforced{
-	dir = 8
-	},
-/obj/structure/table/glass,
-/obj/item/weapon/storage/secure/briefcase{
-	pixel_y = 8
-	},
-/obj/item/device/tagger/shop{
-	pixel_y = 4
-	},
 /turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkblue"
+	dir = 8;
+	icon_state = "bluecorner"
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "su" = (
-/obj/machinery/computer/prisoner{
-	dir = 8
-	},
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkred"
-	},
-/area/space)
-"sA" = (
-/obj/structure/stool/bed/chair/metal/black{
-	dir = 8
-	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
-/area/space)
-"tl" = (
-/obj/structure/table/woodentable,
-/obj/item/weapon/paper_bin{
-	pixel_y = 4
-	},
-/obj/item/weapon/pen{
-	pixel_y = 6
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"tE" = (
-/obj/structure/closet/emcloset,
-/turf/simulated/floor{
-	dir = 10;
+	dir = 1;
 	icon_state = "darkblue"
 	},
-/area/space)
-"tG" = (
-/obj/machinery/door/airlock/command{
-	name = "Blueshield Office";
-	req_access = list(42)
-	},
-/turf/simulated/floor{
-	icon_state = "darkbluefull"
-	},
-/area/space)
-"uA" = (
-/obj/machinery/door/airlock/vault{
-	name = "Blueshield Storage";
-	req_access = list(42)
-	},
-/turf/simulated/floor{
-	icon_state = "darkbluefull"
-	},
-/area/space)
-"vs" = (
+/area/station/hallway/primary/central)
+"sA" = (
 /obj/structure/rack,
 /obj/item/weapon/storage/toolbox/emergency{
 	pixel_y = 5
@@ -2616,65 +3178,246 @@
 	dir = 10;
 	icon_state = "darkblue"
 	},
-/area/space)
-"vV" = (
-/turf/simulated/floor/plating,
-/area/space)
-"wx" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 1
+/area/station/bridge)
+"tl" = (
+/obj/structure/stool/bed/chair/comfy/teal,
+/turf/simulated/floor/carpet/blue2,
+/area/station/bridge/captain_quarters)
+"tE" = (
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 4
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
-"wB" = (
-/obj/machinery/door/firedoor,
-/obj/structure/window/fulltile/reinforced{
-	grilled = 1;
-	icon_state = "gr_window_reinforced"
+/area/station/bridge)
+"tG" = (
+/obj/machinery/computer/message_monitor{
+	dir = 8
 	},
+/turf/simulated/floor/bluegrid,
+/area/station/bridge/teleporter)
+"uA" = (
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"vs" = (
+/obj/structure/stool/bed/chair/comfy/black,
+/turf/simulated/floor/carpet/black,
+/area/station/security/iaa_office)
+"vV" = (
 /turf/simulated/floor/plating,
 /area/space)
-"wN" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
+"wx" = (
+/turf/simulated/wall/r_wall,
+/area/station/bridge/cmf_room)
+"wB" = (
+/obj/machinery/light/smart{
+	dir = 8
 	},
-/area/space)
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/station/hallway/primary/central)
+"wN" = (
+/obj/structure/filingcabinet/chestdrawer/black,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
 "wT" = (
-/obj/structure/table/reinforced,
-/obj/item/weapon/paper_bin{
+/obj/structure/table/glass,
+/obj/item/weapon/storage/box/cups{
 	pixel_y = 4
 	},
-/obj/item/weapon/pen{
-	pixel_y = 6
+/obj/machinery/light/smart{
+	dir = 4
 	},
 /turf/simulated/floor{
-	dir = 1;
+	dir = 4;
 	icon_state = "darkblue"
 	},
-/area/space)
+/area/station/security/iaa_office)
 "zD" = (
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
 /area/space)
 "Bs" = (
-/obj/structure/table/glass,
-/obj/item/weapon/reagent_containers/spray/cleaner{
-	pixel_x = 7;
-	pixel_y = 4
+/turf/simulated/wall/r_wall,
+/area/station/bridge/hop_office)
+"BF" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
 	},
-/obj/item/weapon/folder/white{
-	pixel_x = -4;
-	pixel_y = 1
+/area/station/security/blueshield)
+"BU" = (
+/obj/structure/table,
+/obj/machinery/door_control{
+	id = "bsentry";
+	name = "Entry Shutter Control"
 	},
 /turf/simulated/floor{
-	icon_state = "darkgreen"
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"CB" = (
+/obj/structure/table,
+/obj/item/weapon/storage/box/cdeathalarm_kit{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkblue"
+	},
+/area/station/security/blueshield)
+"Ed" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/station/bridge/hop_office)
+"EK" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
 	},
 /area/space)
-"BF" = (
+"EZ" = (
+/obj/item/weapon/flora/pottedplant/tropicalfern,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"GD" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "CMF altering";
+	req_access = list(60)
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/cmf_room)
+"GY" = (
+/obj/structure/window/thin/reinforced,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ywflowers{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"Ht" = (
+/turf/simulated/floor/carpet/black,
+/area/station/security/iaa_office)
+"HE" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/ppflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"IQ" = (
+/obj/structure/window/thin/reinforced,
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/ywflowers{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/sunnybush,
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"Je" = (
+/obj/structure/stool/bed/chair/comfy/teal{
+	dir = 8
+	},
+/obj/effect/landmark/start/head_of_personnel,
+/turf/simulated/floor/carpet/blue2,
+/area/station/bridge/hop_office)
+"JC" = (
+/turf/environment/space,
+/area/space)
+"Kh" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "CMF altering";
+	req_access = list(57)
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/hop_office)
+"Mx" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "bluecorner"
+	},
+/area/station/hallway/primary/central)
+"MI" = (
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/cmf_room)
+"MZ" = (
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "blue"
+	},
+/area/station/hallway/primary/central)
+"Nl" = (
+/obj/structure/window/thin/reinforced,
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/pointybush,
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"Od" = (
+/obj/random/vending/snack,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "vault"
+	},
+/area/station/hallway/primary/central)
+"Ox" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbluecorners"
+	},
+/area/station/bridge)
+"Qw" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkgreencorners"
+	},
+/area/station/bridge)
+"Rs" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "blue"
+	},
+/area/space)
+"RA" = (
 /obj/machinery/computer/communications,
 /obj/structure/window/thin/reinforced{
 	dir = 1
@@ -2683,160 +3426,47 @@
 	dir = 1;
 	icon_state = "darkblue"
 	},
-/area/space)
-"BU" = (
-/obj/machinery/disposal,
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkblue"
-	},
-/area/space)
-"CB" = (
+/area/station/bridge)
+"RZ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 1
+	dir = 8
 	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "darkbluecorners"
 	},
-/area/space)
-"Ed" = (
-/obj/structure/window/fulltile{
-	grilled = 1;
-	icon_state = "gr_window"
-	},
-/turf/simulated/floor/plating,
-/area/space)
-"EK" = (
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkblue"
-	},
-/area/space)
-"EZ" = (
-/turf/simulated/floor{
-	dir = 10;
-	icon_state = "darkblue"
-	},
-/area/space)
-"GD" = (
-/obj/structure/table,
-/obj/machinery/recharger{
-	pixel_y = 4
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"GY" = (
-/obj/structure/table/glass,
-/obj/item/weapon/storage/firstaid/regular{
-	pixel_y = 4
-	},
-/turf/simulated/floor{
-	icon_state = "darkblue"
-	},
-/area/space)
-"Ht" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "Bridge";
-	req_one_access = list(19,38)
-	},
-/turf/simulated/floor{
-	icon_state = "darkbluefull"
-	},
-/area/space)
-"HE" = (
+/area/station/bridge)
+"Sm" = (
+/obj/structure/stool/bed/chair/metal/blue,
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"IQ" = (
+/area/station/bridge/captain_quarters)
+"Sn" = (
+/obj/item/weapon/flora/pottedplant/palm,
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
+	icon_state = "wooden"
 	},
-/area/space)
-"Je" = (
-/obj/structure/table/woodentable,
-/obj/item/weapon/folder/blue{
-	pixel_y = 2
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"JC" = (
-/turf/environment/space,
-/area/space)
-"Kh" = (
-/turf/simulated/wall/r_wall,
-/area/space)
-"Mx" = (
-/obj/structure/stool/bed/chair/office/dark{
-	dir = 1
-	},
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"MI" = (
-/turf/simulated/floor{
-	dir = 9;
-	icon_state = "darkblue"
-	},
-/area/space)
-"MZ" = (
-/obj/structure/stool/bed/chair/comfy/black{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/black,
-/area/space)
-"Nl" = (
+/area/station/bridge/captain_quarters)
+"Sq" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/simulated/floor,
-/area/space)
-"Od" = (
-/obj/structure/table/glass,
-/obj/machinery/recharger{
-	pixel_y = 4
-	},
-/obj/item/weapon/handcuffs,
-/turf/simulated/floor{
-	icon_state = "darkred"
-	},
-/area/space)
-"Ox" = (
-/obj/structure/table/glass,
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"Qw" = (
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkstairs2_wide"
-	},
-/area/space)
-"Rs" = (
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "blue"
-	},
-/area/space)
-"RA" = (
-/obj/structure/stool/bed/chair/metal/black{
-	dir = 4
+/area/station/bridge/hop_office)
+"Sv" = (
+/obj/structure/table/woodentable,
+/obj/machinery/faxmachine{
+	department = "Captain's Office"
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "wooden"
 	},
-/area/space)
-"RZ" = (
+/area/station/bridge/captain_quarters)
+"SC" = (
+/obj/machinery/light/smart,
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkstairs_wide"
+	icon_state = "darkblue"
 	},
-/area/space)
-"Sm" = (
+/area/station/bridge)
+"SL" = (
 /obj/machinery/door/airlock/command{
 	name = "Captain's Office";
 	req_access = list(20)
@@ -2844,112 +3474,89 @@
 /turf/simulated/floor{
 	icon_state = "wooden"
 	},
-/area/space)
-"Sn" = (
-/obj/structure/closet/blueshield,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/space)
-"Sq" = (
+/area/station/bridge/captain_quarters)
+"Tz" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
 /turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"TA" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/structure/dryer{
+	pixel_y = 24
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "freezerfloor2"
+	},
+/area/station/bridge/captain_quarters)
+"TZ" = (
+/obj/structure/table/woodentable,
+/obj/machinery/computer/skills,
+/obj/item/device/megaphone,
+/obj/machinery/light/smart{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/bridge/captain_quarters)
+"Um" = (
+/obj/machinery/photocopier,
+/obj/machinery/light/smart,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"UP" = (
+/turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
-"Sv" = (
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkbluecorners"
-	},
-/area/space)
-"SC" = (
-/obj/machinery/computer/secure_data,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkred"
-	},
-/area/space)
-"SL" = (
-/obj/structure/table/glass,
-/obj/machinery/computer/skills,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkgreen"
-	},
-/area/space)
-"Tz" = (
-/obj/structure/table/woodentable,
-/obj/item/weapon/storage/fancy/donut_box,
-/turf/simulated/floor/carpet/black,
-/area/space)
-"TA" = (
-/obj/structure/stool/bed/chair/office/dark{
-	dir = 8
-	},
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkgreencorners"
-	},
-/area/space)
-"TZ" = (
-/obj/machinery/computer/mine_sci_shuttle,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
-"Um" = (
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkbluecorners"
-	},
-/area/space)
-"UP" = (
-/obj/item/weapon/flora/pottedplant/orientaltree,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
+/area/station/security/iaa_office)
 "VQ" = (
-/turf/simulated/floor{
-	icon_state = "darkblue"
-	},
-/area/space)
-"Wx" = (
-/obj/structure/filingcabinet/chestdrawer/black,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
-	},
-/area/space)
-"WN" = (
-/obj/machinery/computer/security{
-	dir = 8
-	},
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkred"
-	},
-/area/space)
-"Xv" = (
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
-	},
-/area/space)
-"ZY" = (
 /obj/structure/table/woodentable,
-/obj/item/device/taperecorder{
-	pixel_x = -1;
-	pixel_y = 6
+/obj/item/weapon/pinpointer/advpinpointer,
+/obj/item/weapon/disk/nuclear,
+/obj/item/weapon/hand_tele{
+	pixel_y = -13
 	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/bridge/captain_quarters)
+"Wx" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"WN" = (
+/turf/simulated/wall,
+/area/station/bridge/hop_office)
+"Xv" = (
+/obj/structure/window/thin/reinforced,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/hallway/primary/central)
+"ZY" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/start/internal_affairs_agent,
 /turf/simulated/floor/carpet/black,
-/area/space)
+/area/station/security/iaa_office)
 
 (1,1,1) = {"
 JC
@@ -29486,22 +30093,22 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
 JC
 JC
 JC
@@ -29737,6 +30344,28 @@ JC
 JC
 JC
 JC
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bV
 JC
 JC
 JC
@@ -29744,33 +30373,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -29992,6 +30599,30 @@ JC
 JC
 JC
 JC
+bV
+bV
+bV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bV
 JC
 JC
 JC
@@ -29999,35 +30630,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -30249,6 +30856,30 @@ JC
 JC
 JC
 JC
+bV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+Bs
+Bs
+dq
+Bs
+Bs
+Bs
+Bs
+Bs
+Bs
+Bs
+vV
+vV
+bV
 JC
 JC
 JC
@@ -30256,35 +30887,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -30506,42 +31113,42 @@ JC
 JC
 JC
 JC
+bV
+vV
+vV
+vV
+vV
+bS
+bS
+cN
+bS
+bS
+bS
+Bs
+eB
+dr
+ec
+et
+fd
+fw
+jx
+fH
+Bs
+vV
+vV
+bV
 JC
 JC
 JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -30763,42 +31370,42 @@ JC
 JC
 JC
 JC
+bV
+vV
+vV
+vV
+bS
+bS
+be
+bn
+BU
+CB
+bS
+dV
+db
+eC
+ed
+eu
+fe
+fx
+Je
+fI
+Bs
+vV
+vV
+bV
+bV
 JC
 JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+zD
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -31020,71 +31627,41 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+vV
+vV
+bS
+ay
+cF
+bf
+bv
+cc
+bS
+cv
+eC
+eS
+ee
+eu
+fe
+fe
+fe
+fJ
+Bs
+vV
+vV
+vV
+bV
+JC
+JC
+JC
+JC
+JC
+bV
+bo
+cd
+dc
+cx
 bV
 JC
 JC
@@ -31092,20 +31669,50 @@ JC
 JC
 JC
 JC
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -31278,91 +31885,91 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+vV
+vV
+bS
+az
+bf
+cO
+cW
+dD
+bS
+dW
+Sq
+ds
+ef
+ev
+eu
+eu
+eu
+fK
+Bs
+vV
+vV
+vV
+bV
 JC
 JC
 JC
 JC
 JC
 bV
+bp
+dc
+dc
+cx
 bV
-bV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -31535,91 +32142,91 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+vV
+vV
+bS
+cA
+bf
+cP
+cX
+cX
+bS
+bS
+eD
+eD
+eg
+ew
+Ed
+WN
+Kh
+WN
+Bs
+Bs
+vV
+vV
+bV
 JC
 JC
 JC
 JC
 JC
 bV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-Kh
-Kh
-dk
-Kh
-Kh
-Kh
-Kh
-Kh
-Kh
-Kh
-vV
-vV
+bp
+dc
+eJ
+cu
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -31792,91 +32399,91 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+vV
+vV
+bS
+ba
+cG
+cQ
+cY
+dE
+cQ
+bS
+dd
+eT
+eT
+Bs
+ff
+Bs
+nH
+nH
+nH
+wx
+vV
+vV
+bV
 JC
 JC
 JC
 JC
 JC
 bV
-vV
-vV
-vV
-vV
-Kh
-Kh
-av
-Kh
-Kh
-Kh
-Kh
-cV
-bw
-dw
-bQ
-bX
-ej
-ep
-ex
-Kh
-vV
-vV
+bp
+dc
+cx
+bV
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -32049,91 +32656,91 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+aA
+aA
+bO
+bS
+bS
+BF
+bq
+cX
+dE
+cQ
+bS
+eE
+eE
+eE
+eE
+fg
+GD
+MI
+MI
+MI
+ga
+vV
+vV
+bV
 JC
 JC
 JC
 JC
 JC
 bV
-vV
-vV
-vV
-Kh
-Kh
-ao
-EK
-bf
-cb
-Kh
-cM
-cW
-Nl
+bp
+dc
 cx
-ab
-dZ
-ek
-eq
-ey
-Kh
-vV
-vV
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -32304,94 +32911,94 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-bV
-bV
-vV
-vV
-Kh
-GD
-aM
-zD
-bh
+aA
+aA
+aA
+ak
+aK
+as
+bS
+bg
+bS
+bS
 ce
-Kh
-cN
-Nl
-dl
-dx
-ab
-dZ
-dZ
-dZ
-ez
-Kh
+cl
+bS
+de
+dt
+eh
+ex
+fh
+wx
+nQ
+fL
+fV
+wx
 vV
 vV
-vV
+bV
+JC
+JC
+JC
+JC
+JC
+bV
+dX
+fN
+fX
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -32561,94 +33168,94 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+aB
+aX
+af
+bB
+bB
+bB
+cB
+bJ
+bL
+aA
+bS
+bS
+bS
+eF
+eU
+ei
+ey
+eF
+wx
+wx
+wx
+wx
+wx
+vV
+vV
+bV
 JC
 JC
 JC
 JC
 JC
 bV
-vV
-vV
-Kh
-ai
-zD
-fQ
-bq
-cf
-Kh
-cO
-cX
-dm
-dy
-bR
-ab
-ab
-ab
-eA
-Kh
-vV
-vV
-vV
+hd
+hf
+hh
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -32817,106 +33424,106 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-bV
-vV
-vV
-Kh
+aA
+aA
+aY
+ag
+bH
+bF
+bF
+aL
+cH
 bJ
-zD
-bd
-bV
-bV
-Kh
-Kh
-bx
-bx
-dz
+aB
+dF
 dM
-aZ
+cw
+df
+df
+df
+df
+df
+df
+MZ
+fM
+fW
 bV
-er
-bV
-Kh
-Kh
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
 bV
-bp
-dc
-cx
 bV
+bV
+bV
+bV
+bV
+bV
+dX
+fN
+fX
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -33074,106 +33681,106 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+aB
+aP
+aZ
+bH
+ah
+ao
+bT
+bA
+bF
+ah
+bI
+su
+cm
+dX
+eG
+eG
+eG
+eG
+eG
+eG
+oY
+df
+MZ
 bV
-vV
-vV
-Kh
-aj
-Sq
-VQ
-uA
-wN
-VQ
-Kh
-cY
-dn
-dn
-Kh
-ea
-Kh
-EK
-EK
-EK
-Kh
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
 bV
-bp
-dc
-cx
+eQ
 bV
+fo
+df
+df
+df
+wB
+df
+fp
+eG
+gc
+bV
+bV
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -33331,106 +33938,106 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-aW
-Kh
-Kh
-IQ
-bW
+aB
+aQ
+bA
+ah
+bL
+aA
+aB
+aA
+bh
+cR
+aB
+cf
+dN
+dY
+dg
+dg
+ej
+dg
+fi
+eG
+eG
+fN
+fX
 bV
-wN
-VQ
-Kh
-cZ
-cZ
-cZ
-cZ
-eb
-co
-zD
-zD
-zD
-eL
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
+fo
+df
+gi
+fp
+eG
+eG
+eG
+eG
+eG
+eG
+eG
+oY
+gi
+MZ
 bV
-bp
-dc
-cx
 bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -33588,106 +34195,106 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-Kh
-bY
-zD
-am
-Kh
-tG
-Kh
-Kh
-Sn
-ad
-Kh
-da
-do
-dA
-dN
-ec
-Kh
-es
-br
+aA
+aA
+aA
+bI
+aA
+aA
+JC
+aA
+aA
+aA
+aA
+dG
+cn
+cy
 eH
-Kh
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
+du
+cn
+ez
+fj
+dg
+Mx
+eG
+oY
+wB
+fp
+eG
+fN
+eG
+eG
+fY
+dg
+dg
+dg
+fi
+eG
+eG
+fN
+oY
+MZ
 bV
-cQ
-eB
-eI
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -33844,107 +34451,107 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-Ox
-MI
-EK
-EK
-EK
-ak
-EZ
-aT
-Kh
-Kh
-Kh
-Kh
-db
-dp
-dB
-dO
-db
-Kh
-Kh
-Kh
-Kh
-Kh
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
+aA
+aA
+aR
+bB
+bB
+al
+bP
+bP
+bP
+cI
+br
+aA
+bz
+bz
+dZ
+dZ
+dZ
+bz
+bz
+fk
+hU
+oc
+eG
+eG
+eG
+eG
+eG
+fY
+gn
+dg
+fD
+gI
+gS
+gX
+fj
+dg
+Mx
+eG
+eG
+gc
 bV
-fr
-fs
-ft
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -34101,107 +34708,107 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-aF
-aQ
-fQ
-IQ
-IQ
-Sv
+aB
+aH
+Ox
+ab
+aK
+aj
+sA
 bP
-EZ
-wB
-cm
-cD
-cP
-bw
-bw
-bw
-bw
-bw
-bw
-cp
-al
 bb
+Qw
+aK
+by
+bz
+dO
+cz
+Sv
+eV
+ek
+bz
+bz
+GY
+oc
+eG
+eG
+fY
+dg
+dg
+fD
+cn
+cn
+cn
+gJ
+gJ
+gJ
+cn
+cn
+fj
+fi
+eG
+gc
 bV
-vV
-vV
 bV
-bV
-bV
-bV
-bV
-bV
-bV
-cQ
-eB
-eI
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -34358,109 +34965,109 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-aD
-wN
-fQ
-jU
-ac
-ae
-Xv
-IQ
-jU
-Ht
-wN
-af
-cQ
-dc
-dc
-dc
-dc
-dc
-dc
-cq
-bw
-cp
+aB
+aI
+aK
+aK
+aK
+aK
+bM
+at
+aZ
+aK
+cS
+cZ
+bz
+dH
+tl
+dh
+dv
+dH
+EZ
+dZ
+iF
+fj
+fi
+eG
+gb
+cn
+cn
+cn
+cn
+JC
+eR
+JC
+JC
+JC
+eR
+cn
+cn
+oc
+eG
+oY
+MZ
 bV
-bV
-eQ
-bV
-bo
-bw
-bw
-bw
-bw
-bw
-cd
-dc
-cx
-bV
-bV
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -34614,111 +35221,111 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-al
-Xv
-jU
-aT
-Kh
-wB
-Kh
-sA
-aw
-wB
-cn
-cE
-cR
-bx
-bx
-dC
-bx
-bZ
-dc
-dc
-eB
+aA
+aA
+aJ
+aK
+aK
+aK
+bH
+ah
+bU
+aZ
+aK
+bH
+bN
+bz
+co
+tl
 eI
+dv
+dH
+wN
+dZ
+HE
+Nl
+oc
+eG
+gc
+cn
+eR
+JC
+eR
+JC
+gg
+gg
+gg
+gg
+eR
+JC
+cn
+oc
+eG
+eG
+gc
 bV
-bo
-bw
-eT
-cd
-dc
-dc
-dc
-dc
-dc
-dc
-dc
-cq
-eT
-cp
-bV
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -34871,111 +35478,111 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-Kh
-Ht
-Kh
-Kh
-JC
-Kh
-Kh
-Kh
-Kh
-iF
-Kh
-bs
-by
-bH
-Kh
+aB
+aC
+Ox
+aS
+bC
+ai
+bM
+ap
+au
+Ox
+aK
+SC
+bz
+bz
 dP
-Rs
-bx
-et
-dc
-cq
-bw
-cd
-dc
-eB
-dc
-dc
-eJ
-bx
-bx
-bx
-bZ
-dc
-dc
-eB
-cq
-cp
+dH
+di
+dH
+Tz
+Um
+bz
+bz
+cn
+dX
+fN
+fX
+cn
+gg
+gj
+gj
+gg
+gg
+gK
+gT
+gg
+gg
+eR
+cn
+fj
+fi
+eG
+gc
 bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -35128,111 +35735,111 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-aY
-EK
-EK
-tE
-bV
-bV
-bV
-dD
-SL
-Kh
-Kh
-Kh
-an
-an
-an
-Kh
-Kh
-ca
-el
-bp
-dc
-dc
-dc
-dc
-dc
-eJ
+aB
+aD
+aK
+aS
+ac
+ai
+bM
+bQ
+Ox
+aK
+aK
+bM
+bz
+cg
+dH
+dH
+dj
 eW
-bx
-cu
-fc
-fh
-fm
-Rs
-bx
-et
-dc
-dc
-cx
-bV
+el
+fa
+fl
+dZ
+Od
+oc
+eG
+gc
+gd
+gg
+gk
+go
+gg
+gD
+gD
+gD
+gY
+gg
+JC
+gJ
+gX
+oc
+eG
+oY
+gi
+hk
+gi
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -35385,112 +35992,112 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
 aB
-cw
+aE
 aK
-zD
-Um
-vs
-bV
-jx
-TA
-zD
-Bs
-Kh
-cF
-cS
-dd
-dq
-dE
-Kh
-Kh
-cg
-bp
+aT
+bD
+ai
+am
+RA
+av
+aK
+bi
+bM
+SL
+dH
+dH
+Sm
+eK
+dw
+em
+dH
+dH
+dZ
+fy
+oc
+eG
+gc
+ge
+gh
+gl
+gp
+gy
+gl
+gL
+gl
+gZ
+gg
+JC
+gJ
+hi
+oc
+eG
+eG
+fN
+hf
+fN
 dc
 dc
-eJ
-bx
-bx
-cu
-Kh
-Kh
-Kh
-wB
-wB
-wB
-Kh
-Kh
-Rs
-bZ
 dc
-cx
-bV
-bV
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+dc
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -35642,112 +36249,112 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-aE
-zD
-zD
-zD
-zD
-VQ
-at
-wN
-zD
-CB
-GY
-Kh
-HE
-ap
+aB
+aF
+aK
+aS
+ad
+ai
+bM
+aq
+aL
+aK
+aK
+bM
 bz
-aG
-HE
-dQ
-an
 ch
-Rs
-bZ
-dc
-cx
-Kh
-Kh
-Kh
-Kh
+uA
+Sn
+TZ
+eX
+en
+VQ
+fm
+dZ
+fz
+oc
+eG
+gc
+gf
+gg
+gm
+gq
+gg
+gE
+gE
+gE
+ha
+gg
 JC
-eR
+gJ
+hj
+oc
+eG
+fY
+gn
+hl
+gn
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
+bx
 JC
 JC
 JC
-eR
-Kh
-Kh
-bp
-dc
-cq
-cp
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -35899,112 +36506,112 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-aJ
-zD
-zD
-zD
-fQ
-jU
-RZ
-wN
-zD
-fQ
-fb
-Kh
-HE
-ap
-bA
+aB
 aG
-HE
-dR
-an
-ci
-cr
-bp
-dc
-eM
-Kh
+aL
+aS
+bE
+ai
+bM
+ap
+bW
+aL
+aK
+SC
+bz
+bz
+dQ
+dQ
+dQ
+dQ
+eo
+dQ
+bz
+bz
+cn
+dX
+fN
+fX
+cn
+gg
+gj
+gj
+gg
+gg
+gM
+gU
+gg
+gg
 eR
-JC
-eR
-JC
-Kh
-Kh
-Kh
-Kh
-eR
-JC
-Kh
-bp
-dc
-dc
-cx
+cn
+fo
+fp
+eG
+gc
 bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -36156,118 +36763,118 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-BU
-cw
-nQ
-Tz
-MZ
-VQ
-Ed
-oY
-cw
-zD
-bd
-Kh
-Kh
-cG
-HE
-de
-HE
-dF
-dS
-Kh
-Kh
-Kh
-cQ
-eB
-eI
-Kh
-Kh
-wB
-wB
-Kh
-Kh
-fd
-fj
-Kh
-Kh
+aA
+aA
+aM
+aK
+aK
+aK
+aj
+bJ
+aw
+aZ
+aK
+aj
+al
+bz
+TA
+dQ
+dk
+dx
+dH
+fb
+dZ
+Wx
+fA
+oc
+eG
+gc
+cn
 eR
-Kh
-Rs
-bZ
-dc
-cx
+JC
+eR
+JC
+gg
+gg
+gg
+gg
+eR
+JC
+cn
+oc
+eG
+eG
+gc
 bV
-bV
-bV
-bV
-bV
-bV
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -36414,6 +37021,48 @@ JC
 JC
 JC
 JC
+aB
+aN
+aK
+aK
+aK
+aK
+bM
+bX
+aZ
+aK
+bs
+dA
+bz
+dR
+eA
+eL
+eL
+ep
+fc
+dZ
+Xv
+fo
+fp
+eG
+gc
+cn
+cn
+cn
+cn
+JC
+eR
+JC
+JC
+JC
+eR
+cn
+cn
+oc
+eG
+fY
+fD
+bV
 JC
 JC
 JC
@@ -36476,55 +37125,13 @@ JC
 JC
 JC
 JC
-wB
-wT
-zD
-nQ
-Je
-MZ
-VQ
-fi
-cw
-zD
-zD
-VQ
-Kh
-cv
-HE
-HE
-bB
-aH
-aO
-dT
-ed
-an
-bl
-bp
-dc
-cx
-eN
-Kh
-eU
-eX
-Kh
-eN
-eN
-eN
-fn
-Kh
 JC
-wB
-fm
-bp
-dc
-cq
-eT
-fw
-eT
-bw
-bw
-bw
-bw
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -36671,117 +37278,117 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-aA
-zD
-nH
-ZY
+aB
+aO
+aL
+ae
+aK
+bH
+bR
+bP
+cC
+cJ
+aK
+ca
+bz
+cr
+dQ
+dl
+eL
+fQ
+bz
+bz
+IQ
+oc
+eG
+eG
+oY
+df
+df
 MZ
-aU
-BF
-Mx
-zD
-bv
-VQ
-Sm
-HE
-HE
-cT
-bC
-aI
-aP
-HE
-HE
-an
-bm
-bp
-dc
-cx
-eO
-eS
-eO
-eY
-fa
-eO
-fe
-eO
+cn
+cn
+cn
+gJ
+gJ
+gJ
+cn
+cn
 fo
-Kh
+fp
+eG
+gc
+bV
+bV
 JC
-wB
-fu
-bp
-dc
-dc
-eB
-fs
-eB
-dc
-dc
-dc
-dc
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -36928,117 +37535,117 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-Wx
-zD
-nQ
-tl
+aA
+aA
+aU
+bF
+bF
+bN
+bP
+bP
+bP
+bj
+cT
+aA
+bz
+bz
+bz
+dZ
+dZ
+bz
+bz
+fn
+jU
+oc
+eG
+eG
+eG
+eG
+eG
+oY
+gi
+df
 MZ
-VQ
-hU
-Sv
-zD
-zD
-VQ
-Kh
-cy
-cH
-cU
-bD
-bI
-aP
-dU
-ee
-an
-bn
-bp
-dc
-cx
-eP
-Kh
-eV
-eZ
-Kh
-eP
-eP
-eP
-fp
-Kh
+gN
+gV
+hb
+fo
+df
+fB
+eG
+eG
+gc
+bV
 JC
-wB
-fv
-bp
-dc
-eJ
-eW
-fx
-eW
-bx
-bx
-bx
-bx
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -37186,116 +37793,116 @@ JC
 JC
 JC
 JC
+aA
+aA
+aA
+bI
+aA
+aA
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-aC
-Sv
-nQ
-ah
-MZ
-VQ
-Ed
-kX
-Sv
-zD
-bd
-Kh
-Kh
+aA
+aA
+aA
+aA
+dI
+cn
+da
+eM
+eY
+cn
+ez
+fo
+df
+fB
+eG
+fY
+ej
+fi
+eG
+fN
+eG
+eG
+oY
+df
+df
+df
+fp
+eG
+eG
+fN
+fY
+fD
 bV
-bV
-bV
-bV
-dG
-bV
-Kh
-Kh
-Kh
-cQ
-eB
-eI
-Kh
-Kh
-wB
-wB
-Kh
-Kh
-ff
-fk
-Kh
-Kh
-eR
-Kh
-bo
-cd
-dc
-cx
-bV
-bV
-bV
-bV
-bV
-bV
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -37443,110 +38050,110 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-aJ
-zD
-zD
-zD
-Um
-EZ
-Qw
-wN
-zD
-Um
+aB
+aV
+af
+bJ
+bL
+aA
+aB
+aA
+cK
 tE
-Kh
-bi
-bV
+aB
+dF
+dM
+cw
 df
-dr
-HE
-dV
-an
-cj
-cs
-bp
-dc
-eM
-Kh
-eR
-JC
-eR
-JC
-Kh
-Kh
-Kh
-Kh
-eR
-JC
-Kh
-bp
-dc
-dc
-cx
+df
+wB
+df
+fp
+eG
+eG
+fN
+fX
 bV
+fj
+dg
+gn
+fi
+eG
+eG
+eG
+eG
+eG
+eG
+eG
+fY
+gn
+fD
+bV
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -37700,110 +38307,110 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-aL
-zD
-zD
-zD
-zD
-VQ
-ay
-wN
-zD
-wx
-be
-Kh
-bj
-as
-aR
-aR
-dH
-dW
-an
-ck
-bo
-cd
-dc
-cx
-Kh
-Kh
-Kh
-Kh
-JC
-eR
-JC
-JC
-JC
-eR
-Kh
-Kh
-bp
-dc
-eJ
-cu
+aB
+aW
+aZ
+aj
+bJ
+ar
+ax
+af
+bB
+bJ
+bI
+su
+cm
+dX
+eG
+eG
+eG
+eG
+eG
+eG
+fC
+dg
+fD
 bV
+bV
+eQ
+bV
+fj
+dg
+dg
+dg
+ej
+dg
+fi
+eG
+gc
+bV
+bV
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -37957,110 +38564,110 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-TZ
-Sv
-aM
-zD
-fQ
+aA
+aA
+bG
+bK
+aj
+bB
+bB
+Ox
+RZ
+ah
+aB
+cf
+dN
+dY
+dg
+dg
+dg
+dg
+dg
+dg
+fD
+fO
+fZ
+bV
+vV
+vV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
 dX
+fN
+fX
 bV
-SC
-oc
-zD
-Od
-Kh
-bk
-bV
-bF
-aR
-dI
-Kh
-Kh
-cl
-bp
-dc
-dc
-cq
-bw
-bw
-cp
-Kh
-Kh
-Kh
-wB
-wB
-wB
-Kh
-Kh
-bo
-cd
-dc
-cx
-bV
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -38215,108 +38822,108 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-UP
-IQ
-IQ
-fb
-bV
-bV
-bV
-WN
-su
-Kh
-Kh
-Kh
-Kh
-an
-an
-Kh
-Kh
-cc
-em
-bp
-dc
-dc
-dc
-dc
-dc
-cq
-eT
-bw
-cp
-fg
-fl
+aB
+aX
+bA
+bF
+bF
+bF
+bc
+ah
+bL
+bY
+bY
+bY
+bY
+dm
+dy
+eq
+dy
 fq
-bo
-bw
-eu
-dc
-dc
-cx
+dp
+dp
+dp
+dp
 bV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bV
+hd
+hf
+hh
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -38472,108 +39079,108 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-Kh
-Ht
-Kh
-Kh
-JC
-Kh
-Kh
-Kh
-Kh
-bg
-Kh
-bt
-bG
-bK
-Kh
-dP
-bo
-bw
-eu
-dc
-eJ
-bx
-bZ
-dc
-eB
-dc
-dc
-cq
-bw
-bw
-bw
-cd
-dc
-dc
-eB
-eJ
-cu
+aA
+aA
+aA
+an
+aK
+as
+bY
+bk
+bY
+bY
+ci
+dS
+bY
+eN
+eZ
+er
+eN
+eN
+dp
+fE
+fP
+dp
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 bV
+dX
+fN
+fX
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -38731,106 +39338,106 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-aX
-MI
-EZ
-aT
-Kh
-wB
-Kh
-RA
-ax
-wB
-cm
-cD
-cP
-bw
-bw
+aA
+aA
+bO
+bY
+bY
+cL
+bt
+bt
 dJ
-bw
-cd
-dc
-dc
-eB
-eI
-bV
-Rs
-bx
-eW
-bZ
-dc
-dc
-dc
-dc
-dc
-dc
-dc
-eJ
-eW
-cu
+cs
+bY
+dn
+dz
+UP
+vs
+fr
+Ht
+UP
+fR
+dp
+vV
+vV
+vV
+vV
 bV
 bV
+vV
+bV
+bV
+bV
+bp
+dc
+cx
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -38988,105 +39595,105 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
+bV
+vV
+vV
+bY
+cD
 bl
-wN
-Um
-EZ
-bE
-ag
-MI
-EK
-EZ
-Ht
-wN
-af
-cQ
-dc
-dc
-dc
-dc
-dc
-dc
-ct
-bx
-cu
+cU
+dB
+cj
+dT
+bY
+eO
+UP
+UP
+vs
+fs
+ZY
+UP
+fS
+dp
+vV
+vV
+vV
 bV
 bV
-eQ
+gr
+zD
+gr
+gr
 bV
-Rs
-bx
-bx
-bx
-bx
-bx
-bZ
+bp
 dc
 cx
 bV
 bV
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -39245,103 +39852,103 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-aN
-aS
-Um
-EK
-EK
-cw
-aq
-jU
-wB
-cn
-cE
-cR
-bx
-bx
-bx
-bx
-bx
-bx
-cu
-aw
-eK
 bV
 vV
 vV
+bY
+bd
+bl
+bu
+cU
+cj
+ct
+bY
+do
+ea
+UP
+vs
+ft
+Ht
+fF
+fT
+dp
+vV
+vV
+vV
 bV
+gr
+zD
+zD
+zD
+zD
 bV
+bp
+dc
+cq
+cp
 bV
-bV
-bV
-bV
-bV
-cQ
-eB
-eI
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -39502,103 +40109,103 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-wB
-Ox
-Xv
-IQ
-IQ
-IQ
-bL
-jU
-aT
-Kh
-Kh
-Kh
-Kh
-dg
-zD
+bV
+vV
+vV
 bY
+cE
+cM
+cV
+cb
+dK
+dU
+bY
+eP
+UP
+UP
+UP
+fu
+UP
+UP
+fU
+dp
+vV
+vV
+vV
+bV
+gr
+gz
 zD
-aV
-Kh
-Kh
-Kh
-Kh
+zD
+zD
+gO
+bp
+dc
+dc
+cx
 bV
-vV
-vV
 JC
 JC
 JC
 JC
 JC
 JC
-bV
-fr
-fs
-ft
-bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -39758,104 +40365,104 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-Kh
-aV
+bV
+bV
+vV
+vV
+bY
+bY
+bm
+tG
+dC
+ck
+bY
+bY
+dp
+eb
+es
+wT
+fv
+fv
+fG
+dp
+dp
+vV
+vV
+vV
+bV
+gr
+gr
+gr
 zD
-am
-Kh
-ar
-Kh
-Kh
-cz
-cI
-Kh
-wB
-ds
-dK
-wB
-wB
-Kh
-ev
-eC
-Kh
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
+gr
 bV
-cQ
-eB
-eI
+Rs
+bZ
+dc
+cx
 bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -40015,104 +40622,104 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-Kh
-Kh
-aW
-Kh
-Kh
-bS
-EK
-EK
-cA
-cJ
-Kh
-dh
-dt
-zD
-nQ
-ef
-aP
-zD
-eD
-Kh
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
 bV
+vV
+vV
+vV
+vV
+bY
+bY
+bY
+bY
+dL
+bY
+vV
+dp
+dp
+dp
+dp
+dp
+kX
+dp
+dp
+vV
+vV
+vV
+vV
+bV
+gs
+gs
+gs
+gO
+bV
+bV
+zD
 bp
 dc
 cx
 bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -40272,104 +40879,104 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 bV
 vV
 vV
-Kh
-bM
-bT
-zD
-aK
-VQ
-cK
-Kh
-Wx
-zD
-zD
-nQ
-eg
-en
-zD
-eE
-Kh
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bV
+gt
+gt
+gt
+gP
+EK
+bV
 bV
 bp
 dc
 cx
 bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -40529,104 +41136,104 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 bV
 vV
 vV
-Kh
-bN
-bT
-az
-zD
-VQ
-cL
-Kh
-di
-du
-zD
-nQ
-eh
-aP
-Sq
-eF
-Kh
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 bV
-bp
+gu
+gA
+gF
+gQ
+zD
+hc
+he
+hg
 dc
 cx
 bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -40786,104 +41393,104 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
 bV
 vV
 vV
-Kh
-bO
-bU
-ba
-IQ
-jU
-cL
-Kh
-dj
-zD
-zD
-zD
-ei
-zD
-zD
-eG
-Kh
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
 bV
-bp
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+vV
+vV
+bV
+gv
+gB
+gG
+gQ
+zD
+hc
+he
+hg
 dc
 cx
 bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -41045,56 +41652,14 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
 JC
 JC
 JC
@@ -41107,40 +41672,82 @@ JC
 JC
 JC
 bV
+vV
+vV
 bV
-vV
-vV
-Kh
-Kh
-au
-bc
-bu
-cB
-Kh
-Kh
-Kh
-dv
-dL
-dY
-IQ
-IQ
-ew
-Kh
-Kh
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-bV
-bp
+gw
+gC
+gH
+gQ
+zD
+hc
+he
+hg
 dc
 cx
 bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -41321,83 +41928,83 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 bV
 vV
 vV
-vV
-vV
-Kh
-Kh
-Kh
-Kh
-cC
-Kh
-vV
-Kh
-Kh
-Kh
-Kh
-Kh
-eo
-Kh
-Kh
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+gx
+gx
+gx
+gR
+gW
+bV
 bV
 bp
 dc
 cx
 bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -41578,71 +42185,71 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 bV
 vV
 vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+JC
+bp
+dc
+cx
+bV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -41877,28 +42484,28 @@ JC
 JC
 JC
 JC
-bV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
+JC
 JC
 JC
 JC
@@ -42134,9 +42741,9 @@ JC
 JC
 JC
 JC
-bV
-bV
-bV
+JC
+JC
+JC
 JC
 JC
 JC
@@ -42393,7 +43000,7 @@ JC
 JC
 JC
 JC
-bV
+JC
 JC
 JC
 JC
