@@ -692,8 +692,7 @@
 	dir = 8
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "bi" = (
@@ -1002,8 +1001,7 @@
 "bL" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "bM" = (
@@ -1026,8 +1024,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "bP" = (
@@ -1082,8 +1079,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "bV" = (
@@ -1178,9 +1174,11 @@
 /area/space)
 "ce" = (
 /obj/structure/closet/blueshield,
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "outline_bold"
+	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
 /area/station/security/blueshield)
 "cf" = (
@@ -1253,9 +1251,11 @@
 /obj/structure/closet/secure_closet/blueshield,
 /obj/item/weapon/storage/firstaid/adv,
 /obj/item/weapon/storage/firstaid/small_firstaid_kit/civilian/strike,
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "outline_bold"
+	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
 /area/station/security/blueshield)
 "cm" = (
@@ -1465,8 +1465,7 @@
 	dir = 4
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "cL" = (
@@ -1543,8 +1542,7 @@
 	pixel_x = -28
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "cQ" = (
@@ -1910,7 +1908,7 @@
 /area/station/bridge/captain_quarters)
 "dy" = (
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "vaultfull"
 	},
 /area/station/hallway/primary/central)
 "dz" = (
@@ -2050,8 +2048,7 @@
 	pixel_x = 28
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "dK" = (
@@ -2621,8 +2618,7 @@
 	pixel_x = -28
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "eC" = (
@@ -2699,8 +2695,7 @@
 	pixel_x = 28
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/bridge)
 "eL" = (
@@ -3049,8 +3044,7 @@
 "fq" = (
 /obj/structure/table/glass,
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
 /area/station/hallway/primary/central)
 "fr" = (
@@ -3141,8 +3135,7 @@
 	dir = 4
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/hallway/primary/central)
 "fA" = (
@@ -3383,7 +3376,7 @@
 "fW" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "vaultfull"
 	},
 /area/station/hallway/primary/central)
 "fX" = (
@@ -3401,7 +3394,7 @@
 "fZ" = (
 /obj/machinery/vending/donut,
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "vaultfull"
 	},
 /area/station/hallway/primary/central)
 "ga" = (
@@ -3602,65 +3595,77 @@
 /turf/simulated/floor/bluegrid,
 /area/station/bridge/teleporter)
 "gs" = (
-/obj/machinery/door/firedoor,
-/obj/structure/window/fulltile/reinforced{
-	grilled = 1;
-	icon_state = "gr_window_reinforced"
+/obj/structure/table/reinforced,
+/obj/item/weapon/storage/briefcase/inflatable{
+	pixel_y = 8
 	},
-/obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "gateway_blast";
-	name = "Gateway Chamber Blast Doors";
-	opacity = 0
+/obj/item/weapon/storage/briefcase/inflatable{
+	pixel_y = 4
 	},
-/turf/simulated/floor/plating,
-/area/space)
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkyellow"
+	},
+/area/station/ai_monitored/eva)
 "gt" = (
-/obj/effect/decal/turf_decal{
-	dir = 8;
-	icon_state = "warn"
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gu" = (
-/obj/machinery/gateway{
-	dir = 9
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "vault"
+	dir = 4;
+	icon_state = "darkblue"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gv" = (
-/obj/machinery/gateway{
-	dir = 1
+/obj/machinery/door/airlock/medical/glass{
+	name = "Medical Hardsuits";
+	req_access = list(5)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "bluefull"
+	},
+/area/station/ai_monitored/eva)
+"gw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
 	},
 /turf/simulated/floor{
 	dir = 8;
-	icon_state = "vault"
+	icon_state = "whiteblue"
 	},
-/area/space)
-"gw" = (
-/obj/machinery/gateway{
-	dir = 5
-	},
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "vault"
-	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gx" = (
-/obj/effect/decal/turf_decal{
-	dir = 4;
-	icon_state = "warn"
+/obj/structure/stool,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
 	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "white"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gy" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Teleport Access";
@@ -3680,37 +3685,39 @@
 /turf/simulated/floor/plating,
 /area/station/bridge/teleporter)
 "gz" = (
-/obj/structure/stool/bed/chair/office/light{
-	dir = 4
-	},
+/obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor{
-	icon_state = "dark"
+	dir = 4;
+	icon_state = "whiteblue"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gA" = (
-/obj/machinery/gateway{
-	dir = 8
-	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/space)
+/turf/simulated/wall,
+/area/station/ai_monitored/eva)
 "gB" = (
-/obj/machinery/gateway/center/station,
-/turf/simulated/floor{
-	icon_state = "dark"
+/obj/machinery/door/airlock/maintenance{
+	name = "E.V.A.";
+	req_one_access = list(1,5,11,18,24)
 	},
-/area/space)
+/obj/structure/cable/blue{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating,
+/area/station/ai_monitored/eva)
 "gC" = (
-/obj/machinery/gateway{
-	dir = 4
+/obj/structure/closet/secure_closet/personal,
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+	dir = 1;
+	icon_state = "yellow"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gD" = (
 /turf/simulated/floor{
 	dir = 6;
@@ -3724,30 +3731,51 @@
 	},
 /area/station/bridge/nuke_storage)
 "gF" = (
-/obj/machinery/gateway{
-	dir = 10
-	},
+/obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "vault"
+	dir = 5;
+	icon_state = "yellow"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gG" = (
-/obj/machinery/gateway,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile{
+	grilled = 1;
+	icon_state = "gr_window"
 	},
-/area/space)
+/turf/simulated/floor/plating,
+/area/station/ai_monitored/eva)
 "gH" = (
-/obj/machinery/gateway{
-	dir = 6
+/obj/structure/table/reinforced,
+/obj/item/clothing/head/welding{
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/belt/utility,
+/obj/item/device/gps/engineering{
+	pixel_x = -3;
+	pixel_y = -6
+	},
+/obj/item/device/gps/engineering{
+	pixel_x = 3;
+	pixel_y = -11
+	},
+/obj/machinery/power/apc/largecell{
+	dir = 1;
+	name = "largecell apc top";
+	pixel_y = 28
+	},
+/obj/structure/cable/blue{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/light/smart{
+	dir = 1
 	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "vault"
+	dir = 9;
+	icon_state = "darkblue"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gI" = (
 /obj/structure/cable/blue{
 	d1 = 1;
@@ -3769,15 +3797,18 @@
 /turf/simulated/floor/plating,
 /area/station/hallway/primary/central)
 "gK" = (
-/obj/structure/closet/crate{
-	name = "Gold Crate"
+/obj/structure/cable/blue{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
-/obj/item/weapon/storage/belt/champion,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor{
 	dir = 1;
-	icon_state = "vault"
+	icon_state = "darkblue"
 	},
-/area/station/bridge/nuke_storage)
+/area/station/ai_monitored/eva)
 "gL" = (
 /obj/machinery/keycard_auth{
 	pixel_y = -28
@@ -3791,12 +3822,15 @@
 	},
 /area/station/bridge)
 "gM" = (
-/obj/machinery/computer/secure_data/detective_computer,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "vault"
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/requests_console/eva{
+	pixel_y = 28
 	},
-/area/station/bridge/nuke_storage)
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
 "gN" = (
 /obj/machinery/computer/prisoner{
 	dir = 8
@@ -3812,42 +3846,44 @@
 	},
 /area/station/bridge)
 "gO" = (
-/obj/machinery/door/airlock/command{
-	name = "Gateway Access";
-	req_access = list(62)
+/obj/structure/rack,
+/obj/item/clothing/suit/space/rig/medical,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/head/helmet/space/rig/medical,
+/obj/item/clothing/mask/breath,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "whiteblue"
+	},
+/area/station/ai_monitored/eva)
+"gP" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/rig/medical,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/head/helmet/space/rig/medical,
+/obj/item/clothing/mask/breath,
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	dir = 1;
+	icon_state = "whiteblue"
 	},
-/area/space)
-"gP" = (
-/obj/effect/decal/turf_decal{
-	dir = 5;
-	icon_state = "warn"
+/area/station/ai_monitored/eva)
+"gQ" = (
+/turf/simulated/wall/r_wall,
+/area/station/gateway)
+"gR" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = 22
 	},
 /turf/simulated/floor{
 	dir = 8;
-	icon_state = "darkblue"
+	icon_state = "yellow"
 	},
-/area/space)
-"gQ" = (
-/obj/effect/decal/turf_decal{
-	icon_state = "warn"
-	},
-/turf/simulated/floor{
-	icon_state = "dark"
-	},
-/area/space)
-"gR" = (
-/obj/effect/decal/turf_decal{
-	dir = 9;
-	icon_state = "warn"
-	},
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
-	},
-/area/space)
+/area/station/ai_monitored/eva)
 "gS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3897,12 +3933,9 @@
 	},
 /area/station/security/blueshield)
 "gW" = (
-/obj/structure/table,
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
-	},
-/area/space)
+/obj/structure/stool,
+/turf/simulated/floor,
+/area/station/ai_monitored/eva)
 "gX" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Bridge";
@@ -3932,25 +3965,13 @@
 	},
 /area/station/bridge)
 "gY" = (
-/obj/structure/safe,
-/obj/item/stack/sheet/mineral/gold{
-	pixel_x = -1;
-	pixel_y = 5
-	},
-/obj/item/stack/sheet/mineral/gold{
-	pixel_y = 2
-	},
-/obj/item/stack/sheet/mineral/gold{
-	pixel_x = 1;
-	pixel_y = -2
-	},
-/obj/item/clothing/under/color/yellow,
-/obj/item/toy/katana,
+/obj/structure/stool,
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+	dir = 4;
+	icon_state = "yellow"
 	},
-/area/station/bridge/nuke_storage)
+/area/station/ai_monitored/eva)
 "gZ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/fulltile/reinforced{
@@ -3971,34 +3992,16 @@
 /turf/simulated/floor/plating,
 /area/station/bridge)
 "ha" = (
-/obj/item/weapon/coin/silver{
-	pixel_x = 7;
-	pixel_y = 12
+/obj/machinery/gateway{
+	dir = 9
 	},
-/obj/item/weapon/coin/silver{
-	pixel_x = 12;
-	pixel_y = 7
-	},
-/obj/item/weapon/coin/silver{
-	pixel_x = 4;
-	pixel_y = 8
-	},
-/obj/item/weapon/coin/silver{
-	pixel_x = -6;
-	pixel_y = 5
-	},
-/obj/item/weapon/coin/silver{
-	pixel_x = 5;
-	pixel_y = -8
-	},
-/obj/structure/closet/crate{
-	name = "Silver Crate"
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "bot_right"
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
-/area/station/bridge/nuke_storage)
+/area/station/gateway)
 "hb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -4008,14 +4011,19 @@
 	},
 /area/station/security/blueshield)
 "hc" = (
-/obj/effect/decal/turf_decal/alpha/yellow{
-	dir = 1;
-	icon_state = "loadingarea"
+/obj/machinery/gateway{
+	dir = 1
+	},
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "bot"
+	},
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/station/gateway)
 "hd" = (
 /obj/machinery/door/airlock/glass{
 	name = "Central Access"
@@ -4026,17 +4034,16 @@
 	},
 /area/station/hallway/primary/central)
 "he" = (
-/obj/effect/decal/turf_decal/alpha/yellow{
-	icon_state = "delivery"
+/obj/machinery/gateway{
+	dir = 5
 	},
-/obj/machinery/door/poddoor/shutters{
-	id = "Gateway_shutters";
-	name = "Gateway Shutters"
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "bot_left"
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/space)
+/area/station/gateway)
 "hf" = (
 /obj/machinery/door/airlock/glass{
 	name = "Central Access"
@@ -4187,19 +4194,19 @@
 	},
 /area/station/hallway/primary/central)
 "hs" = (
-/obj/effect/decal/turf_decal/alpha/black{
-	dir = 8;
-	icon_state = "arrow"
-	},
-/obj/effect/decal/turf_decal/alpha/yellow{
-	dir = 8;
-	icon_state = "loadingarea"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/effect/decal/turf_decal/alpha/yellow{
+	dir = 8;
+	icon_state = "loadingarea"
+	},
+/obj/effect/decal/turf_decal/alpha/black{
+	dir = 8;
+	icon_state = "arrow"
 	},
 /turf/simulated/floor,
 /area/station/hallway/primary/central)
@@ -4394,8 +4401,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
 /area/station/hallway/primary/central)
 "hH" = (
@@ -4970,8 +4976,7 @@
 	dir = 4
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
 /area/station/hallway/primary/central)
 "iv" = (
@@ -5036,7 +5041,7 @@
 	pixel_x = 28
 	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "vaultfull"
 	},
 /area/station/hallway/primary/central)
 "iA" = (
@@ -5130,7 +5135,7 @@
 	pixel_x = -28
 	},
 /turf/simulated/floor{
-	icon_state = "dark"
+	icon_state = "vaultfull"
 	},
 /area/station/hallway/primary/central)
 "iH" = (
@@ -5235,19 +5240,19 @@
 	},
 /area/station/hallway/primary/central)
 "iO" = (
-/obj/effect/decal/turf_decal/alpha/black{
-	dir = 4;
-	icon_state = "arrow"
-	},
-/obj/effect/decal/turf_decal/alpha/yellow{
-	dir = 4;
-	icon_state = "loadingarea"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/effect/decal/turf_decal/alpha/yellow{
+	dir = 4;
+	icon_state = "loadingarea"
+	},
+/obj/effect/decal/turf_decal/alpha/black{
+	dir = 4;
+	icon_state = "arrow"
 	},
 /turf/simulated/floor,
 /area/station/hallway/primary/central)
@@ -5715,6 +5720,9 @@
 "jy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "box_white"
+	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -6465,8 +6473,17 @@
 	},
 /area/station/bridge/nuke_storage)
 "kG" = (
-/turf/simulated/wall/r_wall,
-/area/space)
+/obj/effect/decal/turf_decal{
+	dir = 8;
+	icon_state = "warn"
+	},
+/obj/machinery/status_display{
+	pixel_y = 32
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
 "kH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6508,19 +6525,26 @@
 	},
 /area/station/bridge/nuke_storage)
 "kK" = (
-/obj/structure/table,
-/turf/simulated/floor{
-	dir = 1;
-	icon_state = "darkblue"
+/obj/effect/decal/turf_decal{
+	dir = 4;
+	icon_state = "warn"
 	},
-/area/space)
+/obj/machinery/ai_status_display{
+	pixel_y = 32
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
 "kL" = (
-/obj/structure/table,
-/turf/simulated/floor{
-	dir = 5;
-	icon_state = "darkblue"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
 	},
-/area/space)
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "yellow"
+	},
+/area/station/ai_monitored/eva)
 "kM" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
@@ -6596,12 +6620,11 @@
 	},
 /area/station/hallway/primary/central)
 "kT" = (
-/obj/structure/table,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkblue"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
-/area/space)
+/turf/simulated/floor,
+/area/station/ai_monitored/eva)
 "kU" = (
 /obj/machinery/light_switch{
 	pixel_x = -28
@@ -6612,13 +6635,17 @@
 	},
 /area/station/bridge/nuke_storage)
 "kV" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/mob/living/simple_animal/mouse/brown/Tom,
-/turf/simulated/floor{
-	icon_state = "vault"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
-/area/station/bridge/nuke_storage)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "yellow"
+	},
+/area/station/ai_monitored/eva)
 "kW" = (
 /obj/structure/extinguisher_cabinet/highrisk{
 	pixel_x = 28
@@ -6664,21 +6691,20 @@
 	},
 /area/station/bridge/nuke_storage)
 "la" = (
-/obj/machinery/nuclearbomb{
-	nuketype = "NT";
-	r_code = "LOLNO"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Hardsuits";
+	req_one_access = list(11,24)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+	icon_state = "yellowfull"
 	},
-/area/station/bridge/nuke_storage)
+/area/station/ai_monitored/eva)
 "lb" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
@@ -6704,11 +6730,17 @@
 /turf/simulated/floor/grass,
 /area/station/hallway/primary/central)
 "ld" = (
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkblue"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
-/area/space)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkyellow"
+	},
+/area/station/ai_monitored/eva)
 "le" = (
 /obj/machinery/hologram/holopad,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6730,19 +6762,16 @@
 /turf/simulated/floor/grass,
 /area/station/hallway/primary/central)
 "lg" = (
-/obj/structure/closet/secure_closet/freezer/money,
-/obj/machinery/camera{
-	c_tag = "Bridge Vault";
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/alarm{
-	pixel_y = -32
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor{
-	dir = 4;
-	icon_state = "vault"
+	icon_state = "dark"
 	},
-/area/station/bridge/nuke_storage)
+/area/station/ai_monitored/eva)
 "lh" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor{
@@ -6750,15 +6779,11 @@
 	},
 /area/station/bridge/nuke_storage)
 "li" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -22
-	},
 /turf/simulated/floor{
-	dir = 1;
-	icon_state = "vault"
+	dir = 4;
+	icon_state = "darkblue"
 	},
-/area/station/bridge/nuke_storage)
+/area/station/ai_monitored/eva)
 "lj" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -6772,24 +6797,34 @@
 /turf/simulated/floor/grass,
 /area/station/hallway/primary/central)
 "lk" = (
-/obj/structure/table,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/simulated/floor{
 	dir = 10;
-	icon_state = "darkblue"
+	icon_state = "whiteblue"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "ll" = (
-/turf/simulated/floor{
-	icon_state = "darkblue"
+/obj/structure/stool,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
 	},
-/area/space)
+/turf/simulated/floor{
+	icon_state = "whiteblue"
+	},
+/area/station/ai_monitored/eva)
 "lm" = (
-/obj/structure/table,
+/obj/structure/closet/secure_closet/personal,
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = -32
+	},
 /turf/simulated/floor{
 	dir = 6;
-	icon_state = "darkblue"
+	icon_state = "whiteblue"
 	},
-/area/space)
+/area/station/ai_monitored/eva)
 "ln" = (
 /obj/structure/window/thin/reinforced,
 /obj/structure/window/thin/reinforced{
@@ -6804,16 +6839,21 @@
 /turf/simulated/floor/grass,
 /area/station/hallway/primary/central)
 "lo" = (
-/obj/machinery/light/small/emergency,
+/obj/structure/rack,
+/obj/item/weapon/crowbar,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = -24;
+	pixel_y = -4
+	},
 /obj/item/device/radio/intercom{
 	name = "Station Intercom (General)";
-	pixel_y = -32
+	pixel_y = 22
 	},
 /turf/simulated/floor{
-	dir = 8;
-	icon_state = "vault"
+	dir = 1;
+	icon_state = "darkblue"
 	},
-/area/station/bridge/nuke_storage)
+/area/station/gateway)
 "lp" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -7004,6 +7044,1247 @@
 	icon_state = "neutralfull"
 	},
 /area/station/hallway/primary/central)
+"lH" = (
+/obj/structure/table,
+/obj/machinery/door_control{
+	id = "Gateway_shutters";
+	name = "Gateway Shutters";
+	pixel_y = 28;
+	req_access = list(57)
+	},
+/obj/item/weapon/folder/blue{
+	pixel_x = -10;
+	pixel_y = 3
+	},
+/obj/item/weapon/paper/pamphlet{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/machinery/camera{
+	c_tag = "Bridge Gateway Control"
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"lI" = (
+/obj/structure/table,
+/obj/machinery/door_control{
+	id = "gateway_blast";
+	name = "Door Bolt Control";
+	pixel_y = 28;
+	req_access = list(7)
+	},
+/obj/item/device/taperecorder{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/item/device/camera/polar{
+	pixel_x = -11;
+	pixel_y = 2
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"lJ" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "gateway_blast";
+	name = "Gateway Chamber Blast Doors";
+	opacity = 0
+	},
+/obj/structure/cable/blue{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/station/gateway)
+"lK" = (
+/obj/effect/decal/turf_decal{
+	dir = 8;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"lL" = (
+/obj/machinery/gateway{
+	dir = 8
+	},
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "bot"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"lM" = (
+/obj/machinery/gateway/center/station,
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "box_white"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"lN" = (
+/obj/machinery/gateway{
+	dir = 4
+	},
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "bot"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"lO" = (
+/obj/effect/decal/turf_decal{
+	dir = 4;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"lP" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/rig/atmos,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/head/helmet/space/rig/atmos,
+/obj/item/clothing/mask/breath,
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "yellow"
+	},
+/area/station/ai_monitored/eva)
+"lQ" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/rig/engineering,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/head/helmet/space/rig/engineering,
+/obj/item/clothing/mask/breath,
+/obj/machinery/light/small,
+/turf/simulated/floor{
+	icon_state = "yellow"
+	},
+/area/station/ai_monitored/eva)
+"lR" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkyellow"
+	},
+/area/station/ai_monitored/eva)
+"lS" = (
+/obj/machinery/telescience_jammer{
+	radius = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"lT" = (
+/obj/machinery/camera/motion{
+	c_tag = "Bridge EVA East";
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"lU" = (
+/obj/item/weapon/flora/random,
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "apc left";
+	pixel_x = -28
+	},
+/obj/structure/cable/blue{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"lV" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"lW" = (
+/obj/structure/stool/bed/chair/office/light{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"lX" = (
+/obj/structure/table,
+/obj/item/weapon/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/weapon/pen{
+	pixel_y = 6
+	},
+/obj/item/device/assembly/timer{
+	pixel_y = -12
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"lY" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "gateway_blast";
+	name = "Gateway Chamber Blast Doors";
+	opacity = 0
+	},
+/obj/structure/cable/blue{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/blue{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/plating,
+/area/station/gateway)
+"lZ" = (
+/obj/machinery/gateway{
+	dir = 10
+	},
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "bot_left"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"ma" = (
+/obj/machinery/gateway,
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "bot"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mb" = (
+/obj/machinery/gateway{
+	dir = 6
+	},
+/obj/effect/decal/turf_decal/alpha/cyan{
+	icon_state = "bot_right"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mc" = (
+/obj/effect/decal/turf_decal{
+	dir = 4;
+	icon_state = "warn"
+	},
+/obj/machinery/camera{
+	c_tag = "Bridge Gateway";
+	dir = 8
+	},
+/obj/structure/sign/warning/biohazard{
+	pixel_x = 32
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"md" = (
+/obj/machinery/vending/eva,
+/obj/machinery/camera{
+	c_tag = "Bridge EVA West";
+	dir = 4
+	},
+/obj/machinery/alarm{
+	pixel_x = -28;
+	pixel_y = -6
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"me" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkbluecorners"
+	},
+/area/station/ai_monitored/eva)
+"mf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"mg" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkbluecorners"
+	},
+/area/station/ai_monitored/eva)
+"mh" = (
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/structure/rack,
+/obj/machinery/status_display{
+	pixel_y = 32
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"mi" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/rglass{
+	amount = 50
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"mj" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkred"
+	},
+/area/station/ai_monitored/eva)
+"mk" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/turf/simulated/floor/plating,
+/area/station/ai_monitored/eva)
+"ml" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "red"
+	},
+/area/station/ai_monitored/eva)
+"mm" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "red"
+	},
+/area/station/ai_monitored/eva)
+"mn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "caution_white"
+	},
+/turf/simulated/floor{
+	icon_state = "vault"
+	},
+/area/station/bridge/nuke_storage)
+"mo" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Gateway";
+	req_access = list(62)
+	},
+/obj/structure/cable/blue{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/station/gateway)
+"mp" = (
+/obj/structure/cable/blue{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/blue{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"mq" = (
+/obj/machinery/hologram/holopad{
+	pixel_x = 16
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/blue{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mr" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/blue{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"ms" = (
+/obj/structure/table,
+/obj/machinery/cell_charger{
+	pixel_y = 5
+	},
+/obj/item/weapon/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000
+	},
+/obj/structure/cable/blue{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"mt" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile/reinforced{
+	grilled = 1;
+	icon_state = "gr_window_reinforced"
+	},
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "gateway_blast";
+	name = "Gateway Chamber Blast Doors";
+	opacity = 0
+	},
+/obj/structure/cable/blue{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable/blue{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/station/gateway)
+"mu" = (
+/obj/effect/decal/turf_decal{
+	dir = 5;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"mv" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mw" = (
+/obj/effect/decal/turf_decal{
+	dir = 9;
+	icon_state = "warn"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"mx" = (
+/obj/item/device/radio/off{
+	pixel_y = 6
+	},
+/obj/item/device/radio/off{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/device/radio/off{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/device/radio/off,
+/obj/structure/rack,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 22
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/gateway)
+"my" = (
+/obj/structure/rack,
+/obj/item/clothing/shoes/magboots,
+/obj/item/device/suit_cooling_unit,
+/obj/item/weapon/tank/jetpack/carbondioxide,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "blue"
+	},
+/area/station/ai_monitored/eva)
+"mz" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/station/ai_monitored/eva)
+"mA" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "blue"
+	},
+/area/station/ai_monitored/eva)
+"mB" = (
+/obj/structure/dispenser/oxygen,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"mC" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"mD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"mE" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"mF" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"mG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/station/ai_monitored/eva)
+"mH" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Hardsuits";
+	req_access = list(1)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "redfull"
+	},
+/area/station/ai_monitored/eva)
+"mI" = (
+/obj/structure/stool,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "red"
+	},
+/area/station/ai_monitored/eva)
+"mJ" = (
+/obj/structure/stool,
+/obj/machinery/telescience_jammer{
+	radius = 2
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor,
+/area/station/ai_monitored/eva)
+"mK" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/rig/security,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/head/helmet/space/rig/security,
+/obj/item/clothing/mask/breath,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_x = 28;
+	pixel_y = -5
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "red"
+	},
+/area/station/ai_monitored/eva)
+"mL" = (
+/obj/structure/closet/crate{
+	name = "Gold Crate"
+	},
+/obj/item/weapon/storage/belt/champion,
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "bot"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/nuke_storage)
+"mM" = (
+/obj/machinery/nuclearbomb{
+	nuketype = "NT";
+	r_code = "LOLNO"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "box_white"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/nuke_storage)
+"mN" = (
+/obj/machinery/computer/secure_data/detective_computer,
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "bot"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/nuke_storage)
+"mO" = (
+/obj/structure/closet/secure_closet/exile,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -22
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"mP" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mQ" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"mS" = (
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "gateway_blast";
+	name = "Gateway Chamber Blast Doors";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/command{
+	name = "Gateway";
+	req_access = list(62)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/gateway)
+"mT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"mU" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mV" = (
+/obj/machinery/hologram/holopad,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"mX" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"mY" = (
+/obj/structure/rack,
+/obj/item/device/gps/science{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/device/gps/science{
+	pixel_x = -4
+	},
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_x = 28;
+	pixel_y = -5
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/gateway)
+"mZ" = (
+/obj/structure/rack,
+/obj/item/clothing/shoes/magboots,
+/obj/item/device/suit_cooling_unit,
+/obj/item/weapon/tank/jetpack/carbondioxide,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/station/ai_monitored/eva)
+"na" = (
+/obj/machinery/telescience_jammer{
+	radius = 2
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor,
+/area/station/ai_monitored/eva)
+"nb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/station/ai_monitored/eva)
+"nc" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "E.V.A.";
+	req_one_access = list(1,5,11,18,24)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "bluefull"
+	},
+/area/station/ai_monitored/eva)
+"nd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"ne" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"nf" = (
+/obj/machinery/hologram/holopad{
+	pixel_y = 16
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"ng" = (
+/obj/structure/stool,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/ai_monitored/eva)
+"nh" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/station/ai_monitored/eva)
+"ni" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "red"
+	},
+/area/station/ai_monitored/eva)
+"nj" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "red"
+	},
+/area/station/ai_monitored/eva)
+"nk" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/rig/security,
+/obj/item/clothing/shoes/magboots,
+/obj/item/clothing/head/helmet/space/rig/security,
+/obj/item/clothing/mask/breath,
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "red"
+	},
+/area/station/ai_monitored/eva)
+"nl" = (
+/obj/structure/closet/secure_closet/freezer/money,
+/obj/machinery/camera{
+	c_tag = "Bridge Vault";
+	dir = 4
+	},
+/obj/machinery/alarm{
+	pixel_y = -32
+	},
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "bot_left"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/nuke_storage)
+"nm" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "bot_right"
+	},
+/mob/living/simple_animal/mouse/brown/Tom,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/nuke_storage)
+"nn" = (
+/obj/structure/closet/secure_closet/exile,
+/obj/machinery/alarm{
+	pixel_y = -32
+	},
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"no" = (
+/obj/machinery/light_switch{
+	pixel_y = -28
+	},
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"np" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"nq" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"nr" = (
+/obj/structure/rack,
+/obj/item/weapon/storage/firstaid/regular{
+	pixel_y = 8
+	},
+/obj/item/weapon/storage/firstaid/toxin,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -28
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"ns" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"nt" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"nu" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/gateway)
+"nv" = (
+/obj/structure/rack,
+/obj/item/weapon/storage/belt/utility,
+/obj/item/clothing/head/welding,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/gateway)
+"nw" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"nx" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/unathi/rig_cheap,
+/obj/item/clothing/head/helmet/space/unathi/helmet_cheap,
+/obj/item/clothing/mask/breath,
+/obj/machinery/light/small,
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_x = -28;
+	pixel_y = -5
+	},
+/turf/simulated/floor{
+	icon_state = "blue"
+	},
+/area/station/ai_monitored/eva)
+"ny" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/skrell/white,
+/obj/item/clothing/head/helmet/space/skrell/white,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/suit/space/skrell/black,
+/obj/item/clothing/head/helmet/space/skrell/black,
+/obj/item/clothing/mask/breath,
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "blue"
+	},
+/area/station/ai_monitored/eva)
+"nz" = (
+/obj/item/weapon/storage/toolbox/electrical{
+	pixel_y = 6
+	},
+/obj/item/weapon/storage/toolbox/mechanical,
+/obj/structure/rack,
+/obj/machinery/light/smart,
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"nA" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"nB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"nC" = (
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"nD" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/cable_coil/random,
+/obj/item/stack/cable_coil/random{
+	pixel_y = -4
+	},
+/obj/item/weapon/screwdriver,
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"nE" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_y = 5
+	},
+/obj/item/weapon/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000;
+	pixel_y = -1
+	},
+/obj/item/weapon/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000;
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/machinery/light/smart,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 28
+	},
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = -32
+	},
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/station/ai_monitored/eva)
+"nF" = (
+/obj/structure/safe,
+/obj/item/stack/sheet/mineral/gold{
+	pixel_x = -1;
+	pixel_y = 5
+	},
+/obj/item/stack/sheet/mineral/gold{
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/mineral/gold{
+	pixel_x = 1;
+	pixel_y = -2
+	},
+/obj/item/clothing/under/color/yellow,
+/obj/item/toy/katana,
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "bot_left"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/nuke_storage)
+"nG" = (
+/obj/machinery/light/small/emergency,
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = -32
+	},
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "bot"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/nuke_storage)
 "nH" = (
 /obj/item/device/radio/intercom{
 	name = "Station Intercom (General)";
@@ -7013,6 +8294,115 @@
 	icon_state = "wooden"
 	},
 /area/station/bridge/captain_quarters)
+"nI" = (
+/obj/item/weapon/coin/silver{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/weapon/coin/silver{
+	pixel_x = 12;
+	pixel_y = 7
+	},
+/obj/item/weapon/coin/silver{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/item/weapon/coin/silver{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/weapon/coin/silver{
+	pixel_x = 5;
+	pixel_y = -8
+	},
+/obj/structure/closet/crate{
+	name = "Silver Crate"
+	},
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "bot_right"
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/station/bridge/nuke_storage)
+"nJ" = (
+/obj/machinery/door/airlock/command{
+	name = "Gateway";
+	req_access = list(62)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/gateway)
+"nK" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"nL" = (
+/obj/effect/decal/turf_decal/alpha/yellow{
+	dir = 1;
+	icon_state = "loadingarea"
+	},
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"nM" = (
+/obj/effect/decal/turf_decal/alpha/yellow{
+	dir = 1;
+	icon_state = "loadingarea"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor{
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"nN" = (
+/obj/structure/rack,
+/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/machinery/door_control{
+	id = "Gateway_shutters";
+	name = "Gateway Shutters";
+	pixel_y = -26;
+	req_access = list(57)
+	},
+/obj/machinery/alarm{
+	pixel_x = 29;
+	pixel_y = -6
+	},
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkblue"
+	},
+/area/station/gateway)
+"nO" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "E.V.A.";
+	req_one_access = list(1,5,11,18,24)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/ai_monitored/eva)
+"nP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/space)
 "nQ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
@@ -7032,12 +8422,154 @@
 	icon_state = "wooden"
 	},
 /area/station/bridge/captain_quarters)
+"nR" = (
+/obj/effect/decal/turf_decal/alpha/yellow{
+	icon_state = "delivery"
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "Gateway_shutters";
+	name = "Gateway Shutters"
+	},
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/gateway)
+"nS" = (
+/obj/effect/decal/turf_decal/alpha/yellow{
+	icon_state = "delivery"
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "Gateway_shutters";
+	name = "Gateway Shutters"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor{
+	icon_state = "darkbluefull"
+	},
+/area/station/gateway)
+"nT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/space)
+"nU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "neutralfull"
+	},
+/area/station/hallway/primary/central)
+"nV" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "neutralfull"
+	},
+/area/station/hallway/primary/central)
+"nW" = (
+/obj/machinery/door/airlock/glass{
+	name = "Central Access"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "neutralfull"
+	},
+/area/station/hallway/primary/central)
+"nX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "neutralfull"
+	},
+/area/space)
+"nY" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "neutralfull"
+	},
+/area/space)
+"nZ" = (
+/obj/effect/decal/turf_decal/alpha/yellow{
+	icon_state = "loadingarea"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/space)
+"oa" = (
+/obj/machinery/door_control{
+	id = "Gateway_shutters";
+	name = "Gateway Shutters";
+	pixel_y = 26;
+	req_access = list(57)
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "blue"
+	},
+/area/space)
+"ob" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor{
+	icon_state = "neutralfull"
+	},
+/area/space)
 "oc" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "blue"
 	},
 /area/station/hallway/primary/central)
+"od" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/simulated/floor{
+	icon_state = "neutralfull"
+	},
+/area/space)
+"oe" = (
+/turf/simulated/floor{
+	icon_state = "bluecorner"
+	},
+/area/space)
+"of" = (
+/turf/simulated/floor,
+/area/space)
 "oY" = (
 /turf/simulated/floor{
 	dir = 8;
@@ -7084,6 +8616,13 @@
 "tG" = (
 /obj/machinery/computer/message_monitor{
 	dir = 8
+	},
+/obj/item/device/radio/intercom{
+	broadcasting = 1;
+	frequency = 1447;
+	name = "Private AI Channel";
+	pixel_x = 28;
+	pixel_y = -5
 	},
 /turf/simulated/floor/bluegrid,
 /area/station/bridge/teleporter)
@@ -7206,10 +8745,14 @@
 	},
 /area/station/security/blueshield)
 "EK" = (
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkblue"
+/obj/structure/cable/blue{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating,
 /area/space)
 "EZ" = (
 /obj/item/weapon/flora/pottedplant/tropicalfern,
@@ -7324,8 +8867,7 @@
 	dir = 8
 	},
 /turf/simulated/floor{
-	dir = 5;
-	icon_state = "vault"
+	icon_state = "vaultfull"
 	},
 /area/station/hallway/primary/central)
 "Ox" = (
@@ -30995,11 +32537,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -31252,11 +32794,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -31509,12 +33051,12 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
+bV
 JC
 JC
 JC
@@ -31761,17 +33303,17 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+nw
+bp
+dc
+cq
+cp
+bV
 JC
 JC
 JC
@@ -32015,20 +33557,20 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bV
+bp
+dc
+dc
+cx
+bV
 JC
 JC
 JC
@@ -32271,21 +33813,21 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+gA
+gA
+gA
+gA
+Rs
+bZ
+dc
+cx
+bV
 JC
 JC
 JC
@@ -32528,21 +34070,21 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+gA
+gA
+gA
+gA
+gA
+my
+mZ
+gA
+gA
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -32785,21 +34327,21 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+gA
+gA
+gR
+kL
+lP
+gA
+mz
+na
+nx
+gA
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -33041,22 +34583,22 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+gA
+gC
+gW
+kT
+lQ
+gA
+mA
+nb
+ny
+gA
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -33298,22 +34840,22 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+gA
+gF
+gY
+kV
+gG
+gA
+gG
+nc
+gG
+gA
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -33555,22 +35097,22 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+gA
+gG
+gG
+la
+gG
+md
+mB
+nd
+nz
+gA
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -33812,22 +35354,22 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+gA
+gH
+gs
+ld
+lR
+me
+mC
+ne
+nA
+gG
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -34069,22 +35611,22 @@ bV
 bV
 bV
 bV
+vV
+EK
+gB
+gK
+gt
+lg
+lS
+mf
+gt
+lg
+nB
+nO
+nT
+dc
+cx
 bV
-bV
-bV
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -34328,16 +35870,16 @@ vV
 vV
 vV
 vV
-vV
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-bV
+gA
+gM
+gu
+li
+lT
+mg
+mD
+nf
+nC
+gG
 bp
 dc
 cx
@@ -34585,17 +36127,17 @@ vV
 vV
 vV
 vV
-vV
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-bV
-bp
+gA
+gG
+gv
+gG
+gA
+mh
+mE
+mf
+nB
+nO
+nT
 dc
 cx
 bV
@@ -34842,26 +36384,26 @@ Bs
 Bs
 vV
 vV
-vV
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-bV
+gA
+gO
+gw
+lk
+gG
+mi
+mF
+ng
+nD
+gG
 bp
 dc
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -35099,29 +36641,29 @@ jm
 Bs
 Bs
 vV
-vV
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-bV
-bV
+gA
+gP
+gx
+ll
+gG
+mj
+mG
+nh
+nE
+gA
 bp
 dc
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -35356,30 +36898,30 @@ Je
 ju
 Bs
 vV
-vV
-bV
-bV
-JC
-JC
-JC
-JC
-JC
-bV
-zD
+gA
+gA
+gz
+lm
+gA
+mk
+mH
+mk
+gA
+gA
 bp
 dc
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+bV
+bV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -35614,29 +37156,29 @@ jv
 Bs
 vV
 vV
-vV
-bV
-JC
-JC
-JC
-JC
-JC
-bV
+gA
+gA
+gA
+gA
+ml
+mI
+ni
+gA
 bo
 cd
 dc
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+bV
+bV
+bV
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -35872,29 +37414,29 @@ Bs
 vV
 vV
 vV
-bV
-JC
-JC
-JC
-JC
-JC
-bV
+vV
+vV
+gA
+mm
+mJ
+nj
+gA
 bp
 dc
 dc
 cx
+of
+of
+of
+of
+of
+of
+of
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -36129,29 +37671,29 @@ Bs
 Bs
 vV
 vV
-bV
-JC
-JC
-JC
-JC
-JC
-bV
+vV
+vV
+gA
+gA
+mK
+nk
+gA
 bp
 dc
 eJ
 cu
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -36386,29 +37928,29 @@ jL
 wx
 vV
 vV
-bV
-JC
-JC
-JC
-JC
-JC
-bV
+vV
+vV
+vV
+gA
+gA
+gA
+gA
 bp
 dc
 cx
 bV
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+bV
+bV
+vV
+vV
 JC
 JC
 JC
@@ -36643,29 +38185,29 @@ jM
 kc
 kl
 vV
-bV
-JC
-JC
-JC
-JC
-JC
-bV
+vV
+vV
+vV
+vV
+vV
+vV
+nw
 bp
 dc
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
 JC
 JC
 JC
@@ -36900,32 +38442,32 @@ jN
 wx
 vV
 vV
-bV
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
 bV
 dX
 fN
 fX
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -37157,33 +38699,33 @@ wx
 wx
 vV
 vV
-bV
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
 bV
 hd
 hf
 hh
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -37425,22 +38967,22 @@ dX
 fN
 fX
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+bV
+bV
+bV
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -37684,21 +39226,21 @@ gc
 bV
 bV
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+bV
+of
+of
+of
+bV
+of
+of
+of
+bV
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -37942,20 +39484,20 @@ gi
 MZ
 bV
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -38199,20 +39741,20 @@ lu
 oY
 MZ
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+bV
+vV
+vV
 JC
 JC
 JC
@@ -38456,20 +39998,20 @@ ls
 kQ
 gc
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
 JC
 JC
 JC
@@ -38714,19 +40256,19 @@ lB
 gc
 bV
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
 JC
 JC
 JC
@@ -38971,19 +40513,19 @@ lC
 oY
 MZ
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
 JC
 JC
 JC
@@ -39228,19 +40770,19 @@ ls
 lE
 kh
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+bV
+bV
+of
+of
+bV
+bV
+vV
+vV
 JC
 JC
 JC
@@ -39474,8 +41016,8 @@ gj
 gj
 gg
 gg
-gK
-lg
+mL
+nl
 gg
 gg
 eR
@@ -39488,13 +41030,13 @@ bV
 bV
 bV
 bV
+of
 bV
 bV
-bV
-bV
-bV
-bV
-bV
+of
+of
+of
+of
 bV
 bV
 bV
@@ -39733,7 +41275,7 @@ gg
 kU
 kZ
 gD
-gY
+nF
 gg
 JC
 gJ
@@ -39987,10 +41529,10 @@ ky
 kE
 kI
 kP
-kV
-la
+mn
+mM
 lh
-lo
+nG
 gg
 JC
 gJ
@@ -40247,7 +41789,7 @@ gg
 kW
 lb
 gE
-ha
+nI
 gg
 JC
 gJ
@@ -40502,8 +42044,8 @@ gj
 gj
 gg
 gg
-gM
-li
+mN
+nm
 gg
 gg
 eR
@@ -40516,13 +42058,13 @@ bV
 bV
 bV
 bV
+of
 bV
 bV
-bV
-bV
-bV
-bV
-bV
+of
+of
+of
+of
 bV
 bV
 bV
@@ -40770,19 +42312,19 @@ lt
 lG
 kj
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+bV
+bV
+of
+of
+bV
+bV
+vV
+vV
 JC
 JC
 JC
@@ -41027,19 +42569,19 @@ lD
 fY
 fD
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
 JC
 JC
 JC
@@ -41284,19 +42826,19 @@ lB
 gc
 bV
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
 JC
 JC
 JC
@@ -41540,20 +43082,20 @@ lt
 kO
 gc
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
 JC
 JC
 JC
@@ -41797,20 +43339,20 @@ lA
 fY
 fD
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+bV
+vV
+vV
 JC
 JC
 JC
@@ -42048,26 +43590,26 @@ kH
 le
 kH
 lr
-kO
+ka
 fY
 gn
 fD
 bV
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -42305,26 +43847,26 @@ dg
 ej
 dg
 fi
-eG
+nU
 gc
 bV
 bV
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+bV
+bV
+bV
+bV
+bV
+of
+of
+of
+bV
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -42562,25 +44104,25 @@ bV
 bV
 bV
 dX
-fN
+nV
 fX
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+bV
+bV
+bV
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -42819,25 +44361,25 @@ vV
 vV
 bV
 hd
-hf
+nW
 hh
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -43071,29 +44613,29 @@ vV
 vV
 vV
 vV
-vV
+cj
 vV
 vV
 bV
 dX
-fN
+nV
 fX
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -43326,28 +44868,28 @@ vV
 vV
 vV
 vV
-kG
-kG
-vV
-kG
-kG
-kG
+gQ
+gQ
+mo
+gQ
+gQ
+gQ
 bp
-dc
+nX
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
 JC
 JC
 JC
@@ -43582,29 +45124,29 @@ dp
 vV
 vV
 vV
-kG
-kG
-kT
-EK
-kT
-lk
-kG
+gQ
+gQ
+lU
+mp
+mO
+nn
+gQ
 bp
-dc
+nX
 cx
 bV
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+bV
+bV
+vV
+vV
 JC
 JC
 JC
@@ -43839,29 +45381,29 @@ dp
 vV
 vV
 vV
-kG
-kK
-zD
-zD
-zD
-ll
-kG
+gQ
+lo
+lV
+mq
+mP
+no
+gQ
 bp
-dc
+nX
 cq
 cp
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+of
+of
+of
+of
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -44096,29 +45638,29 @@ dp
 vV
 vV
 vV
-kG
-kK
-gz
-zD
-zD
-ll
-gO
-bp
-dc
-dc
+gQ
+lH
+lW
+mr
+mQ
+np
+nJ
+nP
+nY
+ob
 cx
+of
+of
+of
+of
+of
+of
+of
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -44353,28 +45895,28 @@ dp
 vV
 vV
 vV
-kG
-kL
-gW
-gW
-ld
-lm
-kG
+gQ
+lI
+lX
+ms
+mR
+nq
+gQ
 Rs
 bZ
-dc
+nX
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+of
+of
+bV
+bV
+bV
+bV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -44609,29 +46151,29 @@ dp
 vV
 vV
 vV
-vV
-kG
-gs
-gs
-gs
-gO
-kG
-kG
-zD
+gQ
+gQ
+lJ
+lY
+mt
+mS
+gQ
+gQ
+gQ
 bp
-dc
+nX
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+bV
+bV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -44866,28 +46408,28 @@ vV
 vV
 vV
 vV
-vV
+gQ
 kG
-gt
-gt
-gt
-gP
-EK
-kG
-kG
+lK
+lK
+mu
+mT
+nr
+nK
+gQ
 bp
-dc
+nX
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -45123,25 +46665,25 @@ vV
 vV
 vV
 vV
-vV
-kG
-gu
-gA
-gF
 gQ
-zD
-hc
-he
+ha
+lL
+lZ
+mv
+mU
+ns
+nL
+nR
 hg
-dc
+nX
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -45366,31 +46908,31 @@ vV
 vV
 vV
 vV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
 vV
 vV
-kG
-gv
-gB
-gG
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 gQ
-zD
 hc
-he
-hg
-dc
+lM
+ma
+mv
+mV
+nt
+nM
+nS
+nZ
+od
 cx
 bV
 JC
@@ -45623,31 +47165,31 @@ bV
 bV
 bV
 bV
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-bV
 vV
 vV
-kG
-gw
-gC
-gH
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 gQ
-zD
-hc
 he
+lN
+mb
+mv
+mW
+nu
+nL
+nR
 hg
-dc
+nX
 cx
 bV
 JC
@@ -45879,32 +47421,32 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
+bV
 bV
 vV
 vV
-kG
-gx
-gx
-gx
-gR
-gW
-kG
-kG
-bp
-dc
+gQ
+kK
+lO
+mc
+mw
+mX
+mX
+nN
+gQ
+oa
+nX
 cx
 bV
 JC
@@ -46148,20 +47690,20 @@ JC
 JC
 JC
 JC
-JC
 bV
 vV
 vV
-kG
-kG
-kG
-kG
-kG
-kG
-kG
-JC
+gQ
+gQ
+gQ
+gQ
+mx
+mY
+nv
+gQ
+gQ
 bp
-dc
+nX
 cx
 bV
 JC
@@ -46405,22 +47947,22 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+vV
+vV
+vV
+vV
+vV
+gQ
+gQ
+gQ
+gQ
+gQ
+zD
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -46663,21 +48205,21 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+bV
+zD
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -46923,18 +48465,18 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+nw
+zD
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -47186,12 +48728,12 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+zD
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -47443,12 +48985,12 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -47700,12 +49242,12 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bo
+cd
+dc
+cx
+bV
 JC
 JC
 JC
@@ -47957,12 +49499,12 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+dc
+cx
+bV
 JC
 JC
 JC
@@ -48214,12 +49756,12 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+oe
+cu
+bV
 JC
 JC
 JC
@@ -48471,12 +50013,12 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
+bV
 JC
 JC
 JC
@@ -48728,11 +50270,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -48985,11 +50527,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -49242,11 +50784,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
@@ -49499,11 +51041,11 @@ JC
 JC
 JC
 JC
-JC
-JC
-JC
-JC
-JC
+bV
+bp
+dc
+cx
+bV
 JC
 JC
 JC
