@@ -883,11 +883,17 @@
 	},
 /area/space)
 "bx" = (
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "blue"
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 8
 	},
-/area/space)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor{
+	icon_state = "neutralfull"
+	},
+/area/station/hallway/primary/central)
 "by" = (
 /obj/structure/table/glass,
 /obj/item/weapon/reagent_containers/spray/cleaner{
@@ -2649,10 +2655,6 @@
 /obj/machinery/status_display{
 	pixel_x = 32
 	},
-/obj/machinery/camera{
-	c_tag = "Bridge West";
-	dir = 8
-	},
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkstairs_wide"
@@ -4098,14 +4100,8 @@
 	},
 /area/station/hallway/primary/central)
 "hl" = (
-/obj/machinery/door/airlock/glass{
-	name = "Central Access"
-	},
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "blue"
-	},
-/area/station/hallway/primary/central)
+/turf/simulated/wall/r_wall,
+/area/station/ai_monitored/eva)
 "hm" = (
 /obj/structure/stool/bed/chair/metal/blue,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5737,13 +5733,9 @@
 /turf/simulated/floor/whitegreed,
 /area/station/bridge/cmf_room)
 "jA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
 /turf/simulated/floor{
 	icon_state = "neutralfull"
 	},
@@ -5795,7 +5787,6 @@
 	},
 /area/station/hallway/primary/central)
 "jG" = (
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
@@ -6425,11 +6416,8 @@
 /turf/simulated/floor/plating,
 /area/space)
 "kC" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor{
-	icon_state = "neutralfull"
+	icon_state = "whitehall"
 	},
 /area/station/hallway/primary/central)
 "kD" = (
@@ -6908,15 +6896,11 @@
 	},
 /area/station/hallway/primary/central)
 "lu" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+/obj/machinery/door/airlock/glass{
+	name = "Central Access"
 	},
 /turf/simulated/floor{
-	icon_state = "neutralfull"
+	icon_state = "whitehall"
 	},
 /area/station/hallway/primary/central)
 "lv" = (
@@ -6971,14 +6955,8 @@
 /area/station/hallway/primary/central)
 "lA" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
 /turf/simulated/floor{
-	icon_state = "neutralfull"
+	icon_state = "whitehall"
 	},
 /area/station/hallway/primary/central)
 "lB" = (
@@ -8568,14 +8546,1604 @@
 	},
 /area/space)
 "of" = (
-/turf/simulated/floor,
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
 /area/space)
+"og" = (
+/obj/structure/sign/departments/restroom{
+	pixel_y = -32
+	},
+/turf/simulated/floor{
+	icon_state = "blue"
+	},
+/area/space)
+"oh" = (
+/turf/simulated/wall,
+/area/station/civilian/gym)
+"oi" = (
+/turf/simulated/wall,
+/area/station/civilian/library)
+"oj" = (
+/turf/simulated/wall,
+/area/station/civilian/toilet)
+"ok" = (
+/obj/machinery/door/airlock{
+	name = "Unisex Restrooms"
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"ol" = (
+/mob/living/pbag,
+/turf/simulated/floor/carpet/blue2,
+/area/station/civilian/gym)
+"om" = (
+/obj/structure/weightlifter,
+/turf/simulated/floor/carpet/blue2,
+/area/station/civilian/gym)
+"on" = (
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "whitehall"
+	},
+/area/station/hallway/primary/central)
+"oo" = (
+/obj/machinery/vending/chinese,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"op" = (
+/obj/item/weapon/flora/pottedplant/minitree,
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/station/civilian/library)
+"oq" = (
+/obj/structure/bookcase{
+	name = "bookcase (Reference)"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"or" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"os" = (
+/obj/machinery/door/airlock/glass{
+	name = "Library Cafe"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"ot" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile{
+	grilled = 1;
+	icon_state = "gr_window"
+	},
+/turf/simulated/floor/plating,
+/area/station/civilian/library)
+"ou" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"ov" = (
+/obj/machinery/door/airlock{
+	name = "Toilet"
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"ow" = (
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"ox" = (
+/obj/structure/mirror{
+	pixel_y = 32
+	},
+/obj/structure/sink{
+	pixel_y = 24
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"oy" = (
+/obj/machinery/washing_machine,
+/obj/structure/dryer{
+	pixel_y = 20
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"oz" = (
+/obj/structure/stool/bed/chair/pedalgen{
+	anchored = 1;
+	dir = 8
+	},
+/obj/structure/sign/departments/restroom{
+	pixel_x = -32
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"oA" = (
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"oB" = (
+/turf/simulated/floor/carpet/blue2,
+/area/station/civilian/gym)
+"oC" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"oD" = (
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"oE" = (
+/obj/structure/closet/emcloset,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oF" = (
+/obj/machinery/bookbinder,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oG" = (
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oH" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/item/weapon/flora/random,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oI" = (
+/obj/structure/table/woodentable,
+/obj/machinery/computer/libraryconsole/old,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oJ" = (
+/obj/structure/table/woodentable,
+/obj/machinery/computer/libraryconsole/bookmanagement/old,
+/turf/simulated/floor/carpet/red,
+/area/station/civilian/library)
+"oK" = (
+/obj/machinery/libraryscanner,
+/turf/simulated/floor/carpet/red,
+/area/station/civilian/library)
+"oL" = (
+/obj/structure/table/woodentable,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/station/civilian/library)
+"oM" = (
+/obj/structure/dresser,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"oN" = (
+/obj/machinery/door/airlock/glass{
+	name = "Gym"
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"oO" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
+/area/station/hallway/primary/central)
+"oP" = (
+/obj/structure/bookcase{
+	name = "bookcase (Non-Fiction)"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oQ" = (
+/obj/structure/stool/bed/chair/comfy/black,
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"oR" = (
+/obj/structure/stool/bed/chair/comfy/brown,
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"oS" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oT" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/station/civilian/library)
+"oU" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oV" = (
+/obj/structure/table/woodentable,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"oW" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/red,
+/area/station/civilian/library)
+"oX" = (
+/turf/simulated/floor/carpet/red,
+/area/station/civilian/library)
 "oY" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "bluecorner"
 	},
 /area/station/hallway/primary/central)
+"oZ" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/under/suit_jacket/red,
+/obj/item/device/taperecorder,
+/obj/item/device/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = 22
+	},
+/obj/item/clothing/shoes/leather,
+/obj/item/clothing/suit/wcoat,
+/obj/item/clothing/head/beret/black,
+/obj/effect/decal/cleanable/cobweb,
+/obj/item/device/camera,
+/obj/item/device/lens/posterization,
+/obj/item/device/lens/sepia,
+/obj/item/device/lens/grayscale,
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/station/civilian/library)
+"pa" = (
+/obj/structure/bookcase{
+	name = "Forbidden Knowledge"
+	},
+/obj/random/misc/book,
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/station/civilian/library)
+"pb" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/plating,
+/area/station/civilian/toilet)
+"pc" = (
+/obj/structure/table/glass,
+/obj/item/weapon/lipstick/random,
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"pd" = (
+/obj/structure/stool/bed/chair/pedalgen{
+	anchored = 1;
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"pe" = (
+/obj/structure/stacklifter,
+/turf/simulated/floor/carpet/blue2,
+/area/station/civilian/gym)
+"pf" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/storage/box/cups{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"pg" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"ph" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile{
+	grilled = 1;
+	icon_state = "gr_window"
+	},
+/turf/simulated/floor/plating,
+/area/station/civilian/gym)
+"pi" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
+	},
+/area/station/hallway/primary/central)
+"pj" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/station/civilian/library)
+"pk" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/storage/box/cups{
+	pixel_y = 4
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pl" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pm" = (
+/obj/structure/table/woodentable,
+/obj/random/misc/book,
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"pn" = (
+/obj/structure/table/woodentable,
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"po" = (
+/obj/structure/bookcase{
+	name = "bookcase (Religious)"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pp" = (
+/obj/machinery/door/morgue{
+	dir = 4;
+	name = "Librarian";
+	req_access = list(37)
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/station/civilian/library)
+"pq" = (
+/obj/structure/stool/bed/chair/comfy/brown{
+	dir = 4
+	},
+/obj/effect/landmark/start/librarian,
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/station/civilian/library)
+"pr" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen/invisible,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/newscaster{
+	pixel_x = 28
+	},
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/station/civilian/library)
+"ps" = (
+/obj/item/weapon/flora/random,
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"pt" = (
+/obj/structure/table/glass,
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"pu" = (
+/obj/item/weapon/flora/random,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"pv" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"pw" = (
+/obj/machinery/door/airlock/glass{
+	name = "Central Access"
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
+	},
+/area/station/hallway/primary/central)
+"px" = (
+/obj/structure/table/woodentable,
+/obj/item/device/flashlight/lamp/green,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"py" = (
+/obj/structure/table/woodentable,
+/obj/random/misc/book,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pz" = (
+/obj/structure/bookcase/manuals/research_and_development,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pA" = (
+/turf/simulated/floor/carpet,
+/area/station/civilian/library)
+"pB" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pC" = (
+/obj/structure/stool/bed/chair/comfy/brown{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"pD" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"pE" = (
+/obj/structure/bookcase/manuals/medical,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pF" = (
+/obj/machinery/door/window/northright{
+	dir = 8;
+	name = "Library Desk Door";
+	req_access = list(37)
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pG" = (
+/obj/structure/table/woodentable,
+/obj/structure/table/woodentable,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pH" = (
+/obj/structure/cult/tome,
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/station/civilian/library)
+"pI" = (
+/obj/structure/table/woodentable,
+/obj/item/device/camera_film{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/item/device/camera_film{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/station/civilian/library)
+"pJ" = (
+/obj/machinery/door/airlock{
+	name = "Unisex Shower"
+	},
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"pK" = (
+/obj/item/clothing/under/pants/black_sport,
+/obj/item/clothing/under/pants/blue_sport,
+/obj/item/clothing/under/pants/ddr_sport,
+/obj/item/clothing/under/sport,
+/obj/item/clothing/under/sport/black,
+/obj/item/clothing/under/sport/blue,
+/obj/item/clothing/under/karate,
+/obj/item/clothing/under/karate,
+/obj/item/clothing/under/karate,
+/obj/structure/closet{
+	name = "Sport closet"
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"pL" = (
+/obj/structure/stool,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"pM" = (
+/obj/structure/stool/bed/chair/comfy/brown{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pN" = (
+/obj/structure/bookcase/manuals/engineering,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pO" = (
+/obj/machinery/hologram/holopad{
+	pixel_x = 16
+	},
+/turf/simulated/floor/carpet/green,
+/area/station/civilian/library)
+"pP" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pQ" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/station/civilian/library)
+"pR" = (
+/obj/structure/stool/bed/chair/comfy/brown{
+	dir = 8
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "apc right";
+	pixel_x = 28
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pS" = (
+/obj/machinery/disposal,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"pT" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/structure/drain{
+	drainage = 2
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"pU" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/structure/drain{
+	drainage = 2
+	},
+/obj/item/weapon/reagent_containers/food/snacks/soap/nanotrasen,
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"pV" = (
+/obj/machinery/door/window{
+	dir = 8;
+	name = "Shower cabin"
+	},
+/obj/item/clothing/under/bathtowel,
+/obj/structure/rack,
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"pW" = (
+/obj/item/weapon/storage/firstaid/regular{
+	pixel_y = 6
+	},
+/obj/structure/table/woodentable,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"pX" = (
+/obj/structure/stool/bed/chair/metal/white,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"pY" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
+	},
+/area/space)
+"pZ" = (
+/obj/item/weapon/flora/random,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qa" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/station/civilian/library)
+"qb" = (
+/obj/structure/bookcase,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qc" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/station/civilian/library)
+"qd" = (
+/obj/machinery/photocopier,
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qe" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qf" = (
+/obj/structure/bookcase/manuals/security,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qg" = (
+/obj/machinery/door/window{
+	dir = 1;
+	name = "Shower cabin"
+	},
+/obj/item/clothing/under/bathtowel,
+/obj/structure/rack,
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/toilet)
+"qh" = (
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = 10;
+	pixel_y = 2
+	},
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/stack/medical/ointment{
+	pixel_y = 4
+	},
+/obj/structure/table/woodentable,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qi" = (
+/obj/decal/boxingrope{
+	dir = 9
+	},
+/obj/decal/boxingrope{
+	density = 0;
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qj" = (
+/obj/decal/boxingrope,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qk" = (
+/obj/decal/boxingrope{
+	dir = 5
+	},
+/obj/decal/boxingrope{
+	density = 0;
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"ql" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qm" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/station/civilian/library)
+"qn" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qo" = (
+/obj/structure/table/woodentable/fancy,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qp" = (
+/obj/structure/stool/bed/chair/comfy/brown{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qq" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Library"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qr" = (
+/obj/structure/easel,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qs" = (
+/turf/simulated/floor/beach/water/waterpool,
+/area/station/civilian/gym)
+"qt" = (
+/obj/machinery/door/airlock/glass{
+	name = "Swimming Pool"
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qu" = (
+/obj/decal/boxingrope{
+	density = 0;
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "boxing"
+	},
+/area/station/civilian/gym)
+"qv" = (
+/turf/simulated/floor{
+	icon_state = "boxing"
+	},
+/area/station/civilian/gym)
+"qw" = (
+/obj/decal/boxingrope{
+	density = 0;
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "boxing"
+	},
+/area/station/civilian/gym)
+"qx" = (
+/obj/structure/bookcase{
+	name = "bookcase (Fiction)"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qy" = (
+/obj/structure/closet/emcloset,
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qz" = (
+/obj/structure/stool/bar,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qA" = (
+/obj/item/weapon/flora/random,
+/obj/machinery/light/small,
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/station/civilian/library)
+"qB" = (
+/turf/simulated/wall,
+/area/station/civilian/kitchen)
+"qC" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qD" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/station/civilian/library)
+"qE" = (
+/obj/random/vending/snack,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"qF" = (
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/item/weapon/flora/pottedplant/aquatic,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qG" = (
+/obj/item/clothing/gloves/boxing/blue,
+/obj/item/clothing/gloves/boxing,
+/obj/item/clothing/gloves/boxing/yellow,
+/obj/item/clothing/gloves/boxing/green,
+/obj/structure/table/woodentable,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qH" = (
+/obj/item/clothing/mask/luchador,
+/obj/item/clothing/mask/luchador/rudos,
+/obj/item/clothing/mask/luchador/tecnicos,
+/obj/item/clothing/mask/luchador/white,
+/obj/item/clothing/shoes/boxing/gray,
+/obj/item/clothing/shoes/boxing/red,
+/obj/item/clothing/shoes/boxing/white,
+/obj/item/clothing/under/boxing/green,
+/obj/item/clothing/under/boxing/red,
+/obj/item/clothing/under/boxing/white,
+/obj/structure/closet{
+	name = "boxing closet"
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qI" = (
+/obj/item/weapon/broom,
+/obj/item/weapon/broom,
+/obj/item/weapon/broom,
+/obj/item/weapon/broom,
+/obj/item/clothing/under/bathtowel,
+/obj/item/clothing/under/bathtowel,
+/obj/item/clothing/under/bathtowel,
+/obj/item/clothing/under/bathtowel,
+/obj/item/clothing/under/bathrobe,
+/obj/item/clothing/under/bathrobe,
+/obj/item/clothing/under/bathrobe,
+/obj/item/clothing/under/bathrobe,
+/obj/structure/closet/cabinet,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qJ" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/thin/reinforced,
+/obj/item/weapon/reagent_containers/food/snacks/pie,
+/turf/simulated/floor/wood,
+/area/station/civilian/kitchen)
+"qK" = (
+/obj/item/weapon/bell{
+	pixel_y = 6
+	},
+/obj/structure/table/reinforced/stall,
+/obj/machinery/door/window/eastright{
+	dir = 2;
+	name = "Kitchen";
+	req_access = list(28)
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/kitchen)
+"qL" = (
+/obj/structure/table/reinforced/stall,
+/obj/structure/window/thin/reinforced,
+/turf/simulated/floor/wood,
+/area/station/civilian/kitchen)
+"qM" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile{
+	grilled = 1;
+	icon_state = "gr_window"
+	},
+/turf/simulated/floor/plating,
+/area/station/civilian/kitchen)
+"qN" = (
+/obj/machinery/door/airlock/glass{
+	name = "Kitchen";
+	req_access = list(28)
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/kitchen)
+"qO" = (
+/obj/machinery/chem_master/condimaster,
+/turf/simulated/floor,
+/area/station/civilian/kitchen)
+"qP" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/turf/simulated/floor,
+/area/station/civilian/kitchen)
+"qQ" = (
+/obj/structure/stool/bed/chair/comfy/black,
+/turf/simulated/floor/carpet/black,
+/area/station/civilian/library)
+"qR" = (
+/obj/structure/stool/bed/chair/comfy/brown,
+/turf/simulated/floor/carpet/black,
+/area/station/civilian/library)
+"qS" = (
+/obj/structure/table/woodentable,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/station/civilian/library)
+"qT" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "wood2_stairs2"
+	},
+/area/station/civilian/gym)
+"qU" = (
+/obj/structure/closet/athletic_mixed,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"qV" = (
+/obj/machinery/door/window/westright{
+	dir = 1;
+	name = "Sauna"
+	},
+/obj/machinery/door/window/westright{
+	dir = 2;
+	name = "Sauna"
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/civilian/gym)
+"qW" = (
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/space)
+"qX" = (
+/obj/structure/table,
+/obj/machinery/kitchen_machine/microwave{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/simulated/floor{
+	icon_state = "whitecorner"
+	},
+/area/station/civilian/kitchen)
+"qY" = (
+/obj/machinery/kitchen_machine/microwave{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/obj/structure/table,
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"qZ" = (
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"ra" = (
+/obj/machinery/icecream_vat,
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"rb" = (
+/obj/structure/table,
+/obj/machinery/chem_dispenser/soda{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"rc" = (
+/obj/structure/sink/kitchen{
+	pixel_y = 28
+	},
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"rd" = (
+/obj/structure/stool/bed/chair/metal/black{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"re" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "whitecorner"
+	},
+/area/station/civilian/kitchen)
+"rf" = (
+/obj/random/vending/cola,
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"rg" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/station/civilian/library)
+"rh" = (
+/obj/structure/table/woodentable/poker,
+/turf/simulated/floor/carpet/black,
+/area/station/civilian/library)
+"ri" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "wood2_stairs2"
+	},
+/area/station/civilian/gym)
+"rj" = (
+/obj/structure/rack,
+/obj/item/clothing/under/bathtowel{
+	pixel_y = 6
+	},
+/obj/item/clothing/under/bathtowel{
+	pixel_y = 3
+	},
+/obj/item/clothing/under/bathtowel,
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"rk" = (
+/obj/decal/boxingrope{
+	dir = 9
+	},
+/turf/simulated/floor{
+	icon_state = "boxing"
+	},
+/area/station/civilian/gym)
+"rl" = (
+/obj/decal/boxingrope,
+/turf/simulated/floor{
+	icon_state = "boxing"
+	},
+/area/station/civilian/gym)
+"rm" = (
+/obj/decal/boxingrope{
+	dir = 5
+	},
+/turf/simulated/floor{
+	icon_state = "boxing"
+	},
+/area/station/civilian/gym)
+"rn" = (
+/obj/structure/table/woodentable,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/civilian/gym)
+"ro" = (
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/civilian/gym)
+"rp" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/screwdriver{
+	pixel_x = -9
+	},
+/obj/item/weapon/stock_parts/cell/high{
+	pixel_x = 3
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/civilian/gym)
+"rq" = (
+/obj/structure/window/thin/reinforced,
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/ywflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/space)
+"rr" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"rs" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"rt" = (
+/obj/machinery/kitchen_machine/candymaker,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"ru" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"rv" = (
+/obj/structure/stool/bed/chair/comfy/brown{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/civilian/library)
+"rw" = (
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/black,
+/area/station/civilian/library)
+"rx" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/station/civilian/library)
+"ry" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"rz" = (
+/turf/simulated/floor/plating,
+/area/station/civilian/library)
+"rA" = (
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/beach/water/waterpool,
+/area/station/civilian/gym)
+"rB" = (
+/obj/structure/stool/bed/chair/metal/white{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "wooden-2"
+	},
+/area/station/civilian/gym)
+"rC" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/structure/mirror{
+	pixel_x = -28
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/civilian/gym)
+"rD" = (
+/obj/structure/table/glass,
+/turf/simulated/floor{
+	icon_state = "vaultfull"
+	},
+/area/space)
+"rE" = (
+/obj/machinery/kitchen_machine/grill,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"rF" = (
+/obj/effect/landmark/start/chef,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"rG" = (
+/obj/structure/table,
+/obj/machinery/kitchen_machine/microwave{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"rH" = (
+/obj/structure/table,
+/obj/machinery/kitchen_machine/microwave{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/simulated/floor,
+/area/station/civilian/kitchen)
+"rI" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"rJ" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/station/civilian/library)
+"rK" = (
+/obj/machinery/light/small,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"rL" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/wood,
+/area/station/civilian/library)
+"rM" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/plating,
+/area/station/civilian/gym)
+"rN" = (
+/obj/structure/stool,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/civilian/gym)
+"rO" = (
+/obj/machinery/space_heater,
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/civilian/gym)
+"rP" = (
+/obj/structure/table/glass,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"rQ" = (
+/obj/machinery/kitchen_machine/oven,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"rR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"rS" = (
+/obj/structure/table,
+/obj/item/clothing/gloves/latex,
+/obj/item/weapon/kitchen/rollingpin,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"rT" = (
+/obj/structure/table,
+/obj/item/weapon/storage/box/donkpockets{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"rU" = (
+/obj/structure/table,
+/obj/item/weapon/book/manual/wiki/chefs_recipes{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"rV" = (
+/obj/structure/table,
+/obj/item/clothing/gloves/latex,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"rW" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"rX" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"rY" = (
+/obj/structure/table,
+/turf/simulated/floor,
+/area/station/civilian/kitchen)
+"rZ" = (
+/turf/simulated/floor{
+	icon_state = "vaultfull"
+	},
+/area/space)
+"sa" = (
+/obj/item/weapon/flora/random,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"sb" = (
+/obj/machinery/hologram/holopad{
+	pixel_x = 16
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"sc" = (
+/obj/machinery/kitchen_machine/grill,
+/turf/simulated/floor,
+/area/station/civilian/kitchen)
+"sd" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/broom{
+	pixel_y = 2
+	},
+/turf/simulated/floor{
+	icon_state = "wooden"
+	},
+/area/station/civilian/gym)
+"se" = (
+/obj/machinery/door/airlock/glass{
+	name = "Kitchen";
+	req_access = list(28)
+	},
+/turf/simulated/floor,
+/area/station/civilian/kitchen)
+"sf" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"sg" = (
+/obj/machinery/kitchen_machine/oven,
+/turf/simulated/floor,
+/area/station/civilian/kitchen)
+"sh" = (
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "whitecorner"
+	},
+/area/station/civilian/kitchen)
+"si" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"sj" = (
+/obj/machinery/processor,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"sk" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"sl" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"sm" = (
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"sn" = (
+/obj/machinery/deepfryer,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitehall"
+	},
+/area/station/civilian/kitchen)
+"so" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "whitecorner"
+	},
+/area/station/civilian/kitchen)
+"sp" = (
+/turf/simulated/wall,
+/area/station/civilian/cold_room)
+"sq" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/space)
+"sr" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/westleft{
+	dir = 2;
+	name = "Kitchen";
+	req_access = list(28)
+	},
+/obj/machinery/door/window/westleft{
+	dir = 1;
+	name = "Hydroponics";
+	req_access = list(35)
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"ss" = (
+/obj/machinery/smartfridge,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "cafeteria"
+	},
+/area/station/civilian/kitchen)
+"st" = (
+/obj/machinery/door/airlock/glass{
+	name = "Hydroponics Pasture";
+	req_access = list(28)
+	},
+/turf/simulated/floor,
+/area/station/civilian/kitchen)
 "su" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -8584,6 +10152,38 @@
 	icon_state = "darkblue"
 	},
 /area/station/hallway/primary/central)
+"sv" = (
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/cold_room)
+"sw" = (
+/turf/simulated/wall,
+/area/station/civilian/hydroponics)
+"sx" = (
+/obj/structure/table/glass,
+/obj/item/weapon/book/manual/wiki/hydroponics,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"sy" = (
+/obj/structure/stool,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"sz" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
 "sA" = (
 /obj/structure/rack,
 /obj/item/weapon/storage/toolbox/emergency{
@@ -8601,10 +10201,432 @@
 	icon_state = "darkblue"
 	},
 /area/station/bridge)
+"sB" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/item/weapon/screwdriver,
+/obj/item/weapon/shovel/spade,
+/obj/item/weapon/wrench,
+/obj/item/weapon/minihoe{
+	pixel_x = 3
+	},
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"sC" = (
+/obj/machinery/door/firedoor,
+/obj/structure/window/fulltile{
+	grilled = 1;
+	icon_state = "gr_window"
+	},
+/turf/simulated/floor/plating,
+/area/station/civilian/hydroponics)
+"sD" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sE" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/obj/structure/flora/junglebush/large,
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sF" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/ppflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sG" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sH" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/mob/living/simple_animal/chicken{
+	name = "Commander Clucky"
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sI" = (
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced/stall,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "dark"
+	},
+/area/station/civilian/hydroponics)
+"sJ" = (
+/obj/structure/table/glass,
+/obj/item/device/tagger/shop{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"sK" = (
+/obj/structure/table/glass,
+/obj/item/weapon/book/manual/hydroponics_beekeeping{
+	pixel_y = 4
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "bluecorner"
+	},
+/area/station/civilian/hydroponics)
+"sL" = (
+/turf/simulated/floor,
+/area/station/civilian/hydroponics)
+"sM" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"sN" = (
+/obj/structure/closet/secure_closet/hydroponics,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"sO" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/obj/structure/chicken_feeder,
+/obj/structure/flora/ausbushes/lavendergrass{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sP" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/mob/living/simple_animal/pig,
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sQ" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sR" = (
+/obj/machinery/door/airlock{
+	name = "Kitchen Cold Room";
+	req_access = list(28)
+	},
+/turf/simulated/floor{
+	icon_state = "showroomfloor"
+	},
+/area/station/civilian/cold_room)
+"sS" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/westleft{
+	dir = 4;
+	name = "Hydroponics";
+	req_access = list(35)
+	},
+/obj/structure/table/reinforced/stall,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "dark"
+	},
+/area/station/civilian/hydroponics)
+"sT" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"sU" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/junglebush/b{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sV" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/ywflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sW" = (
+/obj/structure/sink/puddle,
+/obj/structure/flora/ausbushes/reedbush{
+	pixel_y = 6
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sX" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/mob/living/simple_animal/cow{
+	name = "Betsy"
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sY" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/ppflowers{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"sZ" = (
+/obj/machinery/light/smart{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"ta" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/obj/structure/flora/ausbushes/lavendergrass{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"tb" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	layer = 2.7
+	},
+/obj/structure/flora/junglebush{
+	layer = 2.7
+	},
+/turf/simulated/floor/grass,
+/area/station/civilian/hydroponics)
+"tc" = (
+/turf/simulated/floor/plating,
+/area/station/civilian/cold_room)
+"td" = (
+/obj/machinery/door/airlock/glass{
+	name = "Hydroponics";
+	req_access = list(35)
+	},
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"te" = (
+/obj/effect/landmark/start/botanist,
+/turf/simulated/floor,
+/area/station/civilian/hydroponics)
+"tf" = (
+/obj/machinery/seed_extractor,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tg" = (
+/obj/machinery/biogenerator,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"th" = (
+/obj/machinery/door/airlock/glass{
+	name = "Hydroponics Pasture";
+	req_access = list(35)
+	},
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"ti" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/weapon/flora/pottedplant/minitree,
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"tj" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "greencorner"
+	},
+/area/station/civilian/hydroponics)
+"tk" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "greencorner"
+	},
+/area/station/civilian/hydroponics)
 "tl" = (
 /obj/structure/stool/bed/chair/comfy/teal,
 /turf/simulated/floor/carpet/blue2,
 /area/station/bridge/captain_quarters)
+"tm" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"tn" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"to" = (
+/obj/machinery/chem_master,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"tp" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tq" = (
+/obj/machinery/vending/hydronutrients,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tr" = (
+/obj/structure/stool/bed/chair/metal/green{
+	dir = 4
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"ts" = (
+/obj/structure/table,
+/obj/item/weapon/reagent_containers/glass/beaker{
+	pixel_y = 6
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tt" = (
+/obj/machinery/vending/hydroseeds,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tu" = (
+/turf/simulated/floor{
+	dir = 2;
+	icon_state = "bluecorner"
+	},
+/area/station/civilian/hydroponics)
+"tv" = (
+/turf/simulated/floor{
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"tw" = (
+/obj/machinery/light/small,
+/turf/simulated/floor{
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"tx" = (
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"ty" = (
+/obj/structure/table,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tz" = (
+/obj/machinery/hydroponics/constructable,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tA" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tB" = (
+/obj/machinery/disposal,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tC" = (
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
+"tD" = (
+/obj/item/weapon/reagent_containers/spray/plantbgone{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/item/weapon/reagent_containers/spray/plantbgone{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/weapon/reagent_containers/spray/plantbgone{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/structure/table/glass,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
 "tE" = (
 /obj/structure/stool/bed/chair/metal/black{
 	dir = 4
@@ -8613,6 +10635,15 @@
 	icon_state = "dark"
 	},
 /area/station/bridge)
+"tF" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
 "tG" = (
 /obj/machinery/computer/message_monitor{
 	dir = 8
@@ -8626,6 +10657,22 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/station/bridge/teleporter)
+"tH" = (
+/turf/environment/space,
+/area/station/civilian/hydroponics)
+"tI" = (
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "greenblue"
+	},
+/area/station/civilian/hydroponics)
+"tJ" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light/smart,
+/turf/simulated/floor{
+	icon_state = "greenbluefull"
+	},
+/area/station/civilian/hydroponics)
 "uA" = (
 /obj/structure/cable/blue{
 	d1 = 4;
@@ -33556,7 +35603,7 @@ JC
 JC
 JC
 JC
-JC
+vV
 vV
 vV
 vV
@@ -33812,17 +35859,17 @@ JC
 JC
 JC
 JC
-JC
 vV
 vV
 vV
 vV
 vV
 vV
-gA
-gA
-gA
-gA
+vV
+hl
+hl
+hl
+hl
 Rs
 bZ
 dc
@@ -34069,18 +36116,18 @@ JC
 JC
 JC
 JC
-JC
 vV
 vV
-gA
-gA
-gA
-gA
-gA
+vV
+hl
+hl
+hl
+hl
+hl
 my
 mZ
-gA
-gA
+hl
+hl
 bp
 dc
 cx
@@ -34326,10 +36373,10 @@ JC
 JC
 JC
 JC
-JC
 vV
-gA
-gA
+vV
+hl
+hl
 gR
 kL
 lP
@@ -34337,7 +36384,7 @@ gA
 mz
 na
 nx
-gA
+hl
 bp
 dc
 cx
@@ -34585,7 +36632,7 @@ JC
 JC
 vV
 vV
-gA
+hl
 gC
 gW
 kT
@@ -34594,7 +36641,7 @@ gA
 mA
 nb
 ny
-gA
+hl
 bp
 dc
 cx
@@ -34842,7 +36889,7 @@ JC
 JC
 vV
 vV
-gA
+hl
 gF
 gY
 kV
@@ -34851,7 +36898,7 @@ gA
 gG
 nc
 gG
-gA
+hl
 bp
 dc
 cx
@@ -35099,7 +37146,7 @@ JC
 JC
 vV
 vV
-gA
+hl
 gG
 gG
 la
@@ -35108,15 +37155,15 @@ md
 mB
 nd
 nz
-gA
+hl
 bp
 dc
 cx
 bV
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -35356,7 +37403,7 @@ JC
 JC
 vV
 vV
-gA
+hl
 gH
 gs
 ld
@@ -35370,15 +37417,15 @@ bp
 dc
 cx
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -35626,17 +37673,17 @@ nO
 nT
 dc
 cx
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+oj
+oj
+oj
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -35870,7 +37917,7 @@ vV
 vV
 vV
 vV
-gA
+hl
 gM
 gu
 li
@@ -35883,21 +37930,21 @@ gG
 bp
 dc
 cx
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+oj
+ou
+oj
+pb
+oj
+oj
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -36127,7 +38174,7 @@ vV
 vV
 vV
 vV
-gA
+hl
 gG
 gv
 gG
@@ -36140,22 +38187,22 @@ nO
 nT
 dc
 cx
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+oj
+ov
+oj
+ow
+ps
+oj
+oj
+oj
+oj
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -36384,7 +38431,7 @@ Bs
 Bs
 vV
 vV
-gA
+hl
 gO
 gw
 lk
@@ -36396,23 +38443,23 @@ nD
 gG
 bp
 dc
-cx
-bV
+og
+oj
+ow
+ow
+ow
+ow
+pJ
+pT
+qg
+oj
+oh
+oh
+oh
+oh
 vV
 vV
 vV
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -36641,7 +38688,7 @@ jm
 Bs
 Bs
 vV
-gA
+hl
 gP
 gx
 ll
@@ -36654,22 +38701,22 @@ gA
 bp
 dc
 cx
-bV
+ok
+ow
+ow
+ow
+ow
+oj
+oj
+oj
+oj
+qs
+qs
+qs
+oh
+oh
 vV
 vV
-vV
-vV
-vV
-vV
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -36898,8 +38945,8 @@ Je
 ju
 Bs
 vV
-gA
-gA
+hl
+hl
 gz
 lm
 gA
@@ -36911,22 +38958,22 @@ gA
 bp
 dc
 cx
-bV
-bV
-bV
-bV
-bV
+oj
+ox
+ow
+ow
+ow
+pJ
+pU
+oj
+qs
+qs
+qs
+qs
+qs
+oh
 vV
 vV
-vV
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -37156,10 +39203,10 @@ jv
 Bs
 vV
 vV
-gA
-gA
-gA
-gA
+hl
+hl
+hl
+hl
 ml
 mI
 ni
@@ -37168,22 +39215,22 @@ bo
 cd
 dc
 cx
-bV
-of
-of
-of
-bV
-bV
-bV
-bV
+oj
+oy
+ow
+pc
+pt
+oj
+pV
+oj
+qs
+qs
+qs
+qs
+qs
+oh
 vV
 vV
-vV
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -37416,7 +39463,7 @@ vV
 vV
 vV
 vV
-gA
+hl
 mm
 mJ
 nj
@@ -37425,22 +39472,22 @@ bp
 dc
 dc
 cx
-of
-of
-of
-of
-of
-of
-of
-bV
-bV
+oj
+oj
+ok
+oj
+oj
+oj
+oj
+oj
+oh
+qF
+qT
+ri
+rA
+oh
 vV
 vV
-vV
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -37673,8 +39720,8 @@ vV
 vV
 vV
 vV
-gA
-gA
+hl
+hl
 mK
 nk
 gA
@@ -37682,22 +39729,22 @@ bp
 dc
 eJ
 cu
-bV
-of
-of
-of
-of
-of
-of
-of
-bV
+oh
+oz
+oA
+pd
+pu
+pK
+pW
+qh
+ph
+oA
+oA
+oA
+oA
+rM
 vV
 vV
-vV
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -37938,23 +39985,23 @@ gA
 bp
 dc
 cx
-bV
-bV
-of
-of
-of
-of
-of
-of
-of
-bV
-bV
+oh
+oh
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+qt
+oA
+oA
+oA
+rB
+oh
 vV
 vV
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -38195,23 +40242,23 @@ nw
 bp
 dc
 cx
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+oh
+ol
+oB
+oB
+oB
+oB
+oA
+oA
+oA
+ph
+oM
+qU
+rj
+oh
+oh
 vV
 vV
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -38452,23 +40499,23 @@ bV
 dX
 fN
 fX
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+oh
+om
+oB
+oB
+pe
+oB
+oA
+oA
+pu
+oh
+oh
+oh
+oh
+oh
 vV
 vV
 vV
-vV
-vV
-JC
 JC
 JC
 JC
@@ -38709,20 +40756,20 @@ bV
 hd
 hf
 hh
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
-vV
-vV
-vV
+oh
+om
+oB
+oB
+pe
+oB
+oA
+pX
+qi
+qu
+qu
+qu
+rk
+oh
 vV
 vV
 vV
@@ -38966,25 +41013,25 @@ bV
 dX
 fN
 fX
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-bV
-bV
-bV
-bV
-bV
+oh
+ol
+oB
+oB
+oB
+oB
+oA
+pX
+qj
+qv
+qv
+qv
+rl
+oh
 vV
 vV
 vV
-JC
-JC
+vV
+vV
 JC
 JC
 JC
@@ -39223,26 +41270,26 @@ df
 fp
 eG
 gc
-bV
-bV
-bV
-of
-of
-bV
-of
-of
-of
-bV
-of
-of
-of
-bV
-bV
+oh
+oh
+oh
+oM
+pf
+oA
+oA
+pX
+qj
+qv
+qv
+qv
+rl
+oh
 vV
 vV
 vV
-JC
-JC
+vV
+vV
+vV
 JC
 JC
 JC
@@ -39465,7 +41512,7 @@ dg
 fi
 ja
 hF
-jA
+kz
 fX
 bV
 fo
@@ -39482,24 +41529,24 @@ kQ
 oY
 gi
 MZ
-bV
-bV
-bV
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+oh
+oh
+pg
+oA
+oA
+pX
+qk
+qw
+qw
+qw
+rm
+oh
+oh
+oh
+oh
 vV
 vV
 vV
-JC
-JC
 JC
 JC
 JC
@@ -39722,13 +41769,13 @@ iz
 fj
 dg
 Mx
-jB
+bx
 oY
 wB
 km
 kw
-kC
 kH
+jA
 kO
 fY
 dg
@@ -39736,27 +41783,27 @@ dg
 dg
 ks
 ls
-kH
-lu
+jA
+kQ
 oY
 MZ
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
-bV
+oN
+oA
+oA
+oA
+oA
+oA
+oA
+qG
+oh
+oh
+oh
+rN
+rN
+oh
+oh
 vV
 vV
-JC
-JC
 JC
 JC
 JC
@@ -39997,23 +42044,23 @@ Mx
 ls
 kQ
 gc
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+oN
+oA
+oA
+oA
+oA
+oA
+oA
+qH
+ph
+rn
+rC
+ro
+ro
+sd
+oh
 vV
 vV
-JC
-JC
 JC
 JC
 JC
@@ -40254,23 +42301,23 @@ fj
 fi
 lB
 gc
-bV
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+oh
+oh
+pv
+pL
+oA
+oA
+oA
+oA
+qV
+ro
+ro
+ro
+ro
+rN
+oh
 vV
 vV
-JC
-JC
 JC
 JC
 JC
@@ -40512,22 +42559,22 @@ lv
 lC
 oY
 MZ
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+ph
+pv
+pL
+oA
+oA
+pL
+pL
+ph
+rn
+ro
+ro
+ro
+rN
+oh
 vV
 vV
-JC
-JC
 JC
 JC
 JC
@@ -40769,24 +42816,24 @@ oc
 ls
 lE
 kh
+ph
+pv
+pL
+pu
+oA
+pv
+qI
+ph
+rp
+ro
+rO
+rO
+oh
+oh
 bV
-of
-of
-of
-of
-of
 bV
 bV
-of
-of
 bV
-bV
-vV
-vV
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -41026,23 +43073,23 @@ fj
 fi
 lB
 gc
-bV
-bV
-bV
-bV
-of
-bV
-bV
-of
-of
-of
-of
-bV
-bV
-bV
-bV
-bV
-bV
+oh
+oh
+oh
+ph
+oN
+ph
+oh
+oh
+oh
+oh
+oh
+oh
+oh
+zD
+zD
+zD
+zD
 bV
 bV
 bV
@@ -41797,36 +43844,36 @@ ly
 oc
 lB
 fY
-gn
-hl
-gn
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
+pi
+pw
+pi
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
+pY
 JC
 JC
 JC
@@ -42053,38 +44100,38 @@ cn
 fo
 fp
 lB
-gc
-bV
-bV
-bV
-bV
-of
-bV
-bV
-of
-of
-of
-of
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-bV
-JC
+kC
+oi
+oi
+oi
+ot
+os
+ot
+oi
+qW
+rq
+rD
+rP
+rZ
+zD
+rZ
+sq
+sw
+sI
+sS
+sw
+td
+sw
+sC
+sC
+sC
+sC
+sC
+sw
+sw
+zD
+zD
+zD
 JC
 JC
 JC
@@ -42310,38 +44357,38 @@ cn
 oc
 lt
 lG
-kj
+oO
+ot
+px
+oV
+pZ
+oG
+qx
+qB
+qB
+qB
+qM
+qM
+qM
+se
+qB
+qB
+sw
+sJ
+sT
+sT
+sT
+ti
+tq
+tt
+tz
+tz
+tz
+tz
+sw
+sw
 bV
-of
-of
-of
-of
-of
 bV
-bV
-of
-of
-bV
-bV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -42567,38 +44614,38 @@ cn
 lz
 lD
 fY
-fD
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+on
+ot
+py
+pM
+qa
+oG
+qy
+qB
+qX
+rr
+rE
+rQ
+sa
+sf
+sh
+qB
+sx
+sK
+sL
+sL
+sL
+tj
+sT
+sT
+sT
+sT
+sT
+tI
+tz
+sw
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -42823,39 +44870,39 @@ cn
 fo
 fp
 lB
-gc
-bV
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+kC
+oi
+oi
+pz
+oG
+oG
+oG
+qz
+qJ
+qY
+rs
+rF
+rs
+rs
+rs
+si
+sr
+sy
+sL
+sL
+sL
+te
+sL
+sL
+sL
+sL
+te
+sL
+tv
+tJ
+sw
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -43080,39 +45127,39 @@ df
 fB
 lt
 kO
-gc
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+kC
+os
+pj
+pA
+pA
+pA
+pA
+qz
+qK
+qZ
+rs
+rs
+rR
+rs
+rs
+si
+ss
+sz
+sM
+sM
+sZ
+sM
+tk
+sL
+tu
+sM
+sM
+sM
+tx
+tz
+sw
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -43320,13 +45367,13 @@ iG
 fo
 df
 fB
-jB
+bx
 fY
 ej
 ks
 jC
-kC
 kH
+jA
 kQ
 oY
 df
@@ -43334,42 +45381,42 @@ df
 df
 km
 lt
-kH
-lA
+jA
+kO
 fY
-fD
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
-bV
+on
+os
+oG
+pA
+pA
+pA
+pA
+qz
+qL
+ra
+rs
+rs
+rS
+rs
+rs
+sj
+qB
+sB
+sN
+sN
+sw
+tf
+tm
+sL
+tv
+tA
+tF
+tz
+tz
+sw
+sw
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -43593,40 +45640,40 @@ lr
 ka
 fY
 gn
-fD
-bV
-bV
-bV
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+on
+oi
+oi
+pk
+pB
+pN
+qb
+ql
+qA
+qM
+rb
+rs
+rs
+rT
+sb
+rs
+sk
+qB
+sC
+sC
+sC
+sw
+tg
+tm
+sL
+tw
+sw
+sw
+sw
+sw
+sw
 vV
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -43848,42 +45895,42 @@ ej
 dg
 fi
 nU
-gc
-bV
-bV
-bV
-of
-of
-bV
-bV
-bV
-bV
-bV
-of
-of
-of
-bV
-bV
+kC
+oi
+oi
+oi
+oP
+pl
+oT
+oG
+oG
+oG
+oG
+qN
+qZ
+rs
+rs
+rU
+rs
+rs
+sl
+qM
+sD
+sO
+sU
+sw
+sw
+tn
+sL
+tv
+tB
+sw
 vV
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
 JC
 JC
 JC
@@ -44105,41 +46152,41 @@ bV
 bV
 dX
 nV
-fX
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-bV
-bV
-bV
-bV
-bV
+lA
+oi
+oo
+oC
+oD
+oD
+oD
+oD
+oG
+qm
+pS
+qB
+rc
+rs
+rs
+rV
+rs
+rs
+sm
+qM
+sE
+sP
+sV
+sD
+th
+tm
+sL
+tv
+tC
+tH
 vV
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
 JC
 JC
 JC
@@ -44362,38 +46409,38 @@ vV
 bV
 hd
 nW
-hh
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+lu
+oi
+op
+oD
+oQ
+pm
+pC
+pO
+oG
+qn
+qB
+qB
+qZ
+rs
+rs
+rW
+rs
+rs
+sn
+qM
+sF
+sG
+sW
+ta
+sC
+to
+tr
+tx
+tD
+sw
 vV
 vV
-vV
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -44619,38 +46666,38 @@ vV
 bV
 dX
 nV
-fX
-bV
-of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+lA
+oi
+oq
+oD
+oR
+pn
+pD
+oD
+qc
+qo
+qB
+qO
+rd
+rs
+rs
+rs
+rF
+rs
+si
+st
+sG
+sQ
+sX
+tb
+sC
+tp
+ts
+ty
+sw
+sw
 vV
 vV
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -44876,38 +46923,38 @@ gQ
 gQ
 bp
 nX
-cx
-bV
 of
-of
-of
-of
-of
-of
-of
-of
-of
-bV
+oi
+or
+oD
+oD
+oD
+oD
+oD
+oG
+qp
+qB
+qP
+re
+rt
+rG
+rX
+rX
+rX
+so
+qB
+sH
+sG
+sY
+sG
+sw
+sw
+sw
+sw
+sw
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
 JC
 JC
 JC
@@ -45133,38 +47180,38 @@ nn
 gQ
 bp
 nX
-cx
-bV
-bV
 of
-of
-of
-of
-of
-of
-of
-bV
-bV
+oi
+oi
+oE
+oS
+po
+pE
+pP
+qd
+oi
+qB
+qB
+qB
+qB
+rH
+rY
+sc
+sg
+sp
+sp
+sp
+sR
+sp
+sp
+sw
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -45392,35 +47439,35 @@ bp
 nX
 cq
 cp
-bV
-of
-of
-of
-of
-of
-of
-of
-bV
+oi
+oF
+oT
+oG
+oG
+oG
+pZ
+oi
+oV
+oV
+rf
+oi
+qB
+qB
+qB
+qB
+sp
+sv
+sv
+sv
+sv
+sp
 vV
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -45648,32 +47695,32 @@ nJ
 nP
 nY
 ob
-cx
 of
-of
-of
-of
-of
-of
-of
-bV
-bV
+os
+oG
+oG
+oG
+oG
+pQ
+qe
+qq
+qe
+qe
+rg
+ru
+rI
+oi
+vV
+vV
+sp
+sv
+sv
+sv
+sv
+tc
 vV
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -45905,31 +47952,31 @@ gQ
 Rs
 bZ
 nX
-cx
-bV
 of
-of
-of
-bV
-bV
-bV
-bV
+oi
+oH
+oU
+oG
+oG
+pR
+qf
+oi
+qC
+qQ
+rh
+rv
+rJ
+oi
 vV
 vV
+sp
+sv
+sv
+sv
+sv
+sp
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
 JC
 JC
 JC
@@ -46162,31 +48209,31 @@ gQ
 gQ
 bp
 nX
-cx
-bV
-bV
-bV
-bV
-bV
+of
+ot
+oI
+oV
+oV
+pF
+oi
+oi
+oi
+qD
+qR
+rh
+rw
+ry
+oi
 vV
 vV
+sp
+sv
+sv
+sv
+sp
+sp
 vV
 vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -46419,31 +48466,31 @@ nK
 gQ
 bp
 nX
-cx
-bV
+of
+ot
+oJ
+oW
+oX
+pj
+oV
+oi
+qr
+oG
+qR
+rh
+rw
+rK
+oi
+vV
+vV
+sp
+sp
+sp
+sp
+sp
 vV
 vV
 vV
-vV
-vV
-vV
-vV
-vV
-vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
 JC
 JC
 JC
@@ -46676,31 +48723,31 @@ nL
 nR
 hg
 nX
-cx
-bV
+of
+ot
+oK
+oX
+oX
+oG
+pS
+oi
+qr
+oG
+oG
+oG
+rx
+rL
+oi
 vV
 vV
 vV
 vV
 vV
 vV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -46933,30 +48980,30 @@ nM
 nS
 nZ
 od
-cx
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+oi
+oL
+oV
+oG
+pG
+oi
+oi
+oi
+qE
+qS
+oV
+ry
+oi
+oi
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -47190,23 +49237,23 @@ nL
 nR
 hg
 nX
-cx
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+oi
+oi
+oi
+pp
+oi
+oi
+vV
+oi
+oi
+oi
+oi
+rz
+oi
+vV
+vV
+vV
 JC
 JC
 JC
@@ -47447,23 +49494,23 @@ nN
 gQ
 oa
 nX
-cx
+of
+zD
+oi
+oZ
+pq
+pH
+oi
 bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+bV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -47704,22 +49751,22 @@ gQ
 gQ
 bp
 nX
-cx
-bV
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
-JC
+of
+zD
+oi
+pa
+pr
+pI
+oi
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -47961,14 +50008,14 @@ gQ
 zD
 bp
 dc
-cx
-bV
-JC
-JC
-JC
-JC
-JC
-JC
+of
+zD
+oi
+oi
+oi
+oi
+oi
+vV
 JC
 JC
 JC
@@ -48219,13 +50266,13 @@ zD
 bp
 dc
 cx
+zD
 bV
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -48476,13 +50523,13 @@ zD
 bp
 dc
 cx
+zD
 bV
-JC
-JC
-JC
-JC
-JC
-JC
+vV
+vV
+vV
+vV
+vV
 JC
 JC
 JC
@@ -48733,8 +50780,8 @@ zD
 bp
 dc
 cx
+zD
 bV
-JC
 JC
 JC
 JC
@@ -48991,7 +51038,7 @@ bp
 dc
 cx
 bV
-JC
+bV
 JC
 JC
 JC
