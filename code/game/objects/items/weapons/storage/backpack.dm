@@ -94,6 +94,25 @@
 	icon_state = "clownpack"
 	item_state = "clownpack"
 
+/obj/item/weapon/storage/backpack/clown/pirat
+	startswith = list(
+		/obj/item/clothing/head/pirate,
+		/obj/item/clothing/glasses/eyepatch,
+		/obj/item/clothing/suit/hgpirate,
+		/obj/item/clothing/under/pirate,
+		/obj/item/clothing/shoes/boots
+	)
+
+/obj/item/weapon/storage/backpack/clown/
+	startswith = list(
+		/obj/item/clothing/head/pirate,
+		/obj/item/clothing/head/bandana,
+		/obj/item/clothing/glasses/eyepatch,
+		/obj/item/clothing/suit/hgpirate,
+		/obj/item/clothing/under/pirate,
+		/obj/item/clothing/shoes/boots
+	)
+
 /obj/item/weapon/storage/backpack/medic
 	name = "medical backpack"
 	desc = "It's a backpack especially designed for use in a sterile environment."

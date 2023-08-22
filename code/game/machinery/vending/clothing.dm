@@ -239,6 +239,47 @@
 	)
 	private = TRUE
 
+/obj/machinery/vending/theater/attackby(obj/item/I, mob/user)
+	if(istype(I, /obj/item/weapon/mining_voucher/theater))
+		givecostume(I, user)
+		return
+	return ..()
+
+/obj/machinery/vending/theater/proc/populate_selection()
+	selection_items = list(
+	"Resonator kit" = image(icon = 'icons/obj/mining.dmi', icon_state = "resonator"),
+	"Kinetic Accelerator" = image(icon = 'icons/obj/mining/hand_tools.dmi', icon_state = "kineticgun100"),
+	"Mining Drone" = image(icon = 'icons/obj/aibots.dmi', icon_state = "mining_drone"),
+	"Special Mining Rig" = image(icon = 'icons/obj/clothing/suits.dmi', icon_state = "rig-mining"),
+	"Mining Meson HUD" = image(icon = 'icons/obj/clothing/glasses.dmi', icon_state = "mesonmininghud")
+	)
+
+/obj/machinery/vending/theater/proc/givecostume(obj/voucher, mob/user)
+	if(voucher.in_use)
+		return
+	voucher.in_use = 1
+	if(!selection_items)
+		populate_selection()
+	var/selection = show_radial_menu(user, src, selection_items, require_near = TRUE, tooltips = TRUE)
+	if(!selection || !Adjacent(user))
+		voucher.in_use = 0
+		return
+	switch(selection)
+		if("Resonator kit")
+			new /obj/item/weapon/resonator(src.loc)
+		if("Kinetic Accelerator")
+			new /obj/item/weapon/gun/energy/kinetic_accelerator(src.loc)
+		if("Mining Drone")
+			new /mob/living/simple_animal/hostile/mining_drone(src.loc)
+		if("Special Mining Rig")
+			new /obj/item/mining_rig_pack(src.loc)
+		if("Mining Meson HUD")
+			new /obj/item/clothing/glasses/hud/mining/meson(src.loc)
+		if("Cancel")
+			voucher.in_use = 0
+			return
+	qdel(voucher)
+
 /obj/machinery/vending/noiromat
 	name = "Noir-O-Mat"
 	desc = "It smells like an old novel."
