@@ -19,7 +19,7 @@
 /datum/game_mode/falcon
 	name = "Falcon"
 	config_name = "falcon"
-	factions_allowed = list(/datum/faction/traitor, /datum/faction/falcon_crew)
+	factions_allowed = list(/datum/faction/falcon_crew)
 	minimum_player_count = 1
 
 /datum/game_mode/falcon/announce()
