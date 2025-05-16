@@ -45,7 +45,7 @@
 	// Name of spawner, wow
 	var/name
 
-	// Priority of spawner, affects position in menu and roll order for lobby spawners
+	// Priority of spawner, affects position in menu and roll order for lobby spawners (lesser means higher priority/order)
 	var/priority = 100
 
 	// In interface: "Описание: "
@@ -598,6 +598,7 @@
 	for(var/i in 1 to sounds)
 		newname += pick(list("ti","hi","ki","ya","ta","ha","ka","ya","chi","cha","kah"))
 
+	// todo: maybe we need to add a randomize argument for set_species
 	vox.real_name = capitalize(newname)
 	vox.name = vox.real_name
 	vox.age = rand(5, 15) // its fucking lore
@@ -613,7 +614,7 @@
 	I.inject(vox, BP_HEAD)
 
 	vox.equip_vox_raider()
-	vox.regenerate_icons()
+	vox.regenerate_icons(update_body_preferences = TRUE)
 
 	add_faction_member(faction, vox)
 
@@ -748,6 +749,25 @@
 	var/datum/role/wizard/R = SSticker.mode.CreateRole(/datum/role/wizard, H)
 	R.rename = FALSE
 	setup_role(R, TRUE)
+
+/*
+ * Midround replicator
+*/
+/datum/spawner/replicator_event
+	name = "Репликатор"
+	desc = "Вы попали сюда через оставшийся блюспейс коридор. Потреблять. Потреблять."
+
+	ranks = list(ROLE_REPLICATOR, ROLE_GHOSTLY)
+
+	register_only = TRUE
+	time_for_registration = 0.5 MINUTES
+
+	spawn_landmark_name = "replicator"
+
+/datum/spawner/replicator_event/spawn_body(mob/dead/spectator)
+	var/spawnloc = pick_spawn_location()
+	var/mob/living/simple_animal/hostile/replicator/H = new(spawnloc)
+	H.key = spectator.client.key
 
 /*
  * SPACE TRADERS
