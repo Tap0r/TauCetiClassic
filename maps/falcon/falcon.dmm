@@ -13007,8 +13007,7 @@
 /area/station/maintenance/science)
 "dss" = (
 /obj/machinery/suit_storage_unit/medical/cmo{
-	filled = 1;
-	pixel_y = 2
+	filled = 1
 	},
 /turf/simulated/floor{
 	dir = 8;

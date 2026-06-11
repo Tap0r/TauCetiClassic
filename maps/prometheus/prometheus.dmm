@@ -19209,7 +19209,9 @@
 /turf/simulated/floor/plating,
 /area/station/security/interrogation)
 "ehN" = (
-/obj/structure/closet/secure_closet/personal,
+/obj/machinery/suit_storage_unit/engine{
+	filled = 1
+	},
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkyellow"
@@ -20984,13 +20986,6 @@
 	icon_state = "vaultfull"
 	},
 /area/station/medical/virology)
-"eCc" = (
-/obj/structure/stool,
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkred"
-	},
-/area/station/ai_monitored/eva)
 "eCj" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/fulltile/reinforced{
@@ -21394,9 +21389,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/machinery/suit_storage_unit/engine/atmos{
-	filled = 1
-	},
+/obj/structure/stool,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -28970,7 +28963,9 @@
 	},
 /area/station/storage/primary)
 "gsn" = (
-/obj/structure/closet/secure_closet/personal,
+/obj/machinery/suit_storage_unit/medical{
+	filled = 1
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkgreen"
@@ -29378,15 +29373,6 @@
 /obj/effect/decal/turf_decal/set_damaged,
 /turf/simulated/floor/plating,
 /area/station/maintenance/chapel)
-"gxk" = (
-/obj/machinery/suit_storage_unit/engine/atmos{
-	filled = 1
-	},
-/turf/simulated/floor{
-	dir = 8;
-	icon_state = "darkyellow"
-	},
-/area/station/ai_monitored/eva)
 "gxo" = (
 /obj/structure/closet/wardrobe/red,
 /obj/item/clothing/suit/battonshirt,
@@ -33792,15 +33778,6 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/carpet/green,
 /area/station/civilian/cafeteria)
-"hyp" = (
-/obj/machinery/suit_storage_unit/medical{
-	filled = 1
-	},
-/turf/simulated/floor{
-	dir = 4;
-	icon_state = "darkgreen"
-	},
-/area/station/ai_monitored/eva)
 "hyH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/stool/bed/chair/metal{
@@ -33890,9 +33867,7 @@
 	name = "Operating Theatre"
 	})
 "hAh" = (
-/obj/machinery/suit_storage_unit/security{
-	filled = 1
-	},
+/obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkred"
@@ -36407,6 +36382,15 @@
 	icon_state = "darkred"
 	},
 /area/station/security/secconfhall)
+"ifg" = (
+/obj/machinery/suit_storage_unit/engine/atmos{
+	filled = 1
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkyellow"
+	},
+/area/station/ai_monitored/eva)
 "ifk" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
@@ -50488,7 +50472,7 @@
 	},
 /area/station/cargo/office)
 "lHL" = (
-/obj/structure/stool,
+/obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkyellow"
@@ -54585,7 +54569,7 @@
 	},
 /area/station/security/iaa_office)
 "mGu" = (
-/obj/structure/stool,
+/obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkgreen"
@@ -64516,9 +64500,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/machinery/suit_storage_unit/medical{
-	filled = 1
-	},
+/obj/structure/stool,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -65821,7 +65803,9 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/engineering)
 "pAv" = (
-/obj/structure/closet/secure_closet/personal,
+/obj/machinery/suit_storage_unit/security{
+	filled = 1
+	},
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "darkred"
@@ -83968,9 +83952,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/machinery/suit_storage_unit/security{
-	filled = 1
-	},
+/obj/structure/stool,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -130216,7 +130198,7 @@ ouI
 nbL
 irZ
 hAh
-eCc
+hAh
 irZ
 tuH
 mDK
@@ -130225,7 +130207,7 @@ uGG
 aEc
 dRu
 irZ
-gxk
+lHL
 lHL
 wVk
 wBM
@@ -130997,7 +130979,7 @@ qJZ
 tMV
 iYJ
 ehN
-ehN
+ifg
 wPe
 mur
 pMu
@@ -132281,7 +132263,7 @@ uZI
 kzC
 lgZ
 utu
-hyp
+mGu
 mGu
 wPe
 rBc
